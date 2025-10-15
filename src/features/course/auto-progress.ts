@@ -1,17 +1,28 @@
+// src/features/course/auto-progress.ts
 import { GrammyError } from "grammy";
 import type { MyContext } from "../../types";
 import { MESSAGES } from "../../config/constants";
 import { queueManager } from "../../managers/queue.manager";
 import { loadCourse } from "../../services/courseLoader";
-import { updateUserProgress } from "../../services/firebase";
+import {
+  updateUserProgress,
+  FirestoreSessionStorage,
+} from "../../services/firebase";
 import { sendLessonWithRetry } from "./lesson.sender";
 import { sendQuiz } from "../quiz/quiz.sender";
 import { sendAssessmentQuiz } from "../assessment/assessment.sender";
 import { finishCourse } from "./course.service";
-import { sleep } from "../../utils/sleep";
+import { taskScheduler } from "../../index";
+
+const storage = new FirestoreSessionStorage();
 
 export async function startAutoProgress(ctx: MyContext): Promise<void> {
   const userId = ctx.from!.id.toString();
+
+  console.log(`[AUTO-PROGRESS] Starting for user ${userId}`);
+  console.log(
+    `[AUTO-PROGRESS] Initial state: lesson=${ctx.session.currentLessonIndex}, isProcessing=${ctx.session.isProcessing}, isWaitingForNext=${ctx.session.isWaitingForNext}`,
+  );
 
   // Перевірки стану
   if (ctx.session.isWaitingForQuiz) {
@@ -39,87 +50,130 @@ export async function startAutoProgress(ctx: MyContext): Promise<void> {
   }
 
   ctx.session.isProcessing = true;
+  // Зберігаємо стан
+  await storage.write(userId, ctx.session);
 
   try {
-    const course = await loadCourse();
+    await processNextLesson(ctx);
+  } catch (error) {
+    console.error(`[AUTO-PROGRESS ERROR] for user ${userId}:`, error);
+    await handleProgressError(ctx, error);
+  }
+}
 
-    while (
-      ctx.session.currentLessonIndex < course.length &&
-      ctx.session.isProcessing
+async function processNextLesson(ctx: MyContext): Promise<void> {
+  const userId = ctx.from!.id.toString();
+  const course = await loadCourse();
+
+  // Перевіряємо чи є ще уроки
+  if (ctx.session.currentLessonIndex >= course.length) {
+    await ctx.reply("🎉 *Gratulacje!* Ukończyłeś cały kurs! 🏆", {
+      parse_mode: "Markdown",
+    });
+    await finishCourse(ctx);
+    return;
+  }
+
+  // Перевіряємо стани
+  if (
+    !ctx.session.isProcessing ||
+    ctx.session.isWaitingForNext ||
+    ctx.session.isWaitingForQuiz ||
+    ctx.session.isWaitingForAssessment
+  ) {
+    return;
+  }
+
+  const lesson = course[ctx.session.currentLessonIndex];
+
+  if (!lesson) {
+    await finishCourse(ctx);
+    return;
+  }
+
+  // Обробка різних типів уроків
+  if (lesson.type === "quiz") {
+    await sendQuiz(ctx, lesson);
+
+    // При квізі зупиняємо обробку - чекаємо відповідей
+    ctx.session.isProcessing = false;
+    queueManager.stopProcessing(userId);
+    await storage.write(userId, ctx.session);
+    return;
+  } else if (lesson.type === "assessment_quiz") {
+    await sendAssessmentQuiz(ctx, lesson);
+
+    // При асесменті зупиняємо обробку - чекаємо відповідей
+    ctx.session.isProcessing = false;
+    queueManager.stopProcessing(userId);
+    await storage.write(userId, ctx.session);
+    return;
+  } else {
+    // Звичайний урок
+    const hasNextButton = await sendLessonWithRetry(ctx, lesson);
+
+    // Зберігаємо прогрес
+    if (
+      !ctx.session.completedLessons.includes(ctx.session.currentLessonIndex)
     ) {
-      if (!queueManager.isProcessing(userId)) {
-        ctx.session.isProcessing = false;
-        break;
-      }
+      ctx.session.completedLessons.push(ctx.session.currentLessonIndex);
+      updateUserProgress(userId, ctx.session.currentLessonIndex).catch(
+        (error) =>
+          console.error(`Firebase update error for user ${userId}:`, error),
+      );
+    }
 
-      if (
-        ctx.session.isWaitingForNext ||
-        ctx.session.isWaitingForQuiz ||
-        ctx.session.isWaitingForAssessment
-      ) {
-        break;
-      }
+    if (hasNextButton) {
+      // ВАЖЛИВО: встановлюємо прапорці ПЕРЕД збільшенням індексу
+      ctx.session.isWaitingForNext = true;
+      ctx.session.currentLessonIndex++;
+      ctx.session.isProcessing = false;
 
-      const lesson = course[ctx.session.currentLessonIndex];
+      // Зберігаємо стан в Firestore
+      await storage.write(userId, ctx.session);
 
-      if (!lesson) {
-        await ctx.reply("🎉 *Gratulacje!* Ukończyłeś cały kurs! 🏆", {
-          parse_mode: "Markdown",
-        });
-        await finishCourse(ctx);
-        break;
-      }
+      queueManager.stopProcessing(userId);
+    } else {
+      // Урок без кнопки - плануємо наступний
+      ctx.session.currentLessonIndex++;
+      await storage.write(userId, ctx.session);
 
-      if (lesson.type === "quiz") {
-        await sendQuiz(ctx, lesson);
-        break;
-      } else if (lesson.type === "assessment_quiz") {
-        await sendAssessmentQuiz(ctx, lesson);
-        break;
-      } else {
-        const hasNextButton = await sendLessonWithRetry(ctx, lesson);
+      if (ctx.session.currentLessonIndex < course.length) {
+        const delayMs = lesson.delay || 0;
 
-        if (
-          !ctx.session.completedLessons.includes(ctx.session.currentLessonIndex)
-        ) {
-          ctx.session.completedLessons.push(ctx.session.currentLessonIndex);
-          updateUserProgress(userId, ctx.session.currentLessonIndex).catch(
-            (error) =>
-              console.error(`Firebase update error for user ${userId}:`, error),
-          );
-        }
-
-        if (hasNextButton) {
-          ctx.session.isWaitingForNext = true;
-          ctx.session.currentLessonIndex++;
-
+        if (delayMs > 0) {
+          // Плануємо наступний урок через затримку
           ctx.session.isProcessing = false;
           queueManager.stopProcessing(userId);
+          await storage.write(userId, ctx.session);
 
-          break;
+          taskScheduler.schedule(
+            userId,
+            async () => {
+              // Перевіряємо чи користувач ще активний
+              if (
+                !ctx.session.isWaitingForQuiz &&
+                !ctx.session.isWaitingForAssessment
+              ) {
+                ctx.session.isProcessing = true;
+                await storage.write(userId, ctx.session);
+
+                if (queueManager.startProcessing(userId)) {
+                  await processNextLesson(ctx);
+                }
+              }
+            },
+            delayMs,
+          );
+        } else {
+          // Відразу обробляємо наступний урок
+          await processNextLesson(ctx);
         }
-
-        ctx.session.currentLessonIndex++;
-
-        if (ctx.session.currentLessonIndex < course.length) {
-          if (lesson.delay && lesson.delay > 0) {
-            await sleep(lesson.delay);
-          }
-        }
+      } else {
+        // Кінець курсу
+        await finishCourse(ctx);
       }
     }
-
-    if (
-      ctx.session.currentLessonIndex >= course.length &&
-      !ctx.session.isWaitingForNext &&
-      !ctx.session.isWaitingForQuiz &&
-      !ctx.session.isWaitingForAssessment
-    ) {
-      await finishCourse(ctx);
-    }
-  } catch (error) {
-    console.error(`Error in auto progress for user ${userId}:`, error);
-    await handleProgressError(ctx, error);
   }
 }
 
@@ -128,8 +182,14 @@ export async function handleProgressError(
   error: any,
 ): Promise<void> {
   const userId = ctx.from!.id.toString();
+
   ctx.session.isProcessing = false;
+  ctx.session.isWaitingForNext = false;
   queueManager.stopProcessing(userId);
+  taskScheduler.cancelUserTasks(userId);
+
+  // Зберігаємо стан
+  await storage.write(userId, ctx.session);
 
   if (error instanceof GrammyError) {
     if (error.error_code === 403) {
@@ -137,6 +197,15 @@ export async function handleProgressError(
       return;
     } else if (error.error_code === 429) {
       await ctx.reply(MESSAGES.ERROR_RATE_LIMIT);
+
+      // Перепланувати спробу через 30 секунд
+      taskScheduler.schedule(
+        userId,
+        async () => {
+          await startAutoProgress(ctx);
+        },
+        30000,
+      );
       return;
     }
   }
