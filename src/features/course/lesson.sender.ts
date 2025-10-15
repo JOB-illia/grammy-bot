@@ -2,24 +2,36 @@ import { GrammyError, InputFile } from "grammy";
 import type { MyContext } from "../../types";
 import type { CourseLesson } from "../../services/courseLoader";
 import { LIMITS } from "../../config/constants";
-import { sleep } from "../../utils/sleep";
+import { taskScheduler } from "../../index";
 
 export async function sendLessonWithRetry(
   ctx: MyContext,
   lesson: CourseLesson,
   maxRetries: number = LIMITS.RETRY_ATTEMPTS,
 ): Promise<boolean> {
+  const userId = ctx.from!.id.toString();
+
   for (let attempt = 1; attempt <= maxRetries; attempt++) {
     try {
-      return await sendLessonOptimized(ctx, lesson);
+      const hasNext = await sendLessonOptimized(ctx, lesson);
+      return hasNext;
     } catch (error) {
-      console.error(`Attempt ${attempt} failed for lesson:`, error);
-
       if (error instanceof GrammyError) {
         if (error.error_code === 429) {
           const retryAfter = error.parameters?.retry_after || 30;
-          console.log(`Rate limited, waiting ${retryAfter} seconds...`);
-          await sleep(retryAfter * 1000);
+          console.log(
+            `[LESSON] Rate limited, waiting ${retryAfter} seconds...`,
+          );
+
+          await new Promise((resolve) => {
+            taskScheduler.schedule(
+              userId,
+              async () => {
+                resolve(undefined);
+              },
+              retryAfter * 1000,
+            );
+          });
           continue;
         } else if (error.error_code === 403) {
           throw error;
@@ -30,7 +42,15 @@ export async function sendLessonWithRetry(
         throw error;
       }
 
-      await sleep(Math.pow(2, attempt) * 1000);
+      await new Promise((resolve) => {
+        taskScheduler.schedule(
+          userId,
+          async () => {
+            resolve(undefined);
+          },
+          Math.pow(2, attempt) * 1000,
+        );
+      });
     }
   }
   return false;
@@ -42,21 +62,24 @@ async function sendLessonOptimized(
 ): Promise<boolean> {
   const { type, content, media, buttons, medias } = lesson;
 
-  const photoDev =
-    "AgACAgIAAxkBAAIBDmjkX0tF2ZbPRObEDGInCGJgdb7QAAKwAzIbdjcgS__zjr1w3Ou3AQADAgADeQADNgQ";
-  const videoDev =
-    "BAACAgIAAxkBAAOmaNkRnw9xtQUWJr_GRopVL2prMf8AAriKAAIB78lKRGSTsH48XH82BA";
-  const documentDev =
-    "BQACAgIAAxkBAAIBDGjkXsTGKlTn9aHwhphRoYA04B3WAAJSjwACdjcgSxiGTR3MEo83NgQ";
-
   const hasNextButton = buttons?.some((row) =>
-    row.some(
-      (btn) =>
+    row.some((btn) => {
+      const hasNext =
+        btn.callback_data === "next" ||
+        btn.callback_data === "dalej" ||
         btn.callback_data?.includes("next") ||
         btn.callback_data?.includes("dalej") ||
         btn.text.toLowerCase().includes("dalej") ||
-        btn.text.toLowerCase().includes("next"),
-    ),
+        btn.text.toLowerCase().includes("next");
+
+      if (hasNext) {
+        console.log(
+          `[LESSON] Found NEXT button: text="${btn.text}", callback_data="${btn.callback_data}"`,
+        );
+      }
+
+      return hasNext;
+    }),
   );
 
   const keyboard = buttons
@@ -89,23 +112,15 @@ async function sendLessonOptimized(
 
       case "photo":
         if (media?.url) {
-          await ctx.replyWithPhoto(
-            process.env.NODE_ENV === "development" ? photoDev : media.url,
-            {
-              caption: content,
-              ...baseOptions,
-            },
-          );
+          await ctx.replyWithPhoto(media.url, {
+            caption: content,
+            ...baseOptions,
+          });
         } else if (media?.path) {
-          await ctx.replyWithPhoto(
-            new InputFile(
-              process.env.NODE_ENV === "development" ? photoDev : media.path,
-            ),
-            {
-              caption: content,
-              ...baseOptions,
-            },
-          );
+          await ctx.replyWithPhoto(new InputFile(media.path), {
+            caption: content,
+            ...baseOptions,
+          });
         }
         break;
 
@@ -139,25 +154,15 @@ async function sendLessonOptimized(
       case "documents":
         medias?.map(async (item) => {
           if (item?.url) {
-            await ctx.replyWithDocument(
-              process.env.NODE_ENV === "development" ? documentDev : item.url,
-              {
-                caption: content,
-                ...baseOptions,
-              },
-            );
+            await ctx.replyWithDocument(item.url, {
+              caption: content,
+              ...baseOptions,
+            });
           } else if (item?.path) {
-            await ctx.replyWithDocument(
-              new InputFile(
-                process.env.NODE_ENV === "development"
-                  ? documentDev
-                  : item.path,
-              ),
-              {
-                caption: content,
-                ...baseOptions,
-              },
-            );
+            await ctx.replyWithDocument(new InputFile(item.path), {
+              caption: content,
+              ...baseOptions,
+            });
           }
         });
 
@@ -187,19 +192,14 @@ async function sendLessonOptimized(
         if (media?.items) {
           const mediaGroup = media.items.map((item, index) => ({
             type: item.type as "photo" | "video",
-            media:
-              process.env.NODE_ENV === "development"
-                ? item.type === "photo"
-                  ? photoDev
-                  : videoDev
-                : item.url || new InputFile(item.path!),
+            media: item.url || new InputFile(item.path!),
             caption: index === 0 ? content : undefined,
             parse_mode: "HTML" as const,
           }));
           await ctx.replyWithMediaGroup(mediaGroup);
 
           if (keyboard) {
-            await ctx.reply("=======", { reply_markup: keyboard });
+            await ctx.reply("⬇️⬇️⬇️", { reply_markup: keyboard });
           }
         }
         break;
