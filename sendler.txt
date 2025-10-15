@@ -1,0 +1,5362 @@
+/Repo/chokbrows_bot on main +2 !6 ❯ npm run dev                                                                                                                                                                                               at 19:34:35
+
+> telegram-course-bot@1.0.0 dev
+> cross-env NODE_ENV=development nodemon
+
+[nodemon] 3.1.10
+[nodemon] to restart at any time, enter `rs`
+[nodemon] watching path(s): src/**/* .env data/**/*
+[nodemon] watching extensions: ts,json
+[nodemon] starting `ts-node ./src/index.ts`
+Initializing services...
+✅ Firebase connected successfully
+✅ Session storage ready (Firestore)
+✅ Firebase initialized
+Email server connection successful
+✅ Email service connected
+✅ All services initialized
+Bot @chokbrows_dev_bot started!
+Mode: instant
+Environment: development
+Max concurrent sends: 10
+Rate cap: 25/1000ms
+📄 TEMPLATE FOUND: {
+  name: 'new_tarif',
+  language: 'pl',
+  status: 'approved',
+  category: 'MARKETING'
+}
+📦 WA PAYLOAD: {
+  "messaging_product": "whatsapp",
+  "recipient_type": "individual",
+  "to": "48519333339",
+  "type": "template",
+  "template": {
+    "name": "new_tarif",
+    "language": {
+      "policy": "deterministic",
+      "code": "pl"
+    }
+  }
+}
+[WA ✅] TEMPLATE(new_tarif) -> 48519333339 OK (200)
+📄 TEMPLATE FOUND: {
+  name: 'new_tarif',
+  language: 'pl',
+  status: 'approved',
+  category: 'MARKETING'
+}
+📦 WA PAYLOAD: {
+  "messaging_product": "whatsapp",
+  "recipient_type": "individual",
+  "to": "48508184344",
+  "type": "template",
+  "template": {
+    "name": "new_tarif",
+    "language": {
+      "policy": "deterministic",
+      "code": "pl"
+    }
+  }
+}
+[WA ✅] TEMPLATE(new_tarif) -> 48508184344 OK (200)
+📄 TEMPLATE FOUND: {
+  name: 'new_tarif',
+  language: 'pl',
+  status: 'approved',
+  category: 'MARKETING'
+}
+📦 WA PAYLOAD: {
+  "messaging_product": "whatsapp",
+  "recipient_type": "individual",
+  "to": "48505388507",
+  "type": "template",
+  "template": {
+    "name": "new_tarif",
+    "language": {
+      "policy": "deterministic",
+      "code": "pl"
+    }
+  }
+}
+[WA ✅] TEMPLATE(new_tarif) -> 48505388507 OK (200)
+📄 TEMPLATE FOUND: {
+  name: 'new_tarif',
+  language: 'pl',
+  status: 'approved',
+  category: 'MARKETING'
+}
+📦 WA PAYLOAD: {
+  "messaging_product": "whatsapp",
+  "recipient_type": "individual",
+  "to": "48513185965",
+  "type": "template",
+  "template": {
+    "name": "new_tarif",
+    "language": {
+      "policy": "deterministic",
+      "code": "pl"
+    }
+  }
+}
+[WA ✅] TEMPLATE(new_tarif) -> 48513185965 OK (200)
+📄 TEMPLATE FOUND: {
+  name: 'new_tarif',
+  language: 'pl',
+  status: 'approved',
+  category: 'MARKETING'
+}
+📦 WA PAYLOAD: {
+  "messaging_product": "whatsapp",
+  "recipient_type": "individual",
+  "to": "48665615553",
+  "type": "template",
+  "template": {
+    "name": "new_tarif",
+    "language": {
+      "policy": "deterministic",
+      "code": "pl"
+    }
+  }
+}
+[WA ✅] TEMPLATE(new_tarif) -> 48665615553 OK (200)
+📄 TEMPLATE FOUND: {
+  name: 'new_tarif',
+  language: 'pl',
+  status: 'approved',
+  category: 'MARKETING'
+}
+📦 WA PAYLOAD: {
+  "messaging_product": "whatsapp",
+  "recipient_type": "individual",
+  "to": "48534701394",
+  "type": "template",
+  "template": {
+    "name": "new_tarif",
+    "language": {
+      "policy": "deterministic",
+      "code": "pl"
+    }
+  }
+}
+[WA ✅] TEMPLATE(new_tarif) -> 48534701394 OK (200)
+📄 TEMPLATE FOUND: {
+  name: 'new_tarif',
+  language: 'pl',
+  status: 'approved',
+  category: 'MARKETING'
+}
+📦 WA PAYLOAD: {
+  "messaging_product": "whatsapp",
+  "recipient_type": "individual",
+  "to": "48792656495",
+  "type": "template",
+  "template": {
+    "name": "new_tarif",
+    "language": {
+      "policy": "deterministic",
+      "code": "pl"
+    }
+  }
+}
+[WA ✅] TEMPLATE(new_tarif) -> 48792656495 OK (200)
+📄 TEMPLATE FOUND: {
+  name: 'new_tarif',
+  language: 'pl',
+  status: 'approved',
+  category: 'MARKETING'
+}
+📦 WA PAYLOAD: {
+  "messaging_product": "whatsapp",
+  "recipient_type": "individual",
+  "to": "48663111083",
+  "type": "template",
+  "template": {
+    "name": "new_tarif",
+    "language": {
+      "policy": "deterministic",
+      "code": "pl"
+    }
+  }
+}
+[WA ✅] TEMPLATE(new_tarif) -> 48663111083 OK (200)
+📄 TEMPLATE FOUND: {
+  name: 'new_tarif',
+  language: 'pl',
+  status: 'approved',
+  category: 'MARKETING'
+}
+📦 WA PAYLOAD: {
+  "messaging_product": "whatsapp",
+  "recipient_type": "individual",
+  "to": "48665408223",
+  "type": "template",
+  "template": {
+    "name": "new_tarif",
+    "language": {
+      "policy": "deterministic",
+      "code": "pl"
+    }
+  }
+}
+[WA ✅] TEMPLATE(new_tarif) -> 48665408223 OK (200)
+📄 TEMPLATE FOUND: {
+  name: 'new_tarif',
+  language: 'pl',
+  status: 'approved',
+  category: 'MARKETING'
+}
+📦 WA PAYLOAD: {
+  "messaging_product": "whatsapp",
+  "recipient_type": "individual",
+  "to": "48668034341",
+  "type": "template",
+  "template": {
+    "name": "new_tarif",
+    "language": {
+      "policy": "deterministic",
+      "code": "pl"
+    }
+  }
+}
+[WA ✅] TEMPLATE(new_tarif) -> 48668034341 OK (200)
+📄 TEMPLATE FOUND: {
+  name: 'new_tarif',
+  language: 'pl',
+  status: 'approved',
+  category: 'MARKETING'
+}
+📦 WA PAYLOAD: {
+  "messaging_product": "whatsapp",
+  "recipient_type": "individual",
+  "to": "48605287390",
+  "type": "template",
+  "template": {
+    "name": "new_tarif",
+    "language": {
+      "policy": "deterministic",
+      "code": "pl"
+    }
+  }
+}
+[WA ✅] TEMPLATE(new_tarif) -> 48605287390 OK (200)
+📄 TEMPLATE FOUND: {
+  name: 'new_tarif',
+  language: 'pl',
+  status: 'approved',
+  category: 'MARKETING'
+}
+📦 WA PAYLOAD: {
+  "messaging_product": "whatsapp",
+  "recipient_type": "individual",
+  "to": "48733760014",
+  "type": "template",
+  "template": {
+    "name": "new_tarif",
+    "language": {
+      "policy": "deterministic",
+      "code": "pl"
+    }
+  }
+}
+[WA ✅] TEMPLATE(new_tarif) -> 48733760014 OK (200)
+📄 TEMPLATE FOUND: {
+  name: 'new_tarif',
+  language: 'pl',
+  status: 'approved',
+  category: 'MARKETING'
+}
+📦 WA PAYLOAD: {
+  "messaging_product": "whatsapp",
+  "recipient_type": "individual",
+  "to": "48516575379",
+  "type": "template",
+  "template": {
+    "name": "new_tarif",
+    "language": {
+      "policy": "deterministic",
+      "code": "pl"
+    }
+  }
+}
+[WA ✅] TEMPLATE(new_tarif) -> 48516575379 OK (200)
+📄 TEMPLATE FOUND: {
+  name: 'new_tarif',
+  language: 'pl',
+  status: 'approved',
+  category: 'MARKETING'
+}
+📦 WA PAYLOAD: {
+  "messaging_product": "whatsapp",
+  "recipient_type": "individual",
+  "to": "48508898044",
+  "type": "template",
+  "template": {
+    "name": "new_tarif",
+    "language": {
+      "policy": "deterministic",
+      "code": "pl"
+    }
+  }
+}
+[WA ✅] TEMPLATE(new_tarif) -> 48508898044 OK (200)
+📄 TEMPLATE FOUND: {
+  name: 'new_tarif',
+  language: 'pl',
+  status: 'approved',
+  category: 'MARKETING'
+}
+📦 WA PAYLOAD: {
+  "messaging_product": "whatsapp",
+  "recipient_type": "individual",
+  "to": "48883518002",
+  "type": "template",
+  "template": {
+    "name": "new_tarif",
+    "language": {
+      "policy": "deterministic",
+      "code": "pl"
+    }
+  }
+}
+[WA ✅] TEMPLATE(new_tarif) -> 48883518002 OK (200)
+📄 TEMPLATE FOUND: {
+  name: 'new_tarif',
+  language: 'pl',
+  status: 'approved',
+  category: 'MARKETING'
+}
+📦 WA PAYLOAD: {
+  "messaging_product": "whatsapp",
+  "recipient_type": "individual",
+  "to": "48500500300",
+  "type": "template",
+  "template": {
+    "name": "new_tarif",
+    "language": {
+      "policy": "deterministic",
+      "code": "pl"
+    }
+  }
+}
+[WA ✅] TEMPLATE(new_tarif) -> 48500500300 OK (200)
+📄 TEMPLATE FOUND: {
+  name: 'new_tarif',
+  language: 'pl',
+  status: 'approved',
+  category: 'MARKETING'
+}
+📦 WA PAYLOAD: {
+  "messaging_product": "whatsapp",
+  "recipient_type": "individual",
+  "to": "48511210434",
+  "type": "template",
+  "template": {
+    "name": "new_tarif",
+    "language": {
+      "policy": "deterministic",
+      "code": "pl"
+    }
+  }
+}
+[WA ✅] TEMPLATE(new_tarif) -> 48511210434 OK (200)
+📄 TEMPLATE FOUND: {
+  name: 'new_tarif',
+  language: 'pl',
+  status: 'approved',
+  category: 'MARKETING'
+}
+📦 WA PAYLOAD: {
+  "messaging_product": "whatsapp",
+  "recipient_type": "individual",
+  "to": "48507584057",
+  "type": "template",
+  "template": {
+    "name": "new_tarif",
+    "language": {
+      "policy": "deterministic",
+      "code": "pl"
+    }
+  }
+}
+[WA ✅] TEMPLATE(new_tarif) -> 48507584057 OK (200)
+📄 TEMPLATE FOUND: {
+  name: 'new_tarif',
+  language: 'pl',
+  status: 'approved',
+  category: 'MARKETING'
+}
+📦 WA PAYLOAD: {
+  "messaging_product": "whatsapp",
+  "recipient_type": "individual",
+  "to": "48788675476",
+  "type": "template",
+  "template": {
+    "name": "new_tarif",
+    "language": {
+      "policy": "deterministic",
+      "code": "pl"
+    }
+  }
+}
+[WA ✅] TEMPLATE(new_tarif) -> 48788675476 OK (200)
+📄 TEMPLATE FOUND: {
+  name: 'new_tarif',
+  language: 'pl',
+  status: 'approved',
+  category: 'MARKETING'
+}
+📦 WA PAYLOAD: {
+  "messaging_product": "whatsapp",
+  "recipient_type": "individual",
+  "to": "48576773052",
+  "type": "template",
+  "template": {
+    "name": "new_tarif",
+    "language": {
+      "policy": "deterministic",
+      "code": "pl"
+    }
+  }
+}
+[WA ✅] TEMPLATE(new_tarif) -> 48576773052 OK (200)
+📄 TEMPLATE FOUND: {
+  name: 'new_tarif',
+  language: 'pl',
+  status: 'approved',
+  category: 'MARKETING'
+}
+📦 WA PAYLOAD: {
+  "messaging_product": "whatsapp",
+  "recipient_type": "individual",
+  "to": "48731990730",
+  "type": "template",
+  "template": {
+    "name": "new_tarif",
+    "language": {
+      "policy": "deterministic",
+      "code": "pl"
+    }
+  }
+}
+[WA ✅] TEMPLATE(new_tarif) -> 48731990730 OK (200)
+📄 TEMPLATE FOUND: {
+  name: 'new_tarif',
+  language: 'pl',
+  status: 'approved',
+  category: 'MARKETING'
+}
+📦 WA PAYLOAD: {
+  "messaging_product": "whatsapp",
+  "recipient_type": "individual",
+  "to": "48511585262",
+  "type": "template",
+  "template": {
+    "name": "new_tarif",
+    "language": {
+      "policy": "deterministic",
+      "code": "pl"
+    }
+  }
+}
+[WA ✅] TEMPLATE(new_tarif) -> 48511585262 OK (200)
+📄 TEMPLATE FOUND: {
+  name: 'new_tarif',
+  language: 'pl',
+  status: 'approved',
+  category: 'MARKETING'
+}
+📦 WA PAYLOAD: {
+  "messaging_product": "whatsapp",
+  "recipient_type": "individual",
+  "to": "48726247654",
+  "type": "template",
+  "template": {
+    "name": "new_tarif",
+    "language": {
+      "policy": "deterministic",
+      "code": "pl"
+    }
+  }
+}
+[WA ✅] TEMPLATE(new_tarif) -> 48726247654 OK (200)
+📄 TEMPLATE FOUND: {
+  name: 'new_tarif',
+  language: 'pl',
+  status: 'approved',
+  category: 'MARKETING'
+}
+📦 WA PAYLOAD: {
+  "messaging_product": "whatsapp",
+  "recipient_type": "individual",
+  "to": "48570086107",
+  "type": "template",
+  "template": {
+    "name": "new_tarif",
+    "language": {
+      "policy": "deterministic",
+      "code": "pl"
+    }
+  }
+}
+[WA ✅] TEMPLATE(new_tarif) -> 48570086107 OK (200)
+📄 TEMPLATE FOUND: {
+  name: 'new_tarif',
+  language: 'pl',
+  status: 'approved',
+  category: 'MARKETING'
+}
+📦 WA PAYLOAD: {
+  "messaging_product": "whatsapp",
+  "recipient_type": "individual",
+  "to": "48661385992",
+  "type": "template",
+  "template": {
+    "name": "new_tarif",
+    "language": {
+      "policy": "deterministic",
+      "code": "pl"
+    }
+  }
+}
+[WA ✅] TEMPLATE(new_tarif) -> 48661385992 OK (200)
+📄 TEMPLATE FOUND: {
+  name: 'new_tarif',
+  language: 'pl',
+  status: 'approved',
+  category: 'MARKETING'
+}
+📦 WA PAYLOAD: {
+  "messaging_product": "whatsapp",
+  "recipient_type": "individual",
+  "to": "48515566355",
+  "type": "template",
+  "template": {
+    "name": "new_tarif",
+    "language": {
+      "policy": "deterministic",
+      "code": "pl"
+    }
+  }
+}
+[WA ✅] TEMPLATE(new_tarif) -> 48515566355 OK (200)
+📄 TEMPLATE FOUND: {
+  name: 'new_tarif',
+  language: 'pl',
+  status: 'approved',
+  category: 'MARKETING'
+}
+📦 WA PAYLOAD: {
+  "messaging_product": "whatsapp",
+  "recipient_type": "individual",
+  "to": "48516375164",
+  "type": "template",
+  "template": {
+    "name": "new_tarif",
+    "language": {
+      "policy": "deterministic",
+      "code": "pl"
+    }
+  }
+}
+[WA ✅] TEMPLATE(new_tarif) -> 48516375164 OK (200)
+📄 TEMPLATE FOUND: {
+  name: 'new_tarif',
+  language: 'pl',
+  status: 'approved',
+  category: 'MARKETING'
+}
+📦 WA PAYLOAD: {
+  "messaging_product": "whatsapp",
+  "recipient_type": "individual",
+  "to": "48500052956",
+  "type": "template",
+  "template": {
+    "name": "new_tarif",
+    "language": {
+      "policy": "deterministic",
+      "code": "pl"
+    }
+  }
+}
+[WA ✅] TEMPLATE(new_tarif) -> 48500052956 OK (200)
+📄 TEMPLATE FOUND: {
+  name: 'new_tarif',
+  language: 'pl',
+  status: 'approved',
+  category: 'MARKETING'
+}
+📦 WA PAYLOAD: {
+  "messaging_product": "whatsapp",
+  "recipient_type": "individual",
+  "to": "48732708821",
+  "type": "template",
+  "template": {
+    "name": "new_tarif",
+    "language": {
+      "policy": "deterministic",
+      "code": "pl"
+    }
+  }
+}
+[WA ✅] TEMPLATE(new_tarif) -> 48732708821 OK (200)
+📄 TEMPLATE FOUND: {
+  name: 'new_tarif',
+  language: 'pl',
+  status: 'approved',
+  category: 'MARKETING'
+}
+📦 WA PAYLOAD: {
+  "messaging_product": "whatsapp",
+  "recipient_type": "individual",
+  "to": "48663414582",
+  "type": "template",
+  "template": {
+    "name": "new_tarif",
+    "language": {
+      "policy": "deterministic",
+      "code": "pl"
+    }
+  }
+}
+[WA ✅] TEMPLATE(new_tarif) -> 48663414582 OK (200)
+📄 TEMPLATE FOUND: {
+  name: 'new_tarif',
+  language: 'pl',
+  status: 'approved',
+  category: 'MARKETING'
+}
+📦 WA PAYLOAD: {
+  "messaging_product": "whatsapp",
+  "recipient_type": "individual",
+  "to": "48662280767",
+  "type": "template",
+  "template": {
+    "name": "new_tarif",
+    "language": {
+      "policy": "deterministic",
+      "code": "pl"
+    }
+  }
+}
+[WA ✅] TEMPLATE(new_tarif) -> 48662280767 OK (200)
+📄 TEMPLATE FOUND: {
+  name: 'new_tarif',
+  language: 'pl',
+  status: 'approved',
+  category: 'MARKETING'
+}
+📦 WA PAYLOAD: {
+  "messaging_product": "whatsapp",
+  "recipient_type": "individual",
+  "to": "48884884960",
+  "type": "template",
+  "template": {
+    "name": "new_tarif",
+    "language": {
+      "policy": "deterministic",
+      "code": "pl"
+    }
+  }
+}
+[WA ✅] TEMPLATE(new_tarif) -> 48884884960 OK (200)
+📄 TEMPLATE FOUND: {
+  name: 'new_tarif',
+  language: 'pl',
+  status: 'approved',
+  category: 'MARKETING'
+}
+📦 WA PAYLOAD: {
+  "messaging_product": "whatsapp",
+  "recipient_type": "individual",
+  "to": "48730618621",
+  "type": "template",
+  "template": {
+    "name": "new_tarif",
+    "language": {
+      "policy": "deterministic",
+      "code": "pl"
+    }
+  }
+}
+[WA ✅] TEMPLATE(new_tarif) -> 48730618621 OK (200)
+📄 TEMPLATE FOUND: {
+  name: 'new_tarif',
+  language: 'pl',
+  status: 'approved',
+  category: 'MARKETING'
+}
+📦 WA PAYLOAD: {
+  "messaging_product": "whatsapp",
+  "recipient_type": "individual",
+  "to": "48575079776",
+  "type": "template",
+  "template": {
+    "name": "new_tarif",
+    "language": {
+      "policy": "deterministic",
+      "code": "pl"
+    }
+  }
+}
+[WA ✅] TEMPLATE(new_tarif) -> 48575079776 OK (200)
+📄 TEMPLATE FOUND: {
+  name: 'new_tarif',
+  language: 'pl',
+  status: 'approved',
+  category: 'MARKETING'
+}
+📦 WA PAYLOAD: {
+  "messaging_product": "whatsapp",
+  "recipient_type": "individual",
+  "to": "48887982777",
+  "type": "template",
+  "template": {
+    "name": "new_tarif",
+    "language": {
+      "policy": "deterministic",
+      "code": "pl"
+    }
+  }
+}
+[WA ✅] TEMPLATE(new_tarif) -> 48887982777 OK (200)
+📄 TEMPLATE FOUND: {
+  name: 'new_tarif',
+  language: 'pl',
+  status: 'approved',
+  category: 'MARKETING'
+}
+📦 WA PAYLOAD: {
+  "messaging_product": "whatsapp",
+  "recipient_type": "individual",
+  "to": "48693565778",
+  "type": "template",
+  "template": {
+    "name": "new_tarif",
+    "language": {
+      "policy": "deterministic",
+      "code": "pl"
+    }
+  }
+}
+[WA ✅] TEMPLATE(new_tarif) -> 48693565778 OK (200)
+📄 TEMPLATE FOUND: {
+  name: 'new_tarif',
+  language: 'pl',
+  status: 'approved',
+  category: 'MARKETING'
+}
+📦 WA PAYLOAD: {
+  "messaging_product": "whatsapp",
+  "recipient_type": "individual",
+  "to": "48603400909",
+  "type": "template",
+  "template": {
+    "name": "new_tarif",
+    "language": {
+      "policy": "deterministic",
+      "code": "pl"
+    }
+  }
+}
+[WA ✅] TEMPLATE(new_tarif) -> 48603400909 OK (200)
+📄 TEMPLATE FOUND: {
+  name: 'new_tarif',
+  language: 'pl',
+  status: 'approved',
+  category: 'MARKETING'
+}
+📦 WA PAYLOAD: {
+  "messaging_product": "whatsapp",
+  "recipient_type": "individual",
+  "to": "48502231055",
+  "type": "template",
+  "template": {
+    "name": "new_tarif",
+    "language": {
+      "policy": "deterministic",
+      "code": "pl"
+    }
+  }
+}
+[WA ✅] TEMPLATE(new_tarif) -> 48502231055 OK (200)
+📄 TEMPLATE FOUND: {
+  name: 'new_tarif',
+  language: 'pl',
+  status: 'approved',
+  category: 'MARKETING'
+}
+📦 WA PAYLOAD: {
+  "messaging_product": "whatsapp",
+  "recipient_type": "individual",
+  "to": "48667093379",
+  "type": "template",
+  "template": {
+    "name": "new_tarif",
+    "language": {
+      "policy": "deterministic",
+      "code": "pl"
+    }
+  }
+}
+[WA ✅] TEMPLATE(new_tarif) -> 48667093379 OK (200)
+📄 TEMPLATE FOUND: {
+  name: 'new_tarif',
+  language: 'pl',
+  status: 'approved',
+  category: 'MARKETING'
+}
+📦 WA PAYLOAD: {
+  "messaging_product": "whatsapp",
+  "recipient_type": "individual",
+  "to": "48669539952",
+  "type": "template",
+  "template": {
+    "name": "new_tarif",
+    "language": {
+      "policy": "deterministic",
+      "code": "pl"
+    }
+  }
+}
+[WA ✅] TEMPLATE(new_tarif) -> 48669539952 OK (200)
+📄 TEMPLATE FOUND: {
+  name: 'new_tarif',
+  language: 'pl',
+  status: 'approved',
+  category: 'MARKETING'
+}
+📦 WA PAYLOAD: {
+  "messaging_product": "whatsapp",
+  "recipient_type": "individual",
+  "to": "48512902770",
+  "type": "template",
+  "template": {
+    "name": "new_tarif",
+    "language": {
+      "policy": "deterministic",
+      "code": "pl"
+    }
+  }
+}
+[WA ✅] TEMPLATE(new_tarif) -> 48512902770 OK (200)
+📄 TEMPLATE FOUND: {
+  name: 'new_tarif',
+  language: 'pl',
+  status: 'approved',
+  category: 'MARKETING'
+}
+📦 WA PAYLOAD: {
+  "messaging_product": "whatsapp",
+  "recipient_type": "individual",
+  "to": "48604277328",
+  "type": "template",
+  "template": {
+    "name": "new_tarif",
+    "language": {
+      "policy": "deterministic",
+      "code": "pl"
+    }
+  }
+}
+[WA ✅] TEMPLATE(new_tarif) -> 48604277328 OK (200)
+📄 TEMPLATE FOUND: {
+  name: 'new_tarif',
+  language: 'pl',
+  status: 'approved',
+  category: 'MARKETING'
+}
+📦 WA PAYLOAD: {
+  "messaging_product": "whatsapp",
+  "recipient_type": "individual",
+  "to": "48663792176",
+  "type": "template",
+  "template": {
+    "name": "new_tarif",
+    "language": {
+      "policy": "deterministic",
+      "code": "pl"
+    }
+  }
+}
+[WA ✅] TEMPLATE(new_tarif) -> 48663792176 OK (200)
+📄 TEMPLATE FOUND: {
+  name: 'new_tarif',
+  language: 'pl',
+  status: 'approved',
+  category: 'MARKETING'
+}
+📦 WA PAYLOAD: {
+  "messaging_product": "whatsapp",
+  "recipient_type": "individual",
+  "to": "440791852362",
+  "type": "template",
+  "template": {
+    "name": "new_tarif",
+    "language": {
+      "policy": "deterministic",
+      "code": "pl"
+    }
+  }
+}
+[WA ✅] TEMPLATE(new_tarif) -> 440791852362 OK (200)
+📄 TEMPLATE FOUND: {
+  name: 'new_tarif',
+  language: 'pl',
+  status: 'approved',
+  category: 'MARKETING'
+}
+📦 WA PAYLOAD: {
+  "messaging_product": "whatsapp",
+  "recipient_type": "individual",
+  "to": "48884070843",
+  "type": "template",
+  "template": {
+    "name": "new_tarif",
+    "language": {
+      "policy": "deterministic",
+      "code": "pl"
+    }
+  }
+}
+[WA ✅] TEMPLATE(new_tarif) -> 48884070843 OK (200)
+📄 TEMPLATE FOUND: {
+  name: 'new_tarif',
+  language: 'pl',
+  status: 'approved',
+  category: 'MARKETING'
+}
+📦 WA PAYLOAD: {
+  "messaging_product": "whatsapp",
+  "recipient_type": "individual",
+  "to": "48534462480",
+  "type": "template",
+  "template": {
+    "name": "new_tarif",
+    "language": {
+      "policy": "deterministic",
+      "code": "pl"
+    }
+  }
+}
+[WA ✅] TEMPLATE(new_tarif) -> 48534462480 OK (200)
+📄 TEMPLATE FOUND: {
+  name: 'new_tarif',
+  language: 'pl',
+  status: 'approved',
+  category: 'MARKETING'
+}
+📦 WA PAYLOAD: {
+  "messaging_product": "whatsapp",
+  "recipient_type": "individual",
+  "to": "48607414648",
+  "type": "template",
+  "template": {
+    "name": "new_tarif",
+    "language": {
+      "policy": "deterministic",
+      "code": "pl"
+    }
+  }
+}
+[WA ✅] TEMPLATE(new_tarif) -> 48607414648 OK (200)
+📄 TEMPLATE FOUND: {
+  name: 'new_tarif',
+  language: 'pl',
+  status: 'approved',
+  category: 'MARKETING'
+}
+📦 WA PAYLOAD: {
+  "messaging_product": "whatsapp",
+  "recipient_type": "individual",
+  "to": "48575454054",
+  "type": "template",
+  "template": {
+    "name": "new_tarif",
+    "language": {
+      "policy": "deterministic",
+      "code": "pl"
+    }
+  }
+}
+[WA ✅] TEMPLATE(new_tarif) -> 48575454054 OK (200)
+📄 TEMPLATE FOUND: {
+  name: 'new_tarif',
+  language: 'pl',
+  status: 'approved',
+  category: 'MARKETING'
+}
+📦 WA PAYLOAD: {
+  "messaging_product": "whatsapp",
+  "recipient_type": "individual",
+  "to": "48508282406",
+  "type": "template",
+  "template": {
+    "name": "new_tarif",
+    "language": {
+      "policy": "deterministic",
+      "code": "pl"
+    }
+  }
+}
+[WA ✅] TEMPLATE(new_tarif) -> 48508282406 OK (200)
+📄 TEMPLATE FOUND: {
+  name: 'new_tarif',
+  language: 'pl',
+  status: 'approved',
+  category: 'MARKETING'
+}
+📦 WA PAYLOAD: {
+  "messaging_product": "whatsapp",
+  "recipient_type": "individual",
+  "to": "48514460709",
+  "type": "template",
+  "template": {
+    "name": "new_tarif",
+    "language": {
+      "policy": "deterministic",
+      "code": "pl"
+    }
+  }
+}
+[WA ✅] TEMPLATE(new_tarif) -> 48514460709 OK (200)
+📄 TEMPLATE FOUND: {
+  name: 'new_tarif',
+  language: 'pl',
+  status: 'approved',
+  category: 'MARKETING'
+}
+📦 WA PAYLOAD: {
+  "messaging_product": "whatsapp",
+  "recipient_type": "individual",
+  "to": "48517862554",
+  "type": "template",
+  "template": {
+    "name": "new_tarif",
+    "language": {
+      "policy": "deterministic",
+      "code": "pl"
+    }
+  }
+}
+[WA ✅] TEMPLATE(new_tarif) -> 48517862554 OK (200)
+📄 TEMPLATE FOUND: {
+  name: 'new_tarif',
+  language: 'pl',
+  status: 'approved',
+  category: 'MARKETING'
+}
+📦 WA PAYLOAD: {
+  "messaging_product": "whatsapp",
+  "recipient_type": "individual",
+  "to": "48603290311",
+  "type": "template",
+  "template": {
+    "name": "new_tarif",
+    "language": {
+      "policy": "deterministic",
+      "code": "pl"
+    }
+  }
+}
+[WA ✅] TEMPLATE(new_tarif) -> 48603290311 OK (200)
+📄 TEMPLATE FOUND: {
+  name: 'new_tarif',
+  language: 'pl',
+  status: 'approved',
+  category: 'MARKETING'
+}
+📦 WA PAYLOAD: {
+  "messaging_product": "whatsapp",
+  "recipient_type": "individual",
+  "to": "447878717651",
+  "type": "template",
+  "template": {
+    "name": "new_tarif",
+    "language": {
+      "policy": "deterministic",
+      "code": "pl"
+    }
+  }
+}
+[WA ✅] TEMPLATE(new_tarif) -> 447878717651 OK (200)
+📄 TEMPLATE FOUND: {
+  name: 'new_tarif',
+  language: 'pl',
+  status: 'approved',
+  category: 'MARKETING'
+}
+📦 WA PAYLOAD: {
+  "messaging_product": "whatsapp",
+  "recipient_type": "individual",
+  "to": "48735313120",
+  "type": "template",
+  "template": {
+    "name": "new_tarif",
+    "language": {
+      "policy": "deterministic",
+      "code": "pl"
+    }
+  }
+}
+[WA ✅] TEMPLATE(new_tarif) -> 48735313120 OK (200)
+📄 TEMPLATE FOUND: {
+  name: 'new_tarif',
+  language: 'pl',
+  status: 'approved',
+  category: 'MARKETING'
+}
+📦 WA PAYLOAD: {
+  "messaging_product": "whatsapp",
+  "recipient_type": "individual",
+  "to": "48537174151",
+  "type": "template",
+  "template": {
+    "name": "new_tarif",
+    "language": {
+      "policy": "deterministic",
+      "code": "pl"
+    }
+  }
+}
+[WA ✅] TEMPLATE(new_tarif) -> 48537174151 OK (200)
+📄 TEMPLATE FOUND: {
+  name: 'new_tarif',
+  language: 'pl',
+  status: 'approved',
+  category: 'MARKETING'
+}
+📦 WA PAYLOAD: {
+  "messaging_product": "whatsapp",
+  "recipient_type": "individual",
+  "to": "48739280895",
+  "type": "template",
+  "template": {
+    "name": "new_tarif",
+    "language": {
+      "policy": "deterministic",
+      "code": "pl"
+    }
+  }
+}
+[WA ✅] TEMPLATE(new_tarif) -> 48739280895 OK (200)
+📄 TEMPLATE FOUND: {
+  name: 'new_tarif',
+  language: 'pl',
+  status: 'approved',
+  category: 'MARKETING'
+}
+📦 WA PAYLOAD: {
+  "messaging_product": "whatsapp",
+  "recipient_type": "individual",
+  "to": "48530690195",
+  "type": "template",
+  "template": {
+    "name": "new_tarif",
+    "language": {
+      "policy": "deterministic",
+      "code": "pl"
+    }
+  }
+}
+[WA ✅] TEMPLATE(new_tarif) -> 48530690195 OK (200)
+📄 TEMPLATE FOUND: {
+  name: 'new_tarif',
+  language: 'pl',
+  status: 'approved',
+  category: 'MARKETING'
+}
+📦 WA PAYLOAD: {
+  "messaging_product": "whatsapp",
+  "recipient_type": "individual",
+  "to": "48794072203",
+  "type": "template",
+  "template": {
+    "name": "new_tarif",
+    "language": {
+      "policy": "deterministic",
+      "code": "pl"
+    }
+  }
+}
+[WA ✅] TEMPLATE(new_tarif) -> 48794072203 OK (200)
+📄 TEMPLATE FOUND: {
+  name: 'new_tarif',
+  language: 'pl',
+  status: 'approved',
+  category: 'MARKETING'
+}
+📦 WA PAYLOAD: {
+  "messaging_product": "whatsapp",
+  "recipient_type": "individual",
+  "to": "48606281183",
+  "type": "template",
+  "template": {
+    "name": "new_tarif",
+    "language": {
+      "policy": "deterministic",
+      "code": "pl"
+    }
+  }
+}
+[WA ✅] TEMPLATE(new_tarif) -> 48606281183 OK (200)
+📄 TEMPLATE FOUND: {
+  name: 'new_tarif',
+  language: 'pl',
+  status: 'approved',
+  category: 'MARKETING'
+}
+📦 WA PAYLOAD: {
+  "messaging_product": "whatsapp",
+  "recipient_type": "individual",
+  "to": "48730329080",
+  "type": "template",
+  "template": {
+    "name": "new_tarif",
+    "language": {
+      "policy": "deterministic",
+      "code": "pl"
+    }
+  }
+}
+[WA ✅] TEMPLATE(new_tarif) -> 48730329080 OK (200)
+📄 TEMPLATE FOUND: {
+  name: 'new_tarif',
+  language: 'pl',
+  status: 'approved',
+  category: 'MARKETING'
+}
+📦 WA PAYLOAD: {
+  "messaging_product": "whatsapp",
+  "recipient_type": "individual",
+  "to": "48537375934",
+  "type": "template",
+  "template": {
+    "name": "new_tarif",
+    "language": {
+      "policy": "deterministic",
+      "code": "pl"
+    }
+  }
+}
+[WA ✅] TEMPLATE(new_tarif) -> 48537375934 OK (200)
+📄 TEMPLATE FOUND: {
+  name: 'new_tarif',
+  language: 'pl',
+  status: 'approved',
+  category: 'MARKETING'
+}
+📦 WA PAYLOAD: {
+  "messaging_product": "whatsapp",
+  "recipient_type": "individual",
+  "to": "447840997638",
+  "type": "template",
+  "template": {
+    "name": "new_tarif",
+    "language": {
+      "policy": "deterministic",
+      "code": "pl"
+    }
+  }
+}
+[WA ✅] TEMPLATE(new_tarif) -> 447840997638 OK (200)
+📄 TEMPLATE FOUND: {
+  name: 'new_tarif',
+  language: 'pl',
+  status: 'approved',
+  category: 'MARKETING'
+}
+📦 WA PAYLOAD: {
+  "messaging_product": "whatsapp",
+  "recipient_type": "individual",
+  "to": "491767032459",
+  "type": "template",
+  "template": {
+    "name": "new_tarif",
+    "language": {
+      "policy": "deterministic",
+      "code": "pl"
+    }
+  }
+}
+[WA ✅] TEMPLATE(new_tarif) -> 491767032459 OK (200)
+📄 TEMPLATE FOUND: {
+  name: 'new_tarif',
+  language: 'pl',
+  status: 'approved',
+  category: 'MARKETING'
+}
+📦 WA PAYLOAD: {
+  "messaging_product": "whatsapp",
+  "recipient_type": "individual",
+  "to": "48697115718",
+  "type": "template",
+  "template": {
+    "name": "new_tarif",
+    "language": {
+      "policy": "deterministic",
+      "code": "pl"
+    }
+  }
+}
+[WA ✅] TEMPLATE(new_tarif) -> 48697115718 OK (200)
+📄 TEMPLATE FOUND: {
+  name: 'new_tarif',
+  language: 'pl',
+  status: 'approved',
+  category: 'MARKETING'
+}
+📦 WA PAYLOAD: {
+  "messaging_product": "whatsapp",
+  "recipient_type": "individual",
+  "to": "48518438599",
+  "type": "template",
+  "template": {
+    "name": "new_tarif",
+    "language": {
+      "policy": "deterministic",
+      "code": "pl"
+    }
+  }
+}
+[WA ✅] TEMPLATE(new_tarif) -> 48518438599 OK (200)
+📄 TEMPLATE FOUND: {
+  name: 'new_tarif',
+  language: 'pl',
+  status: 'approved',
+  category: 'MARKETING'
+}
+📦 WA PAYLOAD: {
+  "messaging_product": "whatsapp",
+  "recipient_type": "individual",
+  "to": "48782437265",
+  "type": "template",
+  "template": {
+    "name": "new_tarif",
+    "language": {
+      "policy": "deterministic",
+      "code": "pl"
+    }
+  }
+}
+[WA ✅] TEMPLATE(new_tarif) -> 48782437265 OK (200)
+📄 TEMPLATE FOUND: {
+  name: 'new_tarif',
+  language: 'pl',
+  status: 'approved',
+  category: 'MARKETING'
+}
+📦 WA PAYLOAD: {
+  "messaging_product": "whatsapp",
+  "recipient_type": "individual",
+  "to": "48661222429",
+  "type": "template",
+  "template": {
+    "name": "new_tarif",
+    "language": {
+      "policy": "deterministic",
+      "code": "pl"
+    }
+  }
+}
+[WA ✅] TEMPLATE(new_tarif) -> 48661222429 OK (200)
+📄 TEMPLATE FOUND: {
+  name: 'new_tarif',
+  language: 'pl',
+  status: 'approved',
+  category: 'MARKETING'
+}
+📦 WA PAYLOAD: {
+  "messaging_product": "whatsapp",
+  "recipient_type": "individual",
+  "to": "48000000000",
+  "type": "template",
+  "template": {
+    "name": "new_tarif",
+    "language": {
+      "policy": "deterministic",
+      "code": "pl"
+    }
+  }
+}
+[WA ✅] TEMPLATE(new_tarif) -> 48000000000 OK (200)
+📄 TEMPLATE FOUND: {
+  name: 'new_tarif',
+  language: 'pl',
+  status: 'approved',
+  category: 'MARKETING'
+}
+📦 WA PAYLOAD: {
+  "messaging_product": "whatsapp",
+  "recipient_type": "individual",
+  "to": "48501570502",
+  "type": "template",
+  "template": {
+    "name": "new_tarif",
+    "language": {
+      "policy": "deterministic",
+      "code": "pl"
+    }
+  }
+}
+[WA ✅] TEMPLATE(new_tarif) -> 48501570502 OK (200)
+📄 TEMPLATE FOUND: {
+  name: 'new_tarif',
+  language: 'pl',
+  status: 'approved',
+  category: 'MARKETING'
+}
+📦 WA PAYLOAD: {
+  "messaging_product": "whatsapp",
+  "recipient_type": "individual",
+  "to": "447496758545",
+  "type": "template",
+  "template": {
+    "name": "new_tarif",
+    "language": {
+      "policy": "deterministic",
+      "code": "pl"
+    }
+  }
+}
+[WA ✅] TEMPLATE(new_tarif) -> 447496758545 OK (200)
+📄 TEMPLATE FOUND: {
+  name: 'new_tarif',
+  language: 'pl',
+  status: 'approved',
+  category: 'MARKETING'
+}
+📦 WA PAYLOAD: {
+  "messaging_product": "whatsapp",
+  "recipient_type": "individual",
+  "to": "48883783165",
+  "type": "template",
+  "template": {
+    "name": "new_tarif",
+    "language": {
+      "policy": "deterministic",
+      "code": "pl"
+    }
+  }
+}
+[WA ✅] TEMPLATE(new_tarif) -> 48883783165 OK (200)
+📄 TEMPLATE FOUND: {
+  name: 'new_tarif',
+  language: 'pl',
+  status: 'approved',
+  category: 'MARKETING'
+}
+📦 WA PAYLOAD: {
+  "messaging_product": "whatsapp",
+  "recipient_type": "individual",
+  "to": "48661469758",
+  "type": "template",
+  "template": {
+    "name": "new_tarif",
+    "language": {
+      "policy": "deterministic",
+      "code": "pl"
+    }
+  }
+}
+[WA ✅] TEMPLATE(new_tarif) -> 48661469758 OK (200)
+📄 TEMPLATE FOUND: {
+  name: 'new_tarif',
+  language: 'pl',
+  status: 'approved',
+  category: 'MARKETING'
+}
+📦 WA PAYLOAD: {
+  "messaging_product": "whatsapp",
+  "recipient_type": "individual",
+  "to": "48000000000",
+  "type": "template",
+  "template": {
+    "name": "new_tarif",
+    "language": {
+      "policy": "deterministic",
+      "code": "pl"
+    }
+  }
+}
+[WA ✅] TEMPLATE(new_tarif) -> 48000000000 OK (200)
+📄 TEMPLATE FOUND: {
+  name: 'new_tarif',
+  language: 'pl',
+  status: 'approved',
+  category: 'MARKETING'
+}
+📦 WA PAYLOAD: {
+  "messaging_product": "whatsapp",
+  "recipient_type": "individual",
+  "to": "48888513300",
+  "type": "template",
+  "template": {
+    "name": "new_tarif",
+    "language": {
+      "policy": "deterministic",
+      "code": "pl"
+    }
+  }
+}
+[WA ✅] TEMPLATE(new_tarif) -> 48888513300 OK (200)
+📄 TEMPLATE FOUND: {
+  name: 'new_tarif',
+  language: 'pl',
+  status: 'approved',
+  category: 'MARKETING'
+}
+📦 WA PAYLOAD: {
+  "messaging_product": "whatsapp",
+  "recipient_type": "individual",
+  "to": "48531766807",
+  "type": "template",
+  "template": {
+    "name": "new_tarif",
+    "language": {
+      "policy": "deterministic",
+      "code": "pl"
+    }
+  }
+}
+[WA ✅] TEMPLATE(new_tarif) -> 48531766807 OK (200)
+📄 TEMPLATE FOUND: {
+  name: 'new_tarif',
+  language: 'pl',
+  status: 'approved',
+  category: 'MARKETING'
+}
+📦 WA PAYLOAD: {
+  "messaging_product": "whatsapp",
+  "recipient_type": "individual",
+  "to": "48880153154",
+  "type": "template",
+  "template": {
+    "name": "new_tarif",
+    "language": {
+      "policy": "deterministic",
+      "code": "pl"
+    }
+  }
+}
+[WA ✅] TEMPLATE(new_tarif) -> 48880153154 OK (200)
+📄 TEMPLATE FOUND: {
+  name: 'new_tarif',
+  language: 'pl',
+  status: 'approved',
+  category: 'MARKETING'
+}
+📦 WA PAYLOAD: {
+  "messaging_product": "whatsapp",
+  "recipient_type": "individual",
+  "to": "48505455485",
+  "type": "template",
+  "template": {
+    "name": "new_tarif",
+    "language": {
+      "policy": "deterministic",
+      "code": "pl"
+    }
+  }
+}
+[WA ✅] TEMPLATE(new_tarif) -> 48505455485 OK (200)
+📄 TEMPLATE FOUND: {
+  name: 'new_tarif',
+  language: 'pl',
+  status: 'approved',
+  category: 'MARKETING'
+}
+📦 WA PAYLOAD: {
+  "messaging_product": "whatsapp",
+  "recipient_type": "individual",
+  "to": "48781066629",
+  "type": "template",
+  "template": {
+    "name": "new_tarif",
+    "language": {
+      "policy": "deterministic",
+      "code": "pl"
+    }
+  }
+}
+[WA ✅] TEMPLATE(new_tarif) -> 48781066629 OK (200)
+📄 TEMPLATE FOUND: {
+  name: 'new_tarif',
+  language: 'pl',
+  status: 'approved',
+  category: 'MARKETING'
+}
+📦 WA PAYLOAD: {
+  "messaging_product": "whatsapp",
+  "recipient_type": "individual",
+  "to": "48503852463",
+  "type": "template",
+  "template": {
+    "name": "new_tarif",
+    "language": {
+      "policy": "deterministic",
+      "code": "pl"
+    }
+  }
+}
+[WA ✅] TEMPLATE(new_tarif) -> 48503852463 OK (200)
+📄 TEMPLATE FOUND: {
+  name: 'new_tarif',
+  language: 'pl',
+  status: 'approved',
+  category: 'MARKETING'
+}
+📦 WA PAYLOAD: {
+  "messaging_product": "whatsapp",
+  "recipient_type": "individual",
+  "to": "48786288784",
+  "type": "template",
+  "template": {
+    "name": "new_tarif",
+    "language": {
+      "policy": "deterministic",
+      "code": "pl"
+    }
+  }
+}
+[WA ✅] TEMPLATE(new_tarif) -> 48786288784 OK (200)
+📄 TEMPLATE FOUND: {
+  name: 'new_tarif',
+  language: 'pl',
+  status: 'approved',
+  category: 'MARKETING'
+}
+📦 WA PAYLOAD: {
+  "messaging_product": "whatsapp",
+  "recipient_type": "individual",
+  "to": "48697787077",
+  "type": "template",
+  "template": {
+    "name": "new_tarif",
+    "language": {
+      "policy": "deterministic",
+      "code": "pl"
+    }
+  }
+}
+[WA ✅] TEMPLATE(new_tarif) -> 48697787077 OK (200)
+📄 TEMPLATE FOUND: {
+  name: 'new_tarif',
+  language: 'pl',
+  status: 'approved',
+  category: 'MARKETING'
+}
+📦 WA PAYLOAD: {
+  "messaging_product": "whatsapp",
+  "recipient_type": "individual",
+  "to": "48790861116",
+  "type": "template",
+  "template": {
+    "name": "new_tarif",
+    "language": {
+      "policy": "deterministic",
+      "code": "pl"
+    }
+  }
+}
+[WA ✅] TEMPLATE(new_tarif) -> 48790861116 OK (200)
+📄 TEMPLATE FOUND: {
+  name: 'new_tarif',
+  language: 'pl',
+  status: 'approved',
+  category: 'MARKETING'
+}
+📦 WA PAYLOAD: {
+  "messaging_product": "whatsapp",
+  "recipient_type": "individual",
+  "to": "48531003334",
+  "type": "template",
+  "template": {
+    "name": "new_tarif",
+    "language": {
+      "policy": "deterministic",
+      "code": "pl"
+    }
+  }
+}
+[WA ✅] TEMPLATE(new_tarif) -> 48531003334 OK (200)
+📄 TEMPLATE FOUND: {
+  name: 'new_tarif',
+  language: 'pl',
+  status: 'approved',
+  category: 'MARKETING'
+}
+📦 WA PAYLOAD: {
+  "messaging_product": "whatsapp",
+  "recipient_type": "individual",
+  "to": "491512681855",
+  "type": "template",
+  "template": {
+    "name": "new_tarif",
+    "language": {
+      "policy": "deterministic",
+      "code": "pl"
+    }
+  }
+}
+[WA ✅] TEMPLATE(new_tarif) -> 491512681855 OK (200)
+📄 TEMPLATE FOUND: {
+  name: 'new_tarif',
+  language: 'pl',
+  status: 'approved',
+  category: 'MARKETING'
+}
+📦 WA PAYLOAD: {
+  "messaging_product": "whatsapp",
+  "recipient_type": "individual",
+  "to": "48517088818",
+  "type": "template",
+  "template": {
+    "name": "new_tarif",
+    "language": {
+      "policy": "deterministic",
+      "code": "pl"
+    }
+  }
+}
+[WA ✅] TEMPLATE(new_tarif) -> 48517088818 OK (200)
+📄 TEMPLATE FOUND: {
+  name: 'new_tarif',
+  language: 'pl',
+  status: 'approved',
+  category: 'MARKETING'
+}
+📦 WA PAYLOAD: {
+  "messaging_product": "whatsapp",
+  "recipient_type": "individual",
+  "to": "48723490960",
+  "type": "template",
+  "template": {
+    "name": "new_tarif",
+    "language": {
+      "policy": "deterministic",
+      "code": "pl"
+    }
+  }
+}
+[WA ✅] TEMPLATE(new_tarif) -> 48723490960 OK (200)
+📄 TEMPLATE FOUND: {
+  name: 'new_tarif',
+  language: 'pl',
+  status: 'approved',
+  category: 'MARKETING'
+}
+📦 WA PAYLOAD: {
+  "messaging_product": "whatsapp",
+  "recipient_type": "individual",
+  "to": "48602762253",
+  "type": "template",
+  "template": {
+    "name": "new_tarif",
+    "language": {
+      "policy": "deterministic",
+      "code": "pl"
+    }
+  }
+}
+[WA ✅] TEMPLATE(new_tarif) -> 48602762253 OK (200)
+📄 TEMPLATE FOUND: {
+  name: 'new_tarif',
+  language: 'pl',
+  status: 'approved',
+  category: 'MARKETING'
+}
+📦 WA PAYLOAD: {
+  "messaging_product": "whatsapp",
+  "recipient_type": "individual",
+  "to": "48782800302",
+  "type": "template",
+  "template": {
+    "name": "new_tarif",
+    "language": {
+      "policy": "deterministic",
+      "code": "pl"
+    }
+  }
+}
+[WA ✅] TEMPLATE(new_tarif) -> 48782800302 OK (200)
+📄 TEMPLATE FOUND: {
+  name: 'new_tarif',
+  language: 'pl',
+  status: 'approved',
+  category: 'MARKETING'
+}
+📦 WA PAYLOAD: {
+  "messaging_product": "whatsapp",
+  "recipient_type": "individual",
+  "to": "48512674756",
+  "type": "template",
+  "template": {
+    "name": "new_tarif",
+    "language": {
+      "policy": "deterministic",
+      "code": "pl"
+    }
+  }
+}
+[WA ✅] TEMPLATE(new_tarif) -> 48512674756 OK (200)
+📄 TEMPLATE FOUND: {
+  name: 'new_tarif',
+  language: 'pl',
+  status: 'approved',
+  category: 'MARKETING'
+}
+📦 WA PAYLOAD: {
+  "messaging_product": "whatsapp",
+  "recipient_type": "individual",
+  "to": "48790331771",
+  "type": "template",
+  "template": {
+    "name": "new_tarif",
+    "language": {
+      "policy": "deterministic",
+      "code": "pl"
+    }
+  }
+}
+[WA ✅] TEMPLATE(new_tarif) -> 48790331771 OK (200)
+📄 TEMPLATE FOUND: {
+  name: 'new_tarif',
+  language: 'pl',
+  status: 'approved',
+  category: 'MARKETING'
+}
+📦 WA PAYLOAD: {
+  "messaging_product": "whatsapp",
+  "recipient_type": "individual",
+  "to": "48508220701",
+  "type": "template",
+  "template": {
+    "name": "new_tarif",
+    "language": {
+      "policy": "deterministic",
+      "code": "pl"
+    }
+  }
+}
+[WA ✅] TEMPLATE(new_tarif) -> 48508220701 OK (200)
+📄 TEMPLATE FOUND: {
+  name: 'new_tarif',
+  language: 'pl',
+  status: 'approved',
+  category: 'MARKETING'
+}
+📦 WA PAYLOAD: {
+  "messaging_product": "whatsapp",
+  "recipient_type": "individual",
+  "to": "48607865764",
+  "type": "template",
+  "template": {
+    "name": "new_tarif",
+    "language": {
+      "policy": "deterministic",
+      "code": "pl"
+    }
+  }
+}
+[WA ✅] TEMPLATE(new_tarif) -> 48607865764 OK (200)
+📄 TEMPLATE FOUND: {
+  name: 'new_tarif',
+  language: 'pl',
+  status: 'approved',
+  category: 'MARKETING'
+}
+📦 WA PAYLOAD: {
+  "messaging_product": "whatsapp",
+  "recipient_type": "individual",
+  "to": "48537195711",
+  "type": "template",
+  "template": {
+    "name": "new_tarif",
+    "language": {
+      "policy": "deterministic",
+      "code": "pl"
+    }
+  }
+}
+[WA ✅] TEMPLATE(new_tarif) -> 48537195711 OK (200)
+📄 TEMPLATE FOUND: {
+  name: 'new_tarif',
+  language: 'pl',
+  status: 'approved',
+  category: 'MARKETING'
+}
+📦 WA PAYLOAD: {
+  "messaging_product": "whatsapp",
+  "recipient_type": "individual",
+  "to": "48667286939",
+  "type": "template",
+  "template": {
+    "name": "new_tarif",
+    "language": {
+      "policy": "deterministic",
+      "code": "pl"
+    }
+  }
+}
+[WA ✅] TEMPLATE(new_tarif) -> 48667286939 OK (200)
+📄 TEMPLATE FOUND: {
+  name: 'new_tarif',
+  language: 'pl',
+  status: 'approved',
+  category: 'MARKETING'
+}
+📦 WA PAYLOAD: {
+  "messaging_product": "whatsapp",
+  "recipient_type": "individual",
+  "to": "48537902508",
+  "type": "template",
+  "template": {
+    "name": "new_tarif",
+    "language": {
+      "policy": "deterministic",
+      "code": "pl"
+    }
+  }
+}
+[WA ✅] TEMPLATE(new_tarif) -> 48537902508 OK (200)
+📄 TEMPLATE FOUND: {
+  name: 'new_tarif',
+  language: 'pl',
+  status: 'approved',
+  category: 'MARKETING'
+}
+📦 WA PAYLOAD: {
+  "messaging_product": "whatsapp",
+  "recipient_type": "individual",
+  "to": "48508708595",
+  "type": "template",
+  "template": {
+    "name": "new_tarif",
+    "language": {
+      "policy": "deterministic",
+      "code": "pl"
+    }
+  }
+}
+[WA ✅] TEMPLATE(new_tarif) -> 48508708595 OK (200)
+📄 TEMPLATE FOUND: {
+  name: 'new_tarif',
+  language: 'pl',
+  status: 'approved',
+  category: 'MARKETING'
+}
+📦 WA PAYLOAD: {
+  "messaging_product": "whatsapp",
+  "recipient_type": "individual",
+  "to": "48668257076",
+  "type": "template",
+  "template": {
+    "name": "new_tarif",
+    "language": {
+      "policy": "deterministic",
+      "code": "pl"
+    }
+  }
+}
+[WA ✅] TEMPLATE(new_tarif) -> 48668257076 OK (200)
+📄 TEMPLATE FOUND: {
+  name: 'new_tarif',
+  language: 'pl',
+  status: 'approved',
+  category: 'MARKETING'
+}
+📦 WA PAYLOAD: {
+  "messaging_product": "whatsapp",
+  "recipient_type": "individual",
+  "to": "48784063005",
+  "type": "template",
+  "template": {
+    "name": "new_tarif",
+    "language": {
+      "policy": "deterministic",
+      "code": "pl"
+    }
+  }
+}
+[WA ✅] TEMPLATE(new_tarif) -> 48784063005 OK (200)
+📄 TEMPLATE FOUND: {
+  name: 'new_tarif',
+  language: 'pl',
+  status: 'approved',
+  category: 'MARKETING'
+}
+📦 WA PAYLOAD: {
+  "messaging_product": "whatsapp",
+  "recipient_type": "individual",
+  "to": "48501310249",
+  "type": "template",
+  "template": {
+    "name": "new_tarif",
+    "language": {
+      "policy": "deterministic",
+      "code": "pl"
+    }
+  }
+}
+[WA ✅] TEMPLATE(new_tarif) -> 48501310249 OK (200)
+📄 TEMPLATE FOUND: {
+  name: 'new_tarif',
+  language: 'pl',
+  status: 'approved',
+  category: 'MARKETING'
+}
+📦 WA PAYLOAD: {
+  "messaging_product": "whatsapp",
+  "recipient_type": "individual",
+  "to": "48880184259",
+  "type": "template",
+  "template": {
+    "name": "new_tarif",
+    "language": {
+      "policy": "deterministic",
+      "code": "pl"
+    }
+  }
+}
+[WA ✅] TEMPLATE(new_tarif) -> 48880184259 OK (200)
+📄 TEMPLATE FOUND: {
+  name: 'new_tarif',
+  language: 'pl',
+  status: 'approved',
+  category: 'MARKETING'
+}
+📦 WA PAYLOAD: {
+  "messaging_product": "whatsapp",
+  "recipient_type": "individual",
+  "to": "48730376946",
+  "type": "template",
+  "template": {
+    "name": "new_tarif",
+    "language": {
+      "policy": "deterministic",
+      "code": "pl"
+    }
+  }
+}
+[WA ✅] TEMPLATE(new_tarif) -> 48730376946 OK (200)
+📄 TEMPLATE FOUND: {
+  name: 'new_tarif',
+  language: 'pl',
+  status: 'approved',
+  category: 'MARKETING'
+}
+📦 WA PAYLOAD: {
+  "messaging_product": "whatsapp",
+  "recipient_type": "individual",
+  "to": "48535261866",
+  "type": "template",
+  "template": {
+    "name": "new_tarif",
+    "language": {
+      "policy": "deterministic",
+      "code": "pl"
+    }
+  }
+}
+[WA ✅] TEMPLATE(new_tarif) -> 48535261866 OK (200)
+📄 TEMPLATE FOUND: {
+  name: 'new_tarif',
+  language: 'pl',
+  status: 'approved',
+  category: 'MARKETING'
+}
+📦 WA PAYLOAD: {
+  "messaging_product": "whatsapp",
+  "recipient_type": "individual",
+  "to": "48530775111",
+  "type": "template",
+  "template": {
+    "name": "new_tarif",
+    "language": {
+      "policy": "deterministic",
+      "code": "pl"
+    }
+  }
+}
+[WA ✅] TEMPLATE(new_tarif) -> 48530775111 OK (200)
+📄 TEMPLATE FOUND: {
+  name: 'new_tarif',
+  language: 'pl',
+  status: 'approved',
+  category: 'MARKETING'
+}
+📦 WA PAYLOAD: {
+  "messaging_product": "whatsapp",
+  "recipient_type": "individual",
+  "to": "48662245081",
+  "type": "template",
+  "template": {
+    "name": "new_tarif",
+    "language": {
+      "policy": "deterministic",
+      "code": "pl"
+    }
+  }
+}
+[WA ✅] TEMPLATE(new_tarif) -> 48662245081 OK (200)
+📄 TEMPLATE FOUND: {
+  name: 'new_tarif',
+  language: 'pl',
+  status: 'approved',
+  category: 'MARKETING'
+}
+📦 WA PAYLOAD: {
+  "messaging_product": "whatsapp",
+  "recipient_type": "individual",
+  "to": "440784086546",
+  "type": "template",
+  "template": {
+    "name": "new_tarif",
+    "language": {
+      "policy": "deterministic",
+      "code": "pl"
+    }
+  }
+}
+[WA ✅] TEMPLATE(new_tarif) -> 440784086546 OK (200)
+📄 TEMPLATE FOUND: {
+  name: 'new_tarif',
+  language: 'pl',
+  status: 'approved',
+  category: 'MARKETING'
+}
+📦 WA PAYLOAD: {
+  "messaging_product": "whatsapp",
+  "recipient_type": "individual",
+  "to": "48604177557",
+  "type": "template",
+  "template": {
+    "name": "new_tarif",
+    "language": {
+      "policy": "deterministic",
+      "code": "pl"
+    }
+  }
+}
+[WA ✅] TEMPLATE(new_tarif) -> 48604177557 OK (200)
+📄 TEMPLATE FOUND: {
+  name: 'new_tarif',
+  language: 'pl',
+  status: 'approved',
+  category: 'MARKETING'
+}
+📦 WA PAYLOAD: {
+  "messaging_product": "whatsapp",
+  "recipient_type": "individual",
+  "to": "48511694997",
+  "type": "template",
+  "template": {
+    "name": "new_tarif",
+    "language": {
+      "policy": "deterministic",
+      "code": "pl"
+    }
+  }
+}
+[WA ✅] TEMPLATE(new_tarif) -> 48511694997 OK (200)
+📄 TEMPLATE FOUND: {
+  name: 'new_tarif',
+  language: 'pl',
+  status: 'approved',
+  category: 'MARKETING'
+}
+📦 WA PAYLOAD: {
+  "messaging_product": "whatsapp",
+  "recipient_type": "individual",
+  "to": "48793426295",
+  "type": "template",
+  "template": {
+    "name": "new_tarif",
+    "language": {
+      "policy": "deterministic",
+      "code": "pl"
+    }
+  }
+}
+[WA ✅] TEMPLATE(new_tarif) -> 48793426295 OK (200)
+📄 TEMPLATE FOUND: {
+  name: 'new_tarif',
+  language: 'pl',
+  status: 'approved',
+  category: 'MARKETING'
+}
+📦 WA PAYLOAD: {
+  "messaging_product": "whatsapp",
+  "recipient_type": "individual",
+  "to": "48517206677",
+  "type": "template",
+  "template": {
+    "name": "new_tarif",
+    "language": {
+      "policy": "deterministic",
+      "code": "pl"
+    }
+  }
+}
+[WA ✅] TEMPLATE(new_tarif) -> 48517206677 OK (200)
+📄 TEMPLATE FOUND: {
+  name: 'new_tarif',
+  language: 'pl',
+  status: 'approved',
+  category: 'MARKETING'
+}
+📦 WA PAYLOAD: {
+  "messaging_product": "whatsapp",
+  "recipient_type": "individual",
+  "to": "48572968378",
+  "type": "template",
+  "template": {
+    "name": "new_tarif",
+    "language": {
+      "policy": "deterministic",
+      "code": "pl"
+    }
+  }
+}
+[WA ✅] TEMPLATE(new_tarif) -> 48572968378 OK (200)
+📄 TEMPLATE FOUND: {
+  name: 'new_tarif',
+  language: 'pl',
+  status: 'approved',
+  category: 'MARKETING'
+}
+📦 WA PAYLOAD: {
+  "messaging_product": "whatsapp",
+  "recipient_type": "individual",
+  "to": "48786282211",
+  "type": "template",
+  "template": {
+    "name": "new_tarif",
+    "language": {
+      "policy": "deterministic",
+      "code": "pl"
+    }
+  }
+}
+[WA ✅] TEMPLATE(new_tarif) -> 48786282211 OK (200)
+📄 TEMPLATE FOUND: {
+  name: 'new_tarif',
+  language: 'pl',
+  status: 'approved',
+  category: 'MARKETING'
+}
+📦 WA PAYLOAD: {
+  "messaging_product": "whatsapp",
+  "recipient_type": "individual",
+  "to": "48502049025",
+  "type": "template",
+  "template": {
+    "name": "new_tarif",
+    "language": {
+      "policy": "deterministic",
+      "code": "pl"
+    }
+  }
+}
+[WA ✅] TEMPLATE(new_tarif) -> 48502049025 OK (200)
+📄 TEMPLATE FOUND: {
+  name: 'new_tarif',
+  language: 'pl',
+  status: 'approved',
+  category: 'MARKETING'
+}
+📦 WA PAYLOAD: {
+  "messaging_product": "whatsapp",
+  "recipient_type": "individual",
+  "to": "48668980453",
+  "type": "template",
+  "template": {
+    "name": "new_tarif",
+    "language": {
+      "policy": "deterministic",
+      "code": "pl"
+    }
+  }
+}
+[WA ✅] TEMPLATE(new_tarif) -> 48668980453 OK (200)
+📄 TEMPLATE FOUND: {
+  name: 'new_tarif',
+  language: 'pl',
+  status: 'approved',
+  category: 'MARKETING'
+}
+📦 WA PAYLOAD: {
+  "messaging_product": "whatsapp",
+  "recipient_type": "individual",
+  "to": "48664218201",
+  "type": "template",
+  "template": {
+    "name": "new_tarif",
+    "language": {
+      "policy": "deterministic",
+      "code": "pl"
+    }
+  }
+}
+[WA ✅] TEMPLATE(new_tarif) -> 48664218201 OK (200)
+📄 TEMPLATE FOUND: {
+  name: 'new_tarif',
+  language: 'pl',
+  status: 'approved',
+  category: 'MARKETING'
+}
+📦 WA PAYLOAD: {
+  "messaging_product": "whatsapp",
+  "recipient_type": "individual",
+  "to": "48722329325",
+  "type": "template",
+  "template": {
+    "name": "new_tarif",
+    "language": {
+      "policy": "deterministic",
+      "code": "pl"
+    }
+  }
+}
+[WA ✅] TEMPLATE(new_tarif) -> 48722329325 OK (200)
+📄 TEMPLATE FOUND: {
+  name: 'new_tarif',
+  language: 'pl',
+  status: 'approved',
+  category: 'MARKETING'
+}
+📦 WA PAYLOAD: {
+  "messaging_product": "whatsapp",
+  "recipient_type": "individual",
+  "to": "48519564729",
+  "type": "template",
+  "template": {
+    "name": "new_tarif",
+    "language": {
+      "policy": "deterministic",
+      "code": "pl"
+    }
+  }
+}
+[WA ✅] TEMPLATE(new_tarif) -> 48519564729 OK (200)
+📄 TEMPLATE FOUND: {
+  name: 'new_tarif',
+  language: 'pl',
+  status: 'approved',
+  category: 'MARKETING'
+}
+📦 WA PAYLOAD: {
+  "messaging_product": "whatsapp",
+  "recipient_type": "individual",
+  "to": "48722335918",
+  "type": "template",
+  "template": {
+    "name": "new_tarif",
+    "language": {
+      "policy": "deterministic",
+      "code": "pl"
+    }
+  }
+}
+[WA ✅] TEMPLATE(new_tarif) -> 48722335918 OK (200)
+📄 TEMPLATE FOUND: {
+  name: 'new_tarif',
+  language: 'pl',
+  status: 'approved',
+  category: 'MARKETING'
+}
+📦 WA PAYLOAD: {
+  "messaging_product": "whatsapp",
+  "recipient_type": "individual",
+  "to": "48608381029",
+  "type": "template",
+  "template": {
+    "name": "new_tarif",
+    "language": {
+      "policy": "deterministic",
+      "code": "pl"
+    }
+  }
+}
+[WA ✅] TEMPLATE(new_tarif) -> 48608381029 OK (200)
+📄 TEMPLATE FOUND: {
+  name: 'new_tarif',
+  language: 'pl',
+  status: 'approved',
+  category: 'MARKETING'
+}
+📦 WA PAYLOAD: {
+  "messaging_product": "whatsapp",
+  "recipient_type": "individual",
+  "to": "491762292625",
+  "type": "template",
+  "template": {
+    "name": "new_tarif",
+    "language": {
+      "policy": "deterministic",
+      "code": "pl"
+    }
+  }
+}
+[WA ✅] TEMPLATE(new_tarif) -> 491762292625 OK (200)
+📄 TEMPLATE FOUND: {
+  name: 'new_tarif',
+  language: 'pl',
+  status: 'approved',
+  category: 'MARKETING'
+}
+📦 WA PAYLOAD: {
+  "messaging_product": "whatsapp",
+  "recipient_type": "individual",
+  "to": "48607640005",
+  "type": "template",
+  "template": {
+    "name": "new_tarif",
+    "language": {
+      "policy": "deterministic",
+      "code": "pl"
+    }
+  }
+}
+[WA ✅] TEMPLATE(new_tarif) -> 48607640005 OK (200)
+📄 TEMPLATE FOUND: {
+  name: 'new_tarif',
+  language: 'pl',
+  status: 'approved',
+  category: 'MARKETING'
+}
+📦 WA PAYLOAD: {
+  "messaging_product": "whatsapp",
+  "recipient_type": "individual",
+  "to": "48664701961",
+  "type": "template",
+  "template": {
+    "name": "new_tarif",
+    "language": {
+      "policy": "deterministic",
+      "code": "pl"
+    }
+  }
+}
+[WA ✅] TEMPLATE(new_tarif) -> 48664701961 OK (200)
+📄 TEMPLATE FOUND: {
+  name: 'new_tarif',
+  language: 'pl',
+  status: 'approved',
+  category: 'MARKETING'
+}
+📦 WA PAYLOAD: {
+  "messaging_product": "whatsapp",
+  "recipient_type": "individual",
+  "to": "48883077497",
+  "type": "template",
+  "template": {
+    "name": "new_tarif",
+    "language": {
+      "policy": "deterministic",
+      "code": "pl"
+    }
+  }
+}
+[WA ✅] TEMPLATE(new_tarif) -> 48883077497 OK (200)
+📄 TEMPLATE FOUND: {
+  name: 'new_tarif',
+  language: 'pl',
+  status: 'approved',
+  category: 'MARKETING'
+}
+📦 WA PAYLOAD: {
+  "messaging_product": "whatsapp",
+  "recipient_type": "individual",
+  "to": "440749135406",
+  "type": "template",
+  "template": {
+    "name": "new_tarif",
+    "language": {
+      "policy": "deterministic",
+      "code": "pl"
+    }
+  }
+}
+[WA ✅] TEMPLATE(new_tarif) -> 440749135406 OK (200)
+📄 TEMPLATE FOUND: {
+  name: 'new_tarif',
+  language: 'pl',
+  status: 'approved',
+  category: 'MARKETING'
+}
+📦 WA PAYLOAD: {
+  "messaging_product": "whatsapp",
+  "recipient_type": "individual",
+  "to": "48731844670",
+  "type": "template",
+  "template": {
+    "name": "new_tarif",
+    "language": {
+      "policy": "deterministic",
+      "code": "pl"
+    }
+  }
+}
+[WA ✅] TEMPLATE(new_tarif) -> 48731844670 OK (200)
+📄 TEMPLATE FOUND: {
+  name: 'new_tarif',
+  language: 'pl',
+  status: 'approved',
+  category: 'MARKETING'
+}
+📦 WA PAYLOAD: {
+  "messaging_product": "whatsapp",
+  "recipient_type": "individual",
+  "to": "48507697016",
+  "type": "template",
+  "template": {
+    "name": "new_tarif",
+    "language": {
+      "policy": "deterministic",
+      "code": "pl"
+    }
+  }
+}
+[WA ✅] TEMPLATE(new_tarif) -> 48507697016 OK (200)
+📄 TEMPLATE FOUND: {
+  name: 'new_tarif',
+  language: 'pl',
+  status: 'approved',
+  category: 'MARKETING'
+}
+📦 WA PAYLOAD: {
+  "messaging_product": "whatsapp",
+  "recipient_type": "individual",
+  "to": "48502576376",
+  "type": "template",
+  "template": {
+    "name": "new_tarif",
+    "language": {
+      "policy": "deterministic",
+      "code": "pl"
+    }
+  }
+}
+[WA ✅] TEMPLATE(new_tarif) -> 48502576376 OK (200)
+📄 TEMPLATE FOUND: {
+  name: 'new_tarif',
+  language: 'pl',
+  status: 'approved',
+  category: 'MARKETING'
+}
+📦 WA PAYLOAD: {
+  "messaging_product": "whatsapp",
+  "recipient_type": "individual",
+  "to": "48796607474",
+  "type": "template",
+  "template": {
+    "name": "new_tarif",
+    "language": {
+      "policy": "deterministic",
+      "code": "pl"
+    }
+  }
+}
+[WA ✅] TEMPLATE(new_tarif) -> 48796607474 OK (200)
+📄 TEMPLATE FOUND: {
+  name: 'new_tarif',
+  language: 'pl',
+  status: 'approved',
+  category: 'MARKETING'
+}
+📦 WA PAYLOAD: {
+  "messaging_product": "whatsapp",
+  "recipient_type": "individual",
+  "to": "48505656767",
+  "type": "template",
+  "template": {
+    "name": "new_tarif",
+    "language": {
+      "policy": "deterministic",
+      "code": "pl"
+    }
+  }
+}
+[WA ✅] TEMPLATE(new_tarif) -> 48505656767 OK (200)
+📄 TEMPLATE FOUND: {
+  name: 'new_tarif',
+  language: 'pl',
+  status: 'approved',
+  category: 'MARKETING'
+}
+📦 WA PAYLOAD: {
+  "messaging_product": "whatsapp",
+  "recipient_type": "individual",
+  "to": "48603483150",
+  "type": "template",
+  "template": {
+    "name": "new_tarif",
+    "language": {
+      "policy": "deterministic",
+      "code": "pl"
+    }
+  }
+}
+[WA ✅] TEMPLATE(new_tarif) -> 48603483150 OK (200)
+📄 TEMPLATE FOUND: {
+  name: 'new_tarif',
+  language: 'pl',
+  status: 'approved',
+  category: 'MARKETING'
+}
+📦 WA PAYLOAD: {
+  "messaging_product": "whatsapp",
+  "recipient_type": "individual",
+  "to": "48513697966",
+  "type": "template",
+  "template": {
+    "name": "new_tarif",
+    "language": {
+      "policy": "deterministic",
+      "code": "pl"
+    }
+  }
+}
+[WA ✅] TEMPLATE(new_tarif) -> 48513697966 OK (200)
+📄 TEMPLATE FOUND: {
+  name: 'new_tarif',
+  language: 'pl',
+  status: 'approved',
+  category: 'MARKETING'
+}
+📦 WA PAYLOAD: {
+  "messaging_product": "whatsapp",
+  "recipient_type": "individual",
+  "to": "447494778788",
+  "type": "template",
+  "template": {
+    "name": "new_tarif",
+    "language": {
+      "policy": "deterministic",
+      "code": "pl"
+    }
+  }
+}
+[WA ✅] TEMPLATE(new_tarif) -> 447494778788 OK (200)
+📄 TEMPLATE FOUND: {
+  name: 'new_tarif',
+  language: 'pl',
+  status: 'approved',
+  category: 'MARKETING'
+}
+📦 WA PAYLOAD: {
+  "messaging_product": "whatsapp",
+  "recipient_type": "individual",
+  "to": "48884214309",
+  "type": "template",
+  "template": {
+    "name": "new_tarif",
+    "language": {
+      "policy": "deterministic",
+      "code": "pl"
+    }
+  }
+}
+[WA ✅] TEMPLATE(new_tarif) -> 48884214309 OK (200)
+📄 TEMPLATE FOUND: {
+  name: 'new_tarif',
+  language: 'pl',
+  status: 'approved',
+  category: 'MARKETING'
+}
+📦 WA PAYLOAD: {
+  "messaging_product": "whatsapp",
+  "recipient_type": "individual",
+  "to": "48886386708",
+  "type": "template",
+  "template": {
+    "name": "new_tarif",
+    "language": {
+      "policy": "deterministic",
+      "code": "pl"
+    }
+  }
+}
+[WA ✅] TEMPLATE(new_tarif) -> 48886386708 OK (200)
+📄 TEMPLATE FOUND: {
+  name: 'new_tarif',
+  language: 'pl',
+  status: 'approved',
+  category: 'MARKETING'
+}
+📦 WA PAYLOAD: {
+  "messaging_product": "whatsapp",
+  "recipient_type": "individual",
+  "to": "48690017329",
+  "type": "template",
+  "template": {
+    "name": "new_tarif",
+    "language": {
+      "policy": "deterministic",
+      "code": "pl"
+    }
+  }
+}
+[WA ✅] TEMPLATE(new_tarif) -> 48690017329 OK (200)
+📄 TEMPLATE FOUND: {
+  name: 'new_tarif',
+  language: 'pl',
+  status: 'approved',
+  category: 'MARKETING'
+}
+📦 WA PAYLOAD: {
+  "messaging_product": "whatsapp",
+  "recipient_type": "individual",
+  "to": "48508998363",
+  "type": "template",
+  "template": {
+    "name": "new_tarif",
+    "language": {
+      "policy": "deterministic",
+      "code": "pl"
+    }
+  }
+}
+[WA ✅] TEMPLATE(new_tarif) -> 48508998363 OK (200)
+📄 TEMPLATE FOUND: {
+  name: 'new_tarif',
+  language: 'pl',
+  status: 'approved',
+  category: 'MARKETING'
+}
+📦 WA PAYLOAD: {
+  "messaging_product": "whatsapp",
+  "recipient_type": "individual",
+  "to": "48698549331",
+  "type": "template",
+  "template": {
+    "name": "new_tarif",
+    "language": {
+      "policy": "deterministic",
+      "code": "pl"
+    }
+  }
+}
+[WA ✅] TEMPLATE(new_tarif) -> 48698549331 OK (200)
+📄 TEMPLATE FOUND: {
+  name: 'new_tarif',
+  language: 'pl',
+  status: 'approved',
+  category: 'MARKETING'
+}
+📦 WA PAYLOAD: {
+  "messaging_product": "whatsapp",
+  "recipient_type": "individual",
+  "to": "48605069944",
+  "type": "template",
+  "template": {
+    "name": "new_tarif",
+    "language": {
+      "policy": "deterministic",
+      "code": "pl"
+    }
+  }
+}
+[WA ✅] TEMPLATE(new_tarif) -> 48605069944 OK (200)
+📄 TEMPLATE FOUND: {
+  name: 'new_tarif',
+  language: 'pl',
+  status: 'approved',
+  category: 'MARKETING'
+}
+📦 WA PAYLOAD: {
+  "messaging_product": "whatsapp",
+  "recipient_type": "individual",
+  "to": "48533777521",
+  "type": "template",
+  "template": {
+    "name": "new_tarif",
+    "language": {
+      "policy": "deterministic",
+      "code": "pl"
+    }
+  }
+}
+[WA ✅] TEMPLATE(new_tarif) -> 48533777521 OK (200)
+📄 TEMPLATE FOUND: {
+  name: 'new_tarif',
+  language: 'pl',
+  status: 'approved',
+  category: 'MARKETING'
+}
+📦 WA PAYLOAD: {
+  "messaging_product": "whatsapp",
+  "recipient_type": "individual",
+  "to": "48798118639",
+  "type": "template",
+  "template": {
+    "name": "new_tarif",
+    "language": {
+      "policy": "deterministic",
+      "code": "pl"
+    }
+  }
+}
+[WA ✅] TEMPLATE(new_tarif) -> 48798118639 OK (200)
+📄 TEMPLATE FOUND: {
+  name: 'new_tarif',
+  language: 'pl',
+  status: 'approved',
+  category: 'MARKETING'
+}
+📦 WA PAYLOAD: {
+  "messaging_product": "whatsapp",
+  "recipient_type": "individual",
+  "to": "48793092282",
+  "type": "template",
+  "template": {
+    "name": "new_tarif",
+    "language": {
+      "policy": "deterministic",
+      "code": "pl"
+    }
+  }
+}
+[WA ✅] TEMPLATE(new_tarif) -> 48793092282 OK (200)
+📄 TEMPLATE FOUND: {
+  name: 'new_tarif',
+  language: 'pl',
+  status: 'approved',
+  category: 'MARKETING'
+}
+📦 WA PAYLOAD: {
+  "messaging_product": "whatsapp",
+  "recipient_type": "individual",
+  "to": "48536260096",
+  "type": "template",
+  "template": {
+    "name": "new_tarif",
+    "language": {
+      "policy": "deterministic",
+      "code": "pl"
+    }
+  }
+}
+[WA ✅] TEMPLATE(new_tarif) -> 48536260096 OK (200)
+📄 TEMPLATE FOUND: {
+  name: 'new_tarif',
+  language: 'pl',
+  status: 'approved',
+  category: 'MARKETING'
+}
+📦 WA PAYLOAD: {
+  "messaging_product": "whatsapp",
+  "recipient_type": "individual",
+  "to": "48723744785",
+  "type": "template",
+  "template": {
+    "name": "new_tarif",
+    "language": {
+      "policy": "deterministic",
+      "code": "pl"
+    }
+  }
+}
+[WA ✅] TEMPLATE(new_tarif) -> 48723744785 OK (200)
+📄 TEMPLATE FOUND: {
+  name: 'new_tarif',
+  language: 'pl',
+  status: 'approved',
+  category: 'MARKETING'
+}
+📦 WA PAYLOAD: {
+  "messaging_product": "whatsapp",
+  "recipient_type": "individual",
+  "to": "48733690999",
+  "type": "template",
+  "template": {
+    "name": "new_tarif",
+    "language": {
+      "policy": "deterministic",
+      "code": "pl"
+    }
+  }
+}
+[WA ✅] TEMPLATE(new_tarif) -> 48733690999 OK (200)
+📄 TEMPLATE FOUND: {
+  name: 'new_tarif',
+  language: 'pl',
+  status: 'approved',
+  category: 'MARKETING'
+}
+📦 WA PAYLOAD: {
+  "messaging_product": "whatsapp",
+  "recipient_type": "individual",
+  "to": "48693282809",
+  "type": "template",
+  "template": {
+    "name": "new_tarif",
+    "language": {
+      "policy": "deterministic",
+      "code": "pl"
+    }
+  }
+}
+[WA ✅] TEMPLATE(new_tarif) -> 48693282809 OK (200)
+📄 TEMPLATE FOUND: {
+  name: 'new_tarif',
+  language: 'pl',
+  status: 'approved',
+  category: 'MARKETING'
+}
+📦 WA PAYLOAD: {
+  "messaging_product": "whatsapp",
+  "recipient_type": "individual",
+  "to": "48505172749",
+  "type": "template",
+  "template": {
+    "name": "new_tarif",
+    "language": {
+      "policy": "deterministic",
+      "code": "pl"
+    }
+  }
+}
+[WA ✅] TEMPLATE(new_tarif) -> 48505172749 OK (200)
+📄 TEMPLATE FOUND: {
+  name: 'new_tarif',
+  language: 'pl',
+  status: 'approved',
+  category: 'MARKETING'
+}
+📦 WA PAYLOAD: {
+  "messaging_product": "whatsapp",
+  "recipient_type": "individual",
+  "to": "48503603369",
+  "type": "template",
+  "template": {
+    "name": "new_tarif",
+    "language": {
+      "policy": "deterministic",
+      "code": "pl"
+    }
+  }
+}
+[WA ✅] TEMPLATE(new_tarif) -> 48503603369 OK (200)
+📄 TEMPLATE FOUND: {
+  name: 'new_tarif',
+  language: 'pl',
+  status: 'approved',
+  category: 'MARKETING'
+}
+📦 WA PAYLOAD: {
+  "messaging_product": "whatsapp",
+  "recipient_type": "individual",
+  "to": "48792611283",
+  "type": "template",
+  "template": {
+    "name": "new_tarif",
+    "language": {
+      "policy": "deterministic",
+      "code": "pl"
+    }
+  }
+}
+[WA ✅] TEMPLATE(new_tarif) -> 48792611283 OK (200)
+📄 TEMPLATE FOUND: {
+  name: 'new_tarif',
+  language: 'pl',
+  status: 'approved',
+  category: 'MARKETING'
+}
+📦 WA PAYLOAD: {
+  "messaging_product": "whatsapp",
+  "recipient_type": "individual",
+  "to": "48517816201",
+  "type": "template",
+  "template": {
+    "name": "new_tarif",
+    "language": {
+      "policy": "deterministic",
+      "code": "pl"
+    }
+  }
+}
+[WA ✅] TEMPLATE(new_tarif) -> 48517816201 OK (200)
+📄 TEMPLATE FOUND: {
+  name: 'new_tarif',
+  language: 'pl',
+  status: 'approved',
+  category: 'MARKETING'
+}
+📦 WA PAYLOAD: {
+  "messaging_product": "whatsapp",
+  "recipient_type": "individual",
+  "to": "48505333483",
+  "type": "template",
+  "template": {
+    "name": "new_tarif",
+    "language": {
+      "policy": "deterministic",
+      "code": "pl"
+    }
+  }
+}
+[WA ✅] TEMPLATE(new_tarif) -> 48505333483 OK (200)
+📄 TEMPLATE FOUND: {
+  name: 'new_tarif',
+  language: 'pl',
+  status: 'approved',
+  category: 'MARKETING'
+}
+📦 WA PAYLOAD: {
+  "messaging_product": "whatsapp",
+  "recipient_type": "individual",
+  "to": "48729307356",
+  "type": "template",
+  "template": {
+    "name": "new_tarif",
+    "language": {
+      "policy": "deterministic",
+      "code": "pl"
+    }
+  }
+}
+[WA ✅] TEMPLATE(new_tarif) -> 48729307356 OK (200)
+📄 TEMPLATE FOUND: {
+  name: 'new_tarif',
+  language: 'pl',
+  status: 'approved',
+  category: 'MARKETING'
+}
+📦 WA PAYLOAD: {
+  "messaging_product": "whatsapp",
+  "recipient_type": "individual",
+  "to": "48697714187",
+  "type": "template",
+  "template": {
+    "name": "new_tarif",
+    "language": {
+      "policy": "deterministic",
+      "code": "pl"
+    }
+  }
+}
+[WA ✅] TEMPLATE(new_tarif) -> 48697714187 OK (200)
+📄 TEMPLATE FOUND: {
+  name: 'new_tarif',
+  language: 'pl',
+  status: 'approved',
+  category: 'MARKETING'
+}
+📦 WA PAYLOAD: {
+  "messaging_product": "whatsapp",
+  "recipient_type": "individual",
+  "to": "48519199628",
+  "type": "template",
+  "template": {
+    "name": "new_tarif",
+    "language": {
+      "policy": "deterministic",
+      "code": "pl"
+    }
+  }
+}
+[WA ✅] TEMPLATE(new_tarif) -> 48519199628 OK (200)
+📄 TEMPLATE FOUND: {
+  name: 'new_tarif',
+  language: 'pl',
+  status: 'approved',
+  category: 'MARKETING'
+}
+📦 WA PAYLOAD: {
+  "messaging_product": "whatsapp",
+  "recipient_type": "individual",
+  "to": "48575784438",
+  "type": "template",
+  "template": {
+    "name": "new_tarif",
+    "language": {
+      "policy": "deterministic",
+      "code": "pl"
+    }
+  }
+}
+[WA ✅] TEMPLATE(new_tarif) -> 48575784438 OK (200)
+📄 TEMPLATE FOUND: {
+  name: 'new_tarif',
+  language: 'pl',
+  status: 'approved',
+  category: 'MARKETING'
+}
+📦 WA PAYLOAD: {
+  "messaging_product": "whatsapp",
+  "recipient_type": "individual",
+  "to": "48509642490",
+  "type": "template",
+  "template": {
+    "name": "new_tarif",
+    "language": {
+      "policy": "deterministic",
+      "code": "pl"
+    }
+  }
+}
+[WA ✅] TEMPLATE(new_tarif) -> 48509642490 OK (200)
+📄 TEMPLATE FOUND: {
+  name: 'new_tarif',
+  language: 'pl',
+  status: 'approved',
+  category: 'MARKETING'
+}
+📦 WA PAYLOAD: {
+  "messaging_product": "whatsapp",
+  "recipient_type": "individual",
+  "to": "48665016087",
+  "type": "template",
+  "template": {
+    "name": "new_tarif",
+    "language": {
+      "policy": "deterministic",
+      "code": "pl"
+    }
+  }
+}
+[WA ✅] TEMPLATE(new_tarif) -> 48665016087 OK (200)
+📄 TEMPLATE FOUND: {
+  name: 'new_tarif',
+  language: 'pl',
+  status: 'approved',
+  category: 'MARKETING'
+}
+📦 WA PAYLOAD: {
+  "messaging_product": "whatsapp",
+  "recipient_type": "individual",
+  "to": "48880631897",
+  "type": "template",
+  "template": {
+    "name": "new_tarif",
+    "language": {
+      "policy": "deterministic",
+      "code": "pl"
+    }
+  }
+}
+[WA ✅] TEMPLATE(new_tarif) -> 48880631897 OK (200)
+📄 TEMPLATE FOUND: {
+  name: 'new_tarif',
+  language: 'pl',
+  status: 'approved',
+  category: 'MARKETING'
+}
+📦 WA PAYLOAD: {
+  "messaging_product": "whatsapp",
+  "recipient_type": "individual",
+  "to": "48000000000",
+  "type": "template",
+  "template": {
+    "name": "new_tarif",
+    "language": {
+      "policy": "deterministic",
+      "code": "pl"
+    }
+  }
+}
+[WA ✅] TEMPLATE(new_tarif) -> 48000000000 OK (200)
+📄 TEMPLATE FOUND: {
+  name: 'new_tarif',
+  language: 'pl',
+  status: 'approved',
+  category: 'MARKETING'
+}
+📦 WA PAYLOAD: {
+  "messaging_product": "whatsapp",
+  "recipient_type": "individual",
+  "to": "48507838430",
+  "type": "template",
+  "template": {
+    "name": "new_tarif",
+    "language": {
+      "policy": "deterministic",
+      "code": "pl"
+    }
+  }
+}
+[WA ✅] TEMPLATE(new_tarif) -> 48507838430 OK (200)
+📄 TEMPLATE FOUND: {
+  name: 'new_tarif',
+  language: 'pl',
+  status: 'approved',
+  category: 'MARKETING'
+}
+📦 WA PAYLOAD: {
+  "messaging_product": "whatsapp",
+  "recipient_type": "individual",
+  "to": "48577912796",
+  "type": "template",
+  "template": {
+    "name": "new_tarif",
+    "language": {
+      "policy": "deterministic",
+      "code": "pl"
+    }
+  }
+}
+[WA ✅] TEMPLATE(new_tarif) -> 48577912796 OK (200)
+📄 TEMPLATE FOUND: {
+  name: 'new_tarif',
+  language: 'pl',
+  status: 'approved',
+  category: 'MARKETING'
+}
+📦 WA PAYLOAD: {
+  "messaging_product": "whatsapp",
+  "recipient_type": "individual",
+  "to": "48530536729",
+  "type": "template",
+  "template": {
+    "name": "new_tarif",
+    "language": {
+      "policy": "deterministic",
+      "code": "pl"
+    }
+  }
+}
+[WA ✅] TEMPLATE(new_tarif) -> 48530536729 OK (200)
+📄 TEMPLATE FOUND: {
+  name: 'new_tarif',
+  language: 'pl',
+  status: 'approved',
+  category: 'MARKETING'
+}
+📦 WA PAYLOAD: {
+  "messaging_product": "whatsapp",
+  "recipient_type": "individual",
+  "to": "48790251130",
+  "type": "template",
+  "template": {
+    "name": "new_tarif",
+    "language": {
+      "policy": "deterministic",
+      "code": "pl"
+    }
+  }
+}
+[WA ✅] TEMPLATE(new_tarif) -> 48790251130 OK (200)
+📄 TEMPLATE FOUND: {
+  name: 'new_tarif',
+  language: 'pl',
+  status: 'approved',
+  category: 'MARKETING'
+}
+📦 WA PAYLOAD: {
+  "messaging_product": "whatsapp",
+  "recipient_type": "individual",
+  "to": "48884800507",
+  "type": "template",
+  "template": {
+    "name": "new_tarif",
+    "language": {
+      "policy": "deterministic",
+      "code": "pl"
+    }
+  }
+}
+[WA ✅] TEMPLATE(new_tarif) -> 48884800507 OK (200)
+📄 TEMPLATE FOUND: {
+  name: 'new_tarif',
+  language: 'pl',
+  status: 'approved',
+  category: 'MARKETING'
+}
+📦 WA PAYLOAD: {
+  "messaging_product": "whatsapp",
+  "recipient_type": "individual",
+  "to": "48663259446",
+  "type": "template",
+  "template": {
+    "name": "new_tarif",
+    "language": {
+      "policy": "deterministic",
+      "code": "pl"
+    }
+  }
+}
+[WA ✅] TEMPLATE(new_tarif) -> 48663259446 OK (200)
+📄 TEMPLATE FOUND: {
+  name: 'new_tarif',
+  language: 'pl',
+  status: 'approved',
+  category: 'MARKETING'
+}
+📦 WA PAYLOAD: {
+  "messaging_product": "whatsapp",
+  "recipient_type": "individual",
+  "to": "48513237128",
+  "type": "template",
+  "template": {
+    "name": "new_tarif",
+    "language": {
+      "policy": "deterministic",
+      "code": "pl"
+    }
+  }
+}
+[WA ✅] TEMPLATE(new_tarif) -> 48513237128 OK (200)
+📄 TEMPLATE FOUND: {
+  name: 'new_tarif',
+  language: 'pl',
+  status: 'approved',
+  category: 'MARKETING'
+}
+📦 WA PAYLOAD: {
+  "messaging_product": "whatsapp",
+  "recipient_type": "individual",
+  "to": "48662499083",
+  "type": "template",
+  "template": {
+    "name": "new_tarif",
+    "language": {
+      "policy": "deterministic",
+      "code": "pl"
+    }
+  }
+}
+[WA ✅] TEMPLATE(new_tarif) -> 48662499083 OK (200)
+📄 TEMPLATE FOUND: {
+  name: 'new_tarif',
+  language: 'pl',
+  status: 'approved',
+  category: 'MARKETING'
+}
+📦 WA PAYLOAD: {
+  "messaging_product": "whatsapp",
+  "recipient_type": "individual",
+  "to": "491556278866",
+  "type": "template",
+  "template": {
+    "name": "new_tarif",
+    "language": {
+      "policy": "deterministic",
+      "code": "pl"
+    }
+  }
+}
+[WA ✅] TEMPLATE(new_tarif) -> 491556278866 OK (200)
+📄 TEMPLATE FOUND: {
+  name: 'new_tarif',
+  language: 'pl',
+  status: 'approved',
+  category: 'MARKETING'
+}
+📦 WA PAYLOAD: {
+  "messaging_product": "whatsapp",
+  "recipient_type": "individual",
+  "to": "48506688615",
+  "type": "template",
+  "template": {
+    "name": "new_tarif",
+    "language": {
+      "policy": "deterministic",
+      "code": "pl"
+    }
+  }
+}
+[WA ✅] TEMPLATE(new_tarif) -> 48506688615 OK (200)
+📄 TEMPLATE FOUND: {
+  name: 'new_tarif',
+  language: 'pl',
+  status: 'approved',
+  category: 'MARKETING'
+}
+📦 WA PAYLOAD: {
+  "messaging_product": "whatsapp",
+  "recipient_type": "individual",
+  "to": "48881008076",
+  "type": "template",
+  "template": {
+    "name": "new_tarif",
+    "language": {
+      "policy": "deterministic",
+      "code": "pl"
+    }
+  }
+}
+[WA ✅] TEMPLATE(new_tarif) -> 48881008076 OK (200)
+📄 TEMPLATE FOUND: {
+  name: 'new_tarif',
+  language: 'pl',
+  status: 'approved',
+  category: 'MARKETING'
+}
+📦 WA PAYLOAD: {
+  "messaging_product": "whatsapp",
+  "recipient_type": "individual",
+  "to": "48690534525",
+  "type": "template",
+  "template": {
+    "name": "new_tarif",
+    "language": {
+      "policy": "deterministic",
+      "code": "pl"
+    }
+  }
+}
+[WA ✅] TEMPLATE(new_tarif) -> 48690534525 OK (200)
+📄 TEMPLATE FOUND: {
+  name: 'new_tarif',
+  language: 'pl',
+  status: 'approved',
+  category: 'MARKETING'
+}
+📦 WA PAYLOAD: {
+  "messaging_product": "whatsapp",
+  "recipient_type": "individual",
+  "to": "48605201252",
+  "type": "template",
+  "template": {
+    "name": "new_tarif",
+    "language": {
+      "policy": "deterministic",
+      "code": "pl"
+    }
+  }
+}
+[WA ✅] TEMPLATE(new_tarif) -> 48605201252 OK (200)
+📄 TEMPLATE FOUND: {
+  name: 'new_tarif',
+  language: 'pl',
+  status: 'approved',
+  category: 'MARKETING'
+}
+📦 WA PAYLOAD: {
+  "messaging_product": "whatsapp",
+  "recipient_type": "individual",
+  "to": "48794350197",
+  "type": "template",
+  "template": {
+    "name": "new_tarif",
+    "language": {
+      "policy": "deterministic",
+      "code": "pl"
+    }
+  }
+}
+[WA ✅] TEMPLATE(new_tarif) -> 48794350197 OK (200)
+📄 TEMPLATE FOUND: {
+  name: 'new_tarif',
+  language: 'pl',
+  status: 'approved',
+  category: 'MARKETING'
+}
+📦 WA PAYLOAD: {
+  "messaging_product": "whatsapp",
+  "recipient_type": "individual",
+  "to": "48600251142",
+  "type": "template",
+  "template": {
+    "name": "new_tarif",
+    "language": {
+      "policy": "deterministic",
+      "code": "pl"
+    }
+  }
+}
+[WA ✅] TEMPLATE(new_tarif) -> 48600251142 OK (200)
+📄 TEMPLATE FOUND: {
+  name: 'new_tarif',
+  language: 'pl',
+  status: 'approved',
+  category: 'MARKETING'
+}
+📦 WA PAYLOAD: {
+  "messaging_product": "whatsapp",
+  "recipient_type": "individual",
+  "to": "48794504665",
+  "type": "template",
+  "template": {
+    "name": "new_tarif",
+    "language": {
+      "policy": "deterministic",
+      "code": "pl"
+    }
+  }
+}
+[WA ✅] TEMPLATE(new_tarif) -> 48794504665 OK (200)
+📄 TEMPLATE FOUND: {
+  name: 'new_tarif',
+  language: 'pl',
+  status: 'approved',
+  category: 'MARKETING'
+}
+📦 WA PAYLOAD: {
+  "messaging_product": "whatsapp",
+  "recipient_type": "individual",
+  "to": "48510832482",
+  "type": "template",
+  "template": {
+    "name": "new_tarif",
+    "language": {
+      "policy": "deterministic",
+      "code": "pl"
+    }
+  }
+}
+[WA ✅] TEMPLATE(new_tarif) -> 48510832482 OK (200)
+📄 TEMPLATE FOUND: {
+  name: 'new_tarif',
+  language: 'pl',
+  status: 'approved',
+  category: 'MARKETING'
+}
+📦 WA PAYLOAD: {
+  "messaging_product": "whatsapp",
+  "recipient_type": "individual",
+  "to": "48577023108",
+  "type": "template",
+  "template": {
+    "name": "new_tarif",
+    "language": {
+      "policy": "deterministic",
+      "code": "pl"
+    }
+  }
+}
+[WA ✅] TEMPLATE(new_tarif) -> 48577023108 OK (200)
+📄 TEMPLATE FOUND: {
+  name: 'new_tarif',
+  language: 'pl',
+  status: 'approved',
+  category: 'MARKETING'
+}
+📦 WA PAYLOAD: {
+  "messaging_product": "whatsapp",
+  "recipient_type": "individual",
+  "to": "48797635312",
+  "type": "template",
+  "template": {
+    "name": "new_tarif",
+    "language": {
+      "policy": "deterministic",
+      "code": "pl"
+    }
+  }
+}
+[WA ✅] TEMPLATE(new_tarif) -> 48797635312 OK (200)
+📄 TEMPLATE FOUND: {
+  name: 'new_tarif',
+  language: 'pl',
+  status: 'approved',
+  category: 'MARKETING'
+}
+📦 WA PAYLOAD: {
+  "messaging_product": "whatsapp",
+  "recipient_type": "individual",
+  "to": "48888752665",
+  "type": "template",
+  "template": {
+    "name": "new_tarif",
+    "language": {
+      "policy": "deterministic",
+      "code": "pl"
+    }
+  }
+}
+[WA ✅] TEMPLATE(new_tarif) -> 48888752665 OK (200)
+📄 TEMPLATE FOUND: {
+  name: 'new_tarif',
+  language: 'pl',
+  status: 'approved',
+  category: 'MARKETING'
+}
+📦 WA PAYLOAD: {
+  "messaging_product": "whatsapp",
+  "recipient_type": "individual",
+  "to": "48451280818",
+  "type": "template",
+  "template": {
+    "name": "new_tarif",
+    "language": {
+      "policy": "deterministic",
+      "code": "pl"
+    }
+  }
+}
+[WA ✅] TEMPLATE(new_tarif) -> 48451280818 OK (200)
+📄 TEMPLATE FOUND: {
+  name: 'new_tarif',
+  language: 'pl',
+  status: 'approved',
+  category: 'MARKETING'
+}
+📦 WA PAYLOAD: {
+  "messaging_product": "whatsapp",
+  "recipient_type": "individual",
+  "to": "48732433964",
+  "type": "template",
+  "template": {
+    "name": "new_tarif",
+    "language": {
+      "policy": "deterministic",
+      "code": "pl"
+    }
+  }
+}
+[WA ✅] TEMPLATE(new_tarif) -> 48732433964 OK (200)
+📄 TEMPLATE FOUND: {
+  name: 'new_tarif',
+  language: 'pl',
+  status: 'approved',
+  category: 'MARKETING'
+}
+📦 WA PAYLOAD: {
+  "messaging_product": "whatsapp",
+  "recipient_type": "individual",
+  "to": "48793243442000",
+  "type": "template",
+  "template": {
+    "name": "new_tarif",
+    "language": {
+      "policy": "deterministic",
+      "code": "pl"
+    }
+  }
+}
+[WA ✅] TEMPLATE(new_tarif) -> 48793243442000 OK (200)
+📄 TEMPLATE FOUND: {
+  name: 'new_tarif',
+  language: 'pl',
+  status: 'approved',
+  category: 'MARKETING'
+}
+📦 WA PAYLOAD: {
+  "messaging_product": "whatsapp",
+  "recipient_type": "individual",
+  "to": "48504065627",
+  "type": "template",
+  "template": {
+    "name": "new_tarif",
+    "language": {
+      "policy": "deterministic",
+      "code": "pl"
+    }
+  }
+}
+[WA ✅] TEMPLATE(new_tarif) -> 48504065627 OK (200)
+📄 TEMPLATE FOUND: {
+  name: 'new_tarif',
+  language: 'pl',
+  status: 'approved',
+  category: 'MARKETING'
+}
+📦 WA PAYLOAD: {
+  "messaging_product": "whatsapp",
+  "recipient_type": "individual",
+  "to": "48694036775",
+  "type": "template",
+  "template": {
+    "name": "new_tarif",
+    "language": {
+      "policy": "deterministic",
+      "code": "pl"
+    }
+  }
+}
+[WA ✅] TEMPLATE(new_tarif) -> 48694036775 OK (200)
+📄 TEMPLATE FOUND: {
+  name: 'new_tarif',
+  language: 'pl',
+  status: 'approved',
+  category: 'MARKETING'
+}
+📦 WA PAYLOAD: {
+  "messaging_product": "whatsapp",
+  "recipient_type": "individual",
+  "to": "48796571288",
+  "type": "template",
+  "template": {
+    "name": "new_tarif",
+    "language": {
+      "policy": "deterministic",
+      "code": "pl"
+    }
+  }
+}
+[WA ✅] TEMPLATE(new_tarif) -> 48796571288 OK (200)
+📄 TEMPLATE FOUND: {
+  name: 'new_tarif',
+  language: 'pl',
+  status: 'approved',
+  category: 'MARKETING'
+}
+📦 WA PAYLOAD: {
+  "messaging_product": "whatsapp",
+  "recipient_type": "individual",
+  "to": "447448759483",
+  "type": "template",
+  "template": {
+    "name": "new_tarif",
+    "language": {
+      "policy": "deterministic",
+      "code": "pl"
+    }
+  }
+}
+[WA ✅] TEMPLATE(new_tarif) -> 447448759483 OK (200)
+📄 TEMPLATE FOUND: {
+  name: 'new_tarif',
+  language: 'pl',
+  status: 'approved',
+  category: 'MARKETING'
+}
+📦 WA PAYLOAD: {
+  "messaging_product": "whatsapp",
+  "recipient_type": "individual",
+  "to": "48731733498",
+  "type": "template",
+  "template": {
+    "name": "new_tarif",
+    "language": {
+      "policy": "deterministic",
+      "code": "pl"
+    }
+  }
+}
+[WA ✅] TEMPLATE(new_tarif) -> 48731733498 OK (200)
+📄 TEMPLATE FOUND: {
+  name: 'new_tarif',
+  language: 'pl',
+  status: 'approved',
+  category: 'MARKETING'
+}
+📦 WA PAYLOAD: {
+  "messaging_product": "whatsapp",
+  "recipient_type": "individual",
+  "to": "48660819323",
+  "type": "template",
+  "template": {
+    "name": "new_tarif",
+    "language": {
+      "policy": "deterministic",
+      "code": "pl"
+    }
+  }
+}
+[WA ✅] TEMPLATE(new_tarif) -> 48660819323 OK (200)
+📄 TEMPLATE FOUND: {
+  name: 'new_tarif',
+  language: 'pl',
+  status: 'approved',
+  category: 'MARKETING'
+}
+📦 WA PAYLOAD: {
+  "messaging_product": "whatsapp",
+  "recipient_type": "individual",
+  "to": "48505339306",
+  "type": "template",
+  "template": {
+    "name": "new_tarif",
+    "language": {
+      "policy": "deterministic",
+      "code": "pl"
+    }
+  }
+}
+[WA ✅] TEMPLATE(new_tarif) -> 48505339306 OK (200)
+📄 TEMPLATE FOUND: {
+  name: 'new_tarif',
+  language: 'pl',
+  status: 'approved',
+  category: 'MARKETING'
+}
+📦 WA PAYLOAD: {
+  "messaging_product": "whatsapp",
+  "recipient_type": "individual",
+  "to": "48697032291",
+  "type": "template",
+  "template": {
+    "name": "new_tarif",
+    "language": {
+      "policy": "deterministic",
+      "code": "pl"
+    }
+  }
+}
+[WA ✅] TEMPLATE(new_tarif) -> 48697032291 OK (200)
+📄 TEMPLATE FOUND: {
+  name: 'new_tarif',
+  language: 'pl',
+  status: 'approved',
+  category: 'MARKETING'
+}
+📦 WA PAYLOAD: {
+  "messaging_product": "whatsapp",
+  "recipient_type": "individual",
+  "to": "48661321740",
+  "type": "template",
+  "template": {
+    "name": "new_tarif",
+    "language": {
+      "policy": "deterministic",
+      "code": "pl"
+    }
+  }
+}
+[WA ✅] TEMPLATE(new_tarif) -> 48661321740 OK (200)
+📄 TEMPLATE FOUND: {
+  name: 'new_tarif',
+  language: 'pl',
+  status: 'approved',
+  category: 'MARKETING'
+}
+📦 WA PAYLOAD: {
+  "messaging_product": "whatsapp",
+  "recipient_type": "individual",
+  "to": "48662018541",
+  "type": "template",
+  "template": {
+    "name": "new_tarif",
+    "language": {
+      "policy": "deterministic",
+      "code": "pl"
+    }
+  }
+}
+[WA ✅] TEMPLATE(new_tarif) -> 48662018541 OK (200)
+📄 TEMPLATE FOUND: {
+  name: 'new_tarif',
+  language: 'pl',
+  status: 'approved',
+  category: 'MARKETING'
+}
+📦 WA PAYLOAD: {
+  "messaging_product": "whatsapp",
+  "recipient_type": "individual",
+  "to": "48693130346",
+  "type": "template",
+  "template": {
+    "name": "new_tarif",
+    "language": {
+      "policy": "deterministic",
+      "code": "pl"
+    }
+  }
+}
+[WA ✅] TEMPLATE(new_tarif) -> 48693130346 OK (200)
+📄 TEMPLATE FOUND: {
+  name: 'new_tarif',
+  language: 'pl',
+  status: 'approved',
+  category: 'MARKETING'
+}
+📦 WA PAYLOAD: {
+  "messaging_product": "whatsapp",
+  "recipient_type": "individual",
+  "to": "48662673543",
+  "type": "template",
+  "template": {
+    "name": "new_tarif",
+    "language": {
+      "policy": "deterministic",
+      "code": "pl"
+    }
+  }
+}
+[WA ✅] TEMPLATE(new_tarif) -> 48662673543 OK (200)
+📄 TEMPLATE FOUND: {
+  name: 'new_tarif',
+  language: 'pl',
+  status: 'approved',
+  category: 'MARKETING'
+}
+📦 WA PAYLOAD: {
+  "messaging_product": "whatsapp",
+  "recipient_type": "individual",
+  "to": "48536220534",
+  "type": "template",
+  "template": {
+    "name": "new_tarif",
+    "language": {
+      "policy": "deterministic",
+      "code": "pl"
+    }
+  }
+}
+[WA ✅] TEMPLATE(new_tarif) -> 48536220534 OK (200)
+📄 TEMPLATE FOUND: {
+  name: 'new_tarif',
+  language: 'pl',
+  status: 'approved',
+  category: 'MARKETING'
+}
+📦 WA PAYLOAD: {
+  "messaging_product": "whatsapp",
+  "recipient_type": "individual",
+  "to": "48606209898",
+  "type": "template",
+  "template": {
+    "name": "new_tarif",
+    "language": {
+      "policy": "deterministic",
+      "code": "pl"
+    }
+  }
+}
+[WA ✅] TEMPLATE(new_tarif) -> 48606209898 OK (200)
+📄 TEMPLATE FOUND: {
+  name: 'new_tarif',
+  language: 'pl',
+  status: 'approved',
+  category: 'MARKETING'
+}
+📦 WA PAYLOAD: {
+  "messaging_product": "whatsapp",
+  "recipient_type": "individual",
+  "to": "48721071903",
+  "type": "template",
+  "template": {
+    "name": "new_tarif",
+    "language": {
+      "policy": "deterministic",
+      "code": "pl"
+    }
+  }
+}
+[WA ✅] TEMPLATE(new_tarif) -> 48721071903 OK (200)
+📄 TEMPLATE FOUND: {
+  name: 'new_tarif',
+  language: 'pl',
+  status: 'approved',
+  category: 'MARKETING'
+}
+📦 WA PAYLOAD: {
+  "messaging_product": "whatsapp",
+  "recipient_type": "individual",
+  "to": "48530777820",
+  "type": "template",
+  "template": {
+    "name": "new_tarif",
+    "language": {
+      "policy": "deterministic",
+      "code": "pl"
+    }
+  }
+}
+[WA ✅] TEMPLATE(new_tarif) -> 48530777820 OK (200)
+📄 TEMPLATE FOUND: {
+  name: 'new_tarif',
+  language: 'pl',
+  status: 'approved',
+  category: 'MARKETING'
+}
+📦 WA PAYLOAD: {
+  "messaging_product": "whatsapp",
+  "recipient_type": "individual",
+  "to": "48574109039",
+  "type": "template",
+  "template": {
+    "name": "new_tarif",
+    "language": {
+      "policy": "deterministic",
+      "code": "pl"
+    }
+  }
+}
+[WA ✅] TEMPLATE(new_tarif) -> 48574109039 OK (200)
+📄 TEMPLATE FOUND: {
+  name: 'new_tarif',
+  language: 'pl',
+  status: 'approved',
+  category: 'MARKETING'
+}
+📦 WA PAYLOAD: {
+  "messaging_product": "whatsapp",
+  "recipient_type": "individual",
+  "to": "48574547569",
+  "type": "template",
+  "template": {
+    "name": "new_tarif",
+    "language": {
+      "policy": "deterministic",
+      "code": "pl"
+    }
+  }
+}
+[WA ✅] TEMPLATE(new_tarif) -> 48574547569 OK (200)
+📄 TEMPLATE FOUND: {
+  name: 'new_tarif',
+  language: 'pl',
+  status: 'approved',
+  category: 'MARKETING'
+}
+📦 WA PAYLOAD: {
+  "messaging_product": "whatsapp",
+  "recipient_type": "individual",
+  "to": "48884747422",
+  "type": "template",
+  "template": {
+    "name": "new_tarif",
+    "language": {
+      "policy": "deterministic",
+      "code": "pl"
+    }
+  }
+}
+[WA ✅] TEMPLATE(new_tarif) -> 48884747422 OK (200)
+📄 TEMPLATE FOUND: {
+  name: 'new_tarif',
+  language: 'pl',
+  status: 'approved',
+  category: 'MARKETING'
+}
+📦 WA PAYLOAD: {
+  "messaging_product": "whatsapp",
+  "recipient_type": "individual",
+  "to": "48534758053",
+  "type": "template",
+  "template": {
+    "name": "new_tarif",
+    "language": {
+      "policy": "deterministic",
+      "code": "pl"
+    }
+  }
+}
+[WA ✅] TEMPLATE(new_tarif) -> 48534758053 OK (200)
+📄 TEMPLATE FOUND: {
+  name: 'new_tarif',
+  language: 'pl',
+  status: 'approved',
+  category: 'MARKETING'
+}
+📦 WA PAYLOAD: {
+  "messaging_product": "whatsapp",
+  "recipient_type": "individual",
+  "to": "48691014198",
+  "type": "template",
+  "template": {
+    "name": "new_tarif",
+    "language": {
+      "policy": "deterministic",
+      "code": "pl"
+    }
+  }
+}
+[WA ✅] TEMPLATE(new_tarif) -> 48691014198 OK (200)
+📄 TEMPLATE FOUND: {
+  name: 'new_tarif',
+  language: 'pl',
+  status: 'approved',
+  category: 'MARKETING'
+}
+📦 WA PAYLOAD: {
+  "messaging_product": "whatsapp",
+  "recipient_type": "individual",
+  "to": "48609721638",
+  "type": "template",
+  "template": {
+    "name": "new_tarif",
+    "language": {
+      "policy": "deterministic",
+      "code": "pl"
+    }
+  }
+}
+[WA ✅] TEMPLATE(new_tarif) -> 48609721638 OK (200)
+📄 TEMPLATE FOUND: {
+  name: 'new_tarif',
+  language: 'pl',
+  status: 'approved',
+  category: 'MARKETING'
+}
+📦 WA PAYLOAD: {
+  "messaging_product": "whatsapp",
+  "recipient_type": "individual",
+  "to": "48000000000",
+  "type": "template",
+  "template": {
+    "name": "new_tarif",
+    "language": {
+      "policy": "deterministic",
+      "code": "pl"
+    }
+  }
+}
+[WA ✅] TEMPLATE(new_tarif) -> 48000000000 OK (200)
+📄 TEMPLATE FOUND: {
+  name: 'new_tarif',
+  language: 'pl',
+  status: 'approved',
+  category: 'MARKETING'
+}
+📦 WA PAYLOAD: {
+  "messaging_product": "whatsapp",
+  "recipient_type": "individual",
+  "to": "48721390825",
+  "type": "template",
+  "template": {
+    "name": "new_tarif",
+    "language": {
+      "policy": "deterministic",
+      "code": "pl"
+    }
+  }
+}
+[WA ✅] TEMPLATE(new_tarif) -> 48721390825 OK (200)
+📄 TEMPLATE FOUND: {
+  name: 'new_tarif',
+  language: 'pl',
+  status: 'approved',
+  category: 'MARKETING'
+}
+📦 WA PAYLOAD: {
+  "messaging_product": "whatsapp",
+  "recipient_type": "individual",
+  "to": "48609095359",
+  "type": "template",
+  "template": {
+    "name": "new_tarif",
+    "language": {
+      "policy": "deterministic",
+      "code": "pl"
+    }
+  }
+}
+[WA ✅] TEMPLATE(new_tarif) -> 48609095359 OK (200)
+📄 TEMPLATE FOUND: {
+  name: 'new_tarif',
+  language: 'pl',
+  status: 'approved',
+  category: 'MARKETING'
+}
+📦 WA PAYLOAD: {
+  "messaging_product": "whatsapp",
+  "recipient_type": "individual",
+  "to": "447740178225",
+  "type": "template",
+  "template": {
+    "name": "new_tarif",
+    "language": {
+      "policy": "deterministic",
+      "code": "pl"
+    }
+  }
+}
+[WA ✅] TEMPLATE(new_tarif) -> 447740178225 OK (200)
+📄 TEMPLATE FOUND: {
+  name: 'new_tarif',
+  language: 'pl',
+  status: 'approved',
+  category: 'MARKETING'
+}
+📦 WA PAYLOAD: {
+  "messaging_product": "whatsapp",
+  "recipient_type": "individual",
+  "to": "48660675508",
+  "type": "template",
+  "template": {
+    "name": "new_tarif",
+    "language": {
+      "policy": "deterministic",
+      "code": "pl"
+    }
+  }
+}
+[WA ✅] TEMPLATE(new_tarif) -> 48660675508 OK (200)
+📄 TEMPLATE FOUND: {
+  name: 'new_tarif',
+  language: 'pl',
+  status: 'approved',
+  category: 'MARKETING'
+}
+📦 WA PAYLOAD: {
+  "messaging_product": "whatsapp",
+  "recipient_type": "individual",
+  "to": "48733379125",
+  "type": "template",
+  "template": {
+    "name": "new_tarif",
+    "language": {
+      "policy": "deterministic",
+      "code": "pl"
+    }
+  }
+}
+[WA ✅] TEMPLATE(new_tarif) -> 48733379125 OK (200)
+📄 TEMPLATE FOUND: {
+  name: 'new_tarif',
+  language: 'pl',
+  status: 'approved',
+  category: 'MARKETING'
+}
+📦 WA PAYLOAD: {
+  "messaging_product": "whatsapp",
+  "recipient_type": "individual",
+  "to": "48795680268",
+  "type": "template",
+  "template": {
+    "name": "new_tarif",
+    "language": {
+      "policy": "deterministic",
+      "code": "pl"
+    }
+  }
+}
+[WA ✅] TEMPLATE(new_tarif) -> 48795680268 OK (200)
+📄 TEMPLATE FOUND: {
+  name: 'new_tarif',
+  language: 'pl',
+  status: 'approved',
+  category: 'MARKETING'
+}
+📦 WA PAYLOAD: {
+  "messaging_product": "whatsapp",
+  "recipient_type": "individual",
+  "to": "48512574907",
+  "type": "template",
+  "template": {
+    "name": "new_tarif",
+    "language": {
+      "policy": "deterministic",
+      "code": "pl"
+    }
+  }
+}
+[WA ✅] TEMPLATE(new_tarif) -> 48512574907 OK (200)
+📄 TEMPLATE FOUND: {
+  name: 'new_tarif',
+  language: 'pl',
+  status: 'approved',
+  category: 'MARKETING'
+}
+📦 WA PAYLOAD: {
+  "messaging_product": "whatsapp",
+  "recipient_type": "individual",
+  "to": "48796867122",
+  "type": "template",
+  "template": {
+    "name": "new_tarif",
+    "language": {
+      "policy": "deterministic",
+      "code": "pl"
+    }
+  }
+}
+[WA ✅] TEMPLATE(new_tarif) -> 48796867122 OK (200)
+📄 TEMPLATE FOUND: {
+  name: 'new_tarif',
+  language: 'pl',
+  status: 'approved',
+  category: 'MARKETING'
+}
+📦 WA PAYLOAD: {
+  "messaging_product": "whatsapp",
+  "recipient_type": "individual",
+  "to": "48886632224",
+  "type": "template",
+  "template": {
+    "name": "new_tarif",
+    "language": {
+      "policy": "deterministic",
+      "code": "pl"
+    }
+  }
+}
+[WA ✅] TEMPLATE(new_tarif) -> 48886632224 OK (200)
+📄 TEMPLATE FOUND: {
+  name: 'new_tarif',
+  language: 'pl',
+  status: 'approved',
+  category: 'MARKETING'
+}
+📦 WA PAYLOAD: {
+  "messaging_product": "whatsapp",
+  "recipient_type": "individual",
+  "to": "48792267989",
+  "type": "template",
+  "template": {
+    "name": "new_tarif",
+    "language": {
+      "policy": "deterministic",
+      "code": "pl"
+    }
+  }
+}
+[WA ✅] TEMPLATE(new_tarif) -> 48792267989 OK (200)
+📄 TEMPLATE FOUND: {
+  name: 'new_tarif',
+  language: 'pl',
+  status: 'approved',
+  category: 'MARKETING'
+}
+📦 WA PAYLOAD: {
+  "messaging_product": "whatsapp",
+  "recipient_type": "individual",
+  "to": "48736602028",
+  "type": "template",
+  "template": {
+    "name": "new_tarif",
+    "language": {
+      "policy": "deterministic",
+      "code": "pl"
+    }
+  }
+}
+[WA ✅] TEMPLATE(new_tarif) -> 48736602028 OK (200)
+📄 TEMPLATE FOUND: {
+  name: 'new_tarif',
+  language: 'pl',
+  status: 'approved',
+  category: 'MARKETING'
+}
+📦 WA PAYLOAD: {
+  "messaging_product": "whatsapp",
+  "recipient_type": "individual",
+  "to": "48730170225",
+  "type": "template",
+  "template": {
+    "name": "new_tarif",
+    "language": {
+      "policy": "deterministic",
+      "code": "pl"
+    }
+  }
+}
+[WA ✅] TEMPLATE(new_tarif) -> 48730170225 OK (200)
+📄 TEMPLATE FOUND: {
+  name: 'new_tarif',
+  language: 'pl',
+  status: 'approved',
+  category: 'MARKETING'
+}
+📦 WA PAYLOAD: {
+  "messaging_product": "whatsapp",
+  "recipient_type": "individual",
+  "to": "48537384306",
+  "type": "template",
+  "template": {
+    "name": "new_tarif",
+    "language": {
+      "policy": "deterministic",
+      "code": "pl"
+    }
+  }
+}
+[WA ✅] TEMPLATE(new_tarif) -> 48537384306 OK (200)
+📄 TEMPLATE FOUND: {
+  name: 'new_tarif',
+  language: 'pl',
+  status: 'approved',
+  category: 'MARKETING'
+}
+📦 WA PAYLOAD: {
+  "messaging_product": "whatsapp",
+  "recipient_type": "individual",
+  "to": "48607772700",
+  "type": "template",
+  "template": {
+    "name": "new_tarif",
+    "language": {
+      "policy": "deterministic",
+      "code": "pl"
+    }
+  }
+}
+[WA ✅] TEMPLATE(new_tarif) -> 48607772700 OK (200)
+📄 TEMPLATE FOUND: {
+  name: 'new_tarif',
+  language: 'pl',
+  status: 'approved',
+  category: 'MARKETING'
+}
+📦 WA PAYLOAD: {
+  "messaging_product": "whatsapp",
+  "recipient_type": "individual",
+  "to": "48575480203",
+  "type": "template",
+  "template": {
+    "name": "new_tarif",
+    "language": {
+      "policy": "deterministic",
+      "code": "pl"
+    }
+  }
+}
+[WA ✅] TEMPLATE(new_tarif) -> 48575480203 OK (200)
+📄 TEMPLATE FOUND: {
+  name: 'new_tarif',
+  language: 'pl',
+  status: 'approved',
+  category: 'MARKETING'
+}
+📦 WA PAYLOAD: {
+  "messaging_product": "whatsapp",
+  "recipient_type": "individual",
+  "to": "447447197463",
+  "type": "template",
+  "template": {
+    "name": "new_tarif",
+    "language": {
+      "policy": "deterministic",
+      "code": "pl"
+    }
+  }
+}
+[WA ✅] TEMPLATE(new_tarif) -> 447447197463 OK (200)
+📄 TEMPLATE FOUND: {
+  name: 'new_tarif',
+  language: 'pl',
+  status: 'approved',
+  category: 'MARKETING'
+}
+📦 WA PAYLOAD: {
+  "messaging_product": "whatsapp",
+  "recipient_type": "individual",
+  "to": "48698547430",
+  "type": "template",
+  "template": {
+    "name": "new_tarif",
+    "language": {
+      "policy": "deterministic",
+      "code": "pl"
+    }
+  }
+}
+[WA ✅] TEMPLATE(new_tarif) -> 48698547430 OK (200)
+📄 TEMPLATE FOUND: {
+  name: 'new_tarif',
+  language: 'pl',
+  status: 'approved',
+  category: 'MARKETING'
+}
+📦 WA PAYLOAD: {
+  "messaging_product": "whatsapp",
+  "recipient_type": "individual",
+  "to": "48693116371",
+  "type": "template",
+  "template": {
+    "name": "new_tarif",
+    "language": {
+      "policy": "deterministic",
+      "code": "pl"
+    }
+  }
+}
+[WA ✅] TEMPLATE(new_tarif) -> 48693116371 OK (200)
+📄 TEMPLATE FOUND: {
+  name: 'new_tarif',
+  language: 'pl',
+  status: 'approved',
+  category: 'MARKETING'
+}
+📦 WA PAYLOAD: {
+  "messaging_product": "whatsapp",
+  "recipient_type": "individual",
+  "to": "48577723823",
+  "type": "template",
+  "template": {
+    "name": "new_tarif",
+    "language": {
+      "policy": "deterministic",
+      "code": "pl"
+    }
+  }
+}
+[WA ✅] TEMPLATE(new_tarif) -> 48577723823 OK (200)
+📄 TEMPLATE FOUND: {
+  name: 'new_tarif',
+  language: 'pl',
+  status: 'approved',
+  category: 'MARKETING'
+}
+📦 WA PAYLOAD: {
+  "messaging_product": "whatsapp",
+  "recipient_type": "individual",
+  "to": "48795578274",
+  "type": "template",
+  "template": {
+    "name": "new_tarif",
+    "language": {
+      "policy": "deterministic",
+      "code": "pl"
+    }
+  }
+}
+[WA ✅] TEMPLATE(new_tarif) -> 48795578274 OK (200)
+📄 TEMPLATE FOUND: {
+  name: 'new_tarif',
+  language: 'pl',
+  status: 'approved',
+  category: 'MARKETING'
+}
+📦 WA PAYLOAD: {
+  "messaging_product": "whatsapp",
+  "recipient_type": "individual",
+  "to": "48607304346",
+  "type": "template",
+  "template": {
+    "name": "new_tarif",
+    "language": {
+      "policy": "deterministic",
+      "code": "pl"
+    }
+  }
+}
+[WA ✅] TEMPLATE(new_tarif) -> 48607304346 OK (200)
+📄 TEMPLATE FOUND: {
+  name: 'new_tarif',
+  language: 'pl',
+  status: 'approved',
+  category: 'MARKETING'
+}
+📦 WA PAYLOAD: {
+  "messaging_product": "whatsapp",
+  "recipient_type": "individual",
+  "to": "48533163523",
+  "type": "template",
+  "template": {
+    "name": "new_tarif",
+    "language": {
+      "policy": "deterministic",
+      "code": "pl"
+    }
+  }
+}
+[WA ✅] TEMPLATE(new_tarif) -> 48533163523 OK (200)
+📄 TEMPLATE FOUND: {
+  name: 'new_tarif',
+  language: 'pl',
+  status: 'approved',
+  category: 'MARKETING'
+}
+📦 WA PAYLOAD: {
+  "messaging_product": "whatsapp",
+  "recipient_type": "individual",
+  "to": "491511784924",
+  "type": "template",
+  "template": {
+    "name": "new_tarif",
+    "language": {
+      "policy": "deterministic",
+      "code": "pl"
+    }
+  }
+}
+[WA ✅] TEMPLATE(new_tarif) -> 491511784924 OK (200)
+📄 TEMPLATE FOUND: {
+  name: 'new_tarif',
+  language: 'pl',
+  status: 'approved',
+  category: 'MARKETING'
+}
+📦 WA PAYLOAD: {
+  "messaging_product": "whatsapp",
+  "recipient_type": "individual",
+  "to": "48792252045",
+  "type": "template",
+  "template": {
+    "name": "new_tarif",
+    "language": {
+      "policy": "deterministic",
+      "code": "pl"
+    }
+  }
+}
+[WA ✅] TEMPLATE(new_tarif) -> 48792252045 OK (200)
+📄 TEMPLATE FOUND: {
+  name: 'new_tarif',
+  language: 'pl',
+  status: 'approved',
+  category: 'MARKETING'
+}
+📦 WA PAYLOAD: {
+  "messaging_product": "whatsapp",
+  "recipient_type": "individual",
+  "to": "48796071707",
+  "type": "template",
+  "template": {
+    "name": "new_tarif",
+    "language": {
+      "policy": "deterministic",
+      "code": "pl"
+    }
+  }
+}
+[WA ✅] TEMPLATE(new_tarif) -> 48796071707 OK (200)
+📄 TEMPLATE FOUND: {
+  name: 'new_tarif',
+  language: 'pl',
+  status: 'approved',
+  category: 'MARKETING'
+}
+📦 WA PAYLOAD: {
+  "messaging_product": "whatsapp",
+  "recipient_type": "individual",
+  "to": "48517516767",
+  "type": "template",
+  "template": {
+    "name": "new_tarif",
+    "language": {
+      "policy": "deterministic",
+      "code": "pl"
+    }
+  }
+}
+[WA ✅] TEMPLATE(new_tarif) -> 48517516767 OK (200)
+📄 TEMPLATE FOUND: {
+  name: 'new_tarif',
+  language: 'pl',
+  status: 'approved',
+  category: 'MARKETING'
+}
+📦 WA PAYLOAD: {
+  "messaging_product": "whatsapp",
+  "recipient_type": "individual",
+  "to": "48503966750",
+  "type": "template",
+  "template": {
+    "name": "new_tarif",
+    "language": {
+      "policy": "deterministic",
+      "code": "pl"
+    }
+  }
+}
+[WA ✅] TEMPLATE(new_tarif) -> 48503966750 OK (200)
+📄 TEMPLATE FOUND: {
+  name: 'new_tarif',
+  language: 'pl',
+  status: 'approved',
+  category: 'MARKETING'
+}
+📦 WA PAYLOAD: {
+  "messaging_product": "whatsapp",
+  "recipient_type": "individual",
+  "to": "48504794086",
+  "type": "template",
+  "template": {
+    "name": "new_tarif",
+    "language": {
+      "policy": "deterministic",
+      "code": "pl"
+    }
+  }
+}
+[WA ✅] TEMPLATE(new_tarif) -> 48504794086 OK (200)
+📄 TEMPLATE FOUND: {
+  name: 'new_tarif',
+  language: 'pl',
+  status: 'approved',
+  category: 'MARKETING'
+}
+📦 WA PAYLOAD: {
+  "messaging_product": "whatsapp",
+  "recipient_type": "individual",
+  "to": "48000000000",
+  "type": "template",
+  "template": {
+    "name": "new_tarif",
+    "language": {
+      "policy": "deterministic",
+      "code": "pl"
+    }
+  }
+}
+[WA ✅] TEMPLATE(new_tarif) -> 48000000000 OK (200)
+📄 TEMPLATE FOUND: {
+  name: 'new_tarif',
+  language: 'pl',
+  status: 'approved',
+  category: 'MARKETING'
+}
+📦 WA PAYLOAD: {
+  "messaging_product": "whatsapp",
+  "recipient_type": "individual",
+  "to": "48789730006",
+  "type": "template",
+  "template": {
+    "name": "new_tarif",
+    "language": {
+      "policy": "deterministic",
+      "code": "pl"
+    }
+  }
+}
+[WA ✅] TEMPLATE(new_tarif) -> 48789730006 OK (200)
+📄 TEMPLATE FOUND: {
+  name: 'new_tarif',
+  language: 'pl',
+  status: 'approved',
+  category: 'MARKETING'
+}
+📦 WA PAYLOAD: {
+  "messaging_product": "whatsapp",
+  "recipient_type": "individual",
+  "to": "48507312568",
+  "type": "template",
+  "template": {
+    "name": "new_tarif",
+    "language": {
+      "policy": "deterministic",
+      "code": "pl"
+    }
+  }
+}
+[WA ✅] TEMPLATE(new_tarif) -> 48507312568 OK (200)
+📄 TEMPLATE FOUND: {
+  name: 'new_tarif',
+  language: 'pl',
+  status: 'approved',
+  category: 'MARKETING'
+}
+📦 WA PAYLOAD: {
+  "messaging_product": "whatsapp",
+  "recipient_type": "individual",
+  "to": "48787244287",
+  "type": "template",
+  "template": {
+    "name": "new_tarif",
+    "language": {
+      "policy": "deterministic",
+      "code": "pl"
+    }
+  }
+}
+[WA ✅] TEMPLATE(new_tarif) -> 48787244287 OK (200)
+📄 TEMPLATE FOUND: {
+  name: 'new_tarif',
+  language: 'pl',
+  status: 'approved',
+  category: 'MARKETING'
+}
+📦 WA PAYLOAD: {
+  "messaging_product": "whatsapp",
+  "recipient_type": "individual",
+  "to": "48783441260",
+  "type": "template",
+  "template": {
+    "name": "new_tarif",
+    "language": {
+      "policy": "deterministic",
+      "code": "pl"
+    }
+  }
+}
+[WA ✅] TEMPLATE(new_tarif) -> 48783441260 OK (200)
+📄 TEMPLATE FOUND: {
+  name: 'new_tarif',
+  language: 'pl',
+  status: 'approved',
+  category: 'MARKETING'
+}
+📦 WA PAYLOAD: {
+  "messaging_product": "whatsapp",
+  "recipient_type": "individual",
+  "to": "48514911044",
+  "type": "template",
+  "template": {
+    "name": "new_tarif",
+    "language": {
+      "policy": "deterministic",
+      "code": "pl"
+    }
+  }
+}
+[WA ✅] TEMPLATE(new_tarif) -> 48514911044 OK (200)
+📄 TEMPLATE FOUND: {
+  name: 'new_tarif',
+  language: 'pl',
+  status: 'approved',
+  category: 'MARKETING'
+}
+📦 WA PAYLOAD: {
+  "messaging_product": "whatsapp",
+  "recipient_type": "individual",
+  "to": "48664023108",
+  "type": "template",
+  "template": {
+    "name": "new_tarif",
+    "language": {
+      "policy": "deterministic",
+      "code": "pl"
+    }
+  }
+}
+[WA ✅] TEMPLATE(new_tarif) -> 48664023108 OK (200)
+📄 TEMPLATE FOUND: {
+  name: 'new_tarif',
+  language: 'pl',
+  status: 'approved',
+  category: 'MARKETING'
+}
+📦 WA PAYLOAD: {
+  "messaging_product": "whatsapp",
+  "recipient_type": "individual",
+  "to": "48508846852",
+  "type": "template",
+  "template": {
+    "name": "new_tarif",
+    "language": {
+      "policy": "deterministic",
+      "code": "pl"
+    }
+  }
+}
+[WA ✅] TEMPLATE(new_tarif) -> 48508846852 OK (200)
+📄 TEMPLATE FOUND: {
+  name: 'new_tarif',
+  language: 'pl',
+  status: 'approved',
+  category: 'MARKETING'
+}
+📦 WA PAYLOAD: {
+  "messaging_product": "whatsapp",
+  "recipient_type": "individual",
+  "to": "48535954472",
+  "type": "template",
+  "template": {
+    "name": "new_tarif",
+    "language": {
+      "policy": "deterministic",
+      "code": "pl"
+    }
+  }
+}
+[WA ✅] TEMPLATE(new_tarif) -> 48535954472 OK (200)
+📄 TEMPLATE FOUND: {
+  name: 'new_tarif',
+  language: 'pl',
+  status: 'approved',
+  category: 'MARKETING'
+}
+📦 WA PAYLOAD: {
+  "messaging_product": "whatsapp",
+  "recipient_type": "individual",
+  "to": "48500089265",
+  "type": "template",
+  "template": {
+    "name": "new_tarif",
+    "language": {
+      "policy": "deterministic",
+      "code": "pl"
+    }
+  }
+}
+[WA ✅] TEMPLATE(new_tarif) -> 48500089265 OK (200)
+📄 TEMPLATE FOUND: {
+  name: 'new_tarif',
+  language: 'pl',
+  status: 'approved',
+  category: 'MARKETING'
+}
+📦 WA PAYLOAD: {
+  "messaging_product": "whatsapp",
+  "recipient_type": "individual",
+  "to": "48795950514",
+  "type": "template",
+  "template": {
+    "name": "new_tarif",
+    "language": {
+      "policy": "deterministic",
+      "code": "pl"
+    }
+  }
+}
+[WA ✅] TEMPLATE(new_tarif) -> 48795950514 OK (200)
+📄 TEMPLATE FOUND: {
+  name: 'new_tarif',
+  language: 'pl',
+  status: 'approved',
+  category: 'MARKETING'
+}
+📦 WA PAYLOAD: {
+  "messaging_product": "whatsapp",
+  "recipient_type": "individual",
+  "to": "48509451653",
+  "type": "template",
+  "template": {
+    "name": "new_tarif",
+    "language": {
+      "policy": "deterministic",
+      "code": "pl"
+    }
+  }
+}
+[WA ✅] TEMPLATE(new_tarif) -> 48509451653 OK (200)
+📄 TEMPLATE FOUND: {
+  name: 'new_tarif',
+  language: 'pl',
+  status: 'approved',
+  category: 'MARKETING'
+}
+📦 WA PAYLOAD: {
+  "messaging_product": "whatsapp",
+  "recipient_type": "individual",
+  "to": "48000000000",
+  "type": "template",
+  "template": {
+    "name": "new_tarif",
+    "language": {
+      "policy": "deterministic",
+      "code": "pl"
+    }
+  }
+}
+[WA ✅] TEMPLATE(new_tarif) -> 48000000000 OK (200)
+📄 TEMPLATE FOUND: {
+  name: 'new_tarif',
+  language: 'pl',
+  status: 'approved',
+  category: 'MARKETING'
+}
+📦 WA PAYLOAD: {
+  "messaging_product": "whatsapp",
+  "recipient_type": "individual",
+  "to": "48530236846",
+  "type": "template",
+  "template": {
+    "name": "new_tarif",
+    "language": {
+      "policy": "deterministic",
+      "code": "pl"
+    }
+  }
+}
+[WA ✅] TEMPLATE(new_tarif) -> 48530236846 OK (200)
+📄 TEMPLATE FOUND: {
+  name: 'new_tarif',
+  language: 'pl',
+  status: 'approved',
+  category: 'MARKETING'
+}
+📦 WA PAYLOAD: {
+  "messaging_product": "whatsapp",
+  "recipient_type": "individual",
+  "to": "48509579806",
+  "type": "template",
+  "template": {
+    "name": "new_tarif",
+    "language": {
+      "policy": "deterministic",
+      "code": "pl"
+    }
+  }
+}
+[WA ✅] TEMPLATE(new_tarif) -> 48509579806 OK (200)
+📄 TEMPLATE FOUND: {
+  name: 'new_tarif',
+  language: 'pl',
+  status: 'approved',
+  category: 'MARKETING'
+}
+📦 WA PAYLOAD: {
+  "messaging_product": "whatsapp",
+  "recipient_type": "individual",
+  "to": "48518651824",
+  "type": "template",
+  "template": {
+    "name": "new_tarif",
+    "language": {
+      "policy": "deterministic",
+      "code": "pl"
+    }
+  }
+}
+[WA ✅] TEMPLATE(new_tarif) -> 48518651824 OK (200)
+📄 TEMPLATE FOUND: {
+  name: 'new_tarif',
+  language: 'pl',
+  status: 'approved',
+  category: 'MARKETING'
+}
+📦 WA PAYLOAD: {
+  "messaging_product": "whatsapp",
+  "recipient_type": "individual",
+  "to": "48723959868",
+  "type": "template",
+  "template": {
+    "name": "new_tarif",
+    "language": {
+      "policy": "deterministic",
+      "code": "pl"
+    }
+  }
+}
+[WA ✅] TEMPLATE(new_tarif) -> 48723959868 OK (200)
+📄 TEMPLATE FOUND: {
+  name: 'new_tarif',
+  language: 'pl',
+  status: 'approved',
+  category: 'MARKETING'
+}
+📦 WA PAYLOAD: {
+  "messaging_product": "whatsapp",
+  "recipient_type": "individual",
+  "to": "48698754979",
+  "type": "template",
+  "template": {
+    "name": "new_tarif",
+    "language": {
+      "policy": "deterministic",
+      "code": "pl"
+    }
+  }
+}
+[WA ✅] TEMPLATE(new_tarif) -> 48698754979 OK (200)
+📄 TEMPLATE FOUND: {
+  name: 'new_tarif',
+  language: 'pl',
+  status: 'approved',
+  category: 'MARKETING'
+}
+📦 WA PAYLOAD: {
+  "messaging_product": "whatsapp",
+  "recipient_type": "individual",
+  "to": "48512022099",
+  "type": "template",
+  "template": {
+    "name": "new_tarif",
+    "language": {
+      "policy": "deterministic",
+      "code": "pl"
+    }
+  }
+}
+[WA ✅] TEMPLATE(new_tarif) -> 48512022099 OK (200)
+📄 TEMPLATE FOUND: {
+  name: 'new_tarif',
+  language: 'pl',
+  status: 'approved',
+  category: 'MARKETING'
+}
+📦 WA PAYLOAD: {
+  "messaging_product": "whatsapp",
+  "recipient_type": "individual",
+  "to": "48739090536",
+  "type": "template",
+  "template": {
+    "name": "new_tarif",
+    "language": {
+      "policy": "deterministic",
+      "code": "pl"
+    }
+  }
+}
+[WA ✅] TEMPLATE(new_tarif) -> 48739090536 OK (200)
+📄 TEMPLATE FOUND: {
+  name: 'new_tarif',
+  language: 'pl',
+  status: 'approved',
+  category: 'MARKETING'
+}
+📦 WA PAYLOAD: {
+  "messaging_product": "whatsapp",
+  "recipient_type": "individual",
+  "to": "48792576295",
+  "type": "template",
+  "template": {
+    "name": "new_tarif",
+    "language": {
+      "policy": "deterministic",
+      "code": "pl"
+    }
+  }
+}
+[WA ✅] TEMPLATE(new_tarif) -> 48792576295 OK (200)
+📄 TEMPLATE FOUND: {
+  name: 'new_tarif',
+  language: 'pl',
+  status: 'approved',
+  category: 'MARKETING'
+}
+📦 WA PAYLOAD: {
+  "messaging_product": "whatsapp",
+  "recipient_type": "individual",
+  "to": "48505478660",
+  "type": "template",
+  "template": {
+    "name": "new_tarif",
+    "language": {
+      "policy": "deterministic",
+      "code": "pl"
+    }
+  }
+}
+[WA ✅] TEMPLATE(new_tarif) -> 48505478660 OK (200)
+📄 TEMPLATE FOUND: {
+  name: 'new_tarif',
+  language: 'pl',
+  status: 'approved',
+  category: 'MARKETING'
+}
+📦 WA PAYLOAD: {
+  "messaging_product": "whatsapp",
+  "recipient_type": "individual",
+  "to": "48571526663",
+  "type": "template",
+  "template": {
+    "name": "new_tarif",
+    "language": {
+      "policy": "deterministic",
+      "code": "pl"
+    }
+  }
+}
+[WA ✅] TEMPLATE(new_tarif) -> 48571526663 OK (200)
+📄 TEMPLATE FOUND: {
+  name: 'new_tarif',
+  language: 'pl',
+  status: 'approved',
+  category: 'MARKETING'
+}
+📦 WA PAYLOAD: {
+  "messaging_product": "whatsapp",
+  "recipient_type": "individual",
+  "to": "48889409255",
+  "type": "template",
+  "template": {
+    "name": "new_tarif",
+    "language": {
+      "policy": "deterministic",
+      "code": "pl"
+    }
+  }
+}
+[WA ✅] TEMPLATE(new_tarif) -> 48889409255 OK (200)
+📄 TEMPLATE FOUND: {
+  name: 'new_tarif',
+  language: 'pl',
+  status: 'approved',
+  category: 'MARKETING'
+}
+📦 WA PAYLOAD: {
+  "messaging_product": "whatsapp",
+  "recipient_type": "individual",
+  "to": "48725079322",
+  "type": "template",
+  "template": {
+    "name": "new_tarif",
+    "language": {
+      "policy": "deterministic",
+      "code": "pl"
+    }
+  }
+}
+[WA ✅] TEMPLATE(new_tarif) -> 48725079322 OK (200)
+📄 TEMPLATE FOUND: {
+  name: 'new_tarif',
+  language: 'pl',
+  status: 'approved',
+  category: 'MARKETING'
+}
+📦 WA PAYLOAD: {
+  "messaging_product": "whatsapp",
+  "recipient_type": "individual",
+  "to": "48699659124",
+  "type": "template",
+  "template": {
+    "name": "new_tarif",
+    "language": {
+      "policy": "deterministic",
+      "code": "pl"
+    }
+  }
+}
+[WA ✅] TEMPLATE(new_tarif) -> 48699659124 OK (200)
+📄 TEMPLATE FOUND: {
+  name: 'new_tarif',
+  language: 'pl',
+  status: 'approved',
+  category: 'MARKETING'
+}
+📦 WA PAYLOAD: {
+  "messaging_product": "whatsapp",
+  "recipient_type": "individual",
+  "to": "48796352020",
+  "type": "template",
+  "template": {
+    "name": "new_tarif",
+    "language": {
+      "policy": "deterministic",
+      "code": "pl"
+    }
+  }
+}
+[WA ✅] TEMPLATE(new_tarif) -> 48796352020 OK (200)
+📄 TEMPLATE FOUND: {
+  name: 'new_tarif',
+  language: 'pl',
+  status: 'approved',
+  category: 'MARKETING'
+}
+📦 WA PAYLOAD: {
+  "messaging_product": "whatsapp",
+  "recipient_type": "individual",
+  "to": "48886165485",
+  "type": "template",
+  "template": {
+    "name": "new_tarif",
+    "language": {
+      "policy": "deterministic",
+      "code": "pl"
+    }
+  }
+}
+[WA ✅] TEMPLATE(new_tarif) -> 48886165485 OK (200)
+📄 TEMPLATE FOUND: {
+  name: 'new_tarif',
+  language: 'pl',
+  status: 'approved',
+  category: 'MARKETING'
+}
+📦 WA PAYLOAD: {
+  "messaging_product": "whatsapp",
+  "recipient_type": "individual",
+  "to": "48733168703",
+  "type": "template",
+  "template": {
+    "name": "new_tarif",
+    "language": {
+      "policy": "deterministic",
+      "code": "pl"
+    }
+  }
+}
+[WA ✅] TEMPLATE(new_tarif) -> 48733168703 OK (200)
+📄 TEMPLATE FOUND: {
+  name: 'new_tarif',
+  language: 'pl',
+  status: 'approved',
+  category: 'MARKETING'
+}
+📦 WA PAYLOAD: {
+  "messaging_product": "whatsapp",
+  "recipient_type": "individual",
+  "to": "48519102117",
+  "type": "template",
+  "template": {
+    "name": "new_tarif",
+    "language": {
+      "policy": "deterministic",
+      "code": "pl"
+    }
+  }
+}
+[WA ✅] TEMPLATE(new_tarif) -> 48519102117 OK (200)
+📄 TEMPLATE FOUND: {
+  name: 'new_tarif',
+  language: 'pl',
+  status: 'approved',
+  category: 'MARKETING'
+}
+📦 WA PAYLOAD: {
+  "messaging_product": "whatsapp",
+  "recipient_type": "individual",
+  "to": "48733444313",
+  "type": "template",
+  "template": {
+    "name": "new_tarif",
+    "language": {
+      "policy": "deterministic",
+      "code": "pl"
+    }
+  }
+}
+[WA ✅] TEMPLATE(new_tarif) -> 48733444313 OK (200)
+📄 TEMPLATE FOUND: {
+  name: 'new_tarif',
+  language: 'pl',
+  status: 'approved',
+  category: 'MARKETING'
+}
+📦 WA PAYLOAD: {
+  "messaging_product": "whatsapp",
+  "recipient_type": "individual",
+  "to": "48575592124",
+  "type": "template",
+  "template": {
+    "name": "new_tarif",
+    "language": {
+      "policy": "deterministic",
+      "code": "pl"
+    }
+  }
+}
+[WA ✅] TEMPLATE(new_tarif) -> 48575592124 OK (200)
+📄 TEMPLATE FOUND: {
+  name: 'new_tarif',
+  language: 'pl',
+  status: 'approved',
+  category: 'MARKETING'
+}
+📦 WA PAYLOAD: {
+  "messaging_product": "whatsapp",
+  "recipient_type": "individual",
+  "to": "447756210967",
+  "type": "template",
+  "template": {
+    "name": "new_tarif",
+    "language": {
+      "policy": "deterministic",
+      "code": "pl"
+    }
+  }
+}
+[WA ✅] TEMPLATE(new_tarif) -> 447756210967 OK (200)
+📄 TEMPLATE FOUND: {
+  name: 'new_tarif',
+  language: 'pl',
+  status: 'approved',
+  category: 'MARKETING'
+}
+📦 WA PAYLOAD: {
+  "messaging_product": "whatsapp",
+  "recipient_type": "individual",
+  "to": "48603690606",
+  "type": "template",
+  "template": {
+    "name": "new_tarif",
+    "language": {
+      "policy": "deterministic",
+      "code": "pl"
+    }
+  }
+}
+[WA ✅] TEMPLATE(new_tarif) -> 48603690606 OK (200)
+📄 TEMPLATE FOUND: {
+  name: 'new_tarif',
+  language: 'pl',
+  status: 'approved',
+  category: 'MARKETING'
+}
+📦 WA PAYLOAD: {
+  "messaging_product": "whatsapp",
+  "recipient_type": "individual",
+  "to": "48665573456",
+  "type": "template",
+  "template": {
+    "name": "new_tarif",
+    "language": {
+      "policy": "deterministic",
+      "code": "pl"
+    }
+  }
+}
+[WA ✅] TEMPLATE(new_tarif) -> 48665573456 OK (200)
+📄 TEMPLATE FOUND: {
+  name: 'new_tarif',
+  language: 'pl',
+  status: 'approved',
+  category: 'MARKETING'
+}
+📦 WA PAYLOAD: {
+  "messaging_product": "whatsapp",
+  "recipient_type": "individual",
+  "to": "48726856819",
+  "type": "template",
+  "template": {
+    "name": "new_tarif",
+    "language": {
+      "policy": "deterministic",
+      "code": "pl"
+    }
+  }
+}
+[WA ✅] TEMPLATE(new_tarif) -> 48726856819 OK (200)

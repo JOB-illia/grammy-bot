@@ -1,0 +1,933 @@
+{
+  "name": "TheOko",
+  "description": "Mini Course The Oko",
+  "author": "Vladlena",
+  "duration": "7 dzien",
+  "lessons": [
+    {
+      "day": 1,
+      "title": "Hello",
+      "type": "text",
+      "content": "\uD83D\uDCE3\uD83D\uDCE3\uD83D\uDCE3 Wiadomości oraz cały proces szkolenia odbywa się w tym bocie. \n\nJeśli lekcje się nie wysyłają, proszę napisać /support i chwilę menedżer techniczny napiszę do ciebie.\n\n<b>Lekcje wysyłane są automatycznie</b> – po prostu system daje trochę czasu na zapoznanie się z informacjami ☺\uFE0F\n\n\nNa dole niektórych wiadomości znajdziesz przyciski, które trzeba nacisnąć, aby kontynuować naukę!\nTak jak w tej wiadomości, którą właśnie czytasz \uD83D\uDC47\n\nKliknij „Jasne” poniżej i przechodzimy do nauki!\n\nDziękuję ❤\uFE0F",
+      "delay": 100,
+      "buttons": [
+        [
+          {
+            "text": "Jasne",
+            "callback_data": "next"
+          }
+        ]
+      ]
+    },
+    {
+      "day": 2,
+      "title": "Hello",
+      "type": "text",
+      "content": "- Cześć \uD83E\uDD0D\n\nWitaj w naszej przestrzeni szkoleniowej – miejscu stworzonym z myślą o Twoim rozwoju, inspiracji i wsparciu.\n\nTutaj znajdziesz wszystkie materiały związane ze szkoleniem, a także dostęp do naszej grupy, w której możesz:\n▪\uFE0Fzadawać pytania (zarówno te techniczne, jak i luźniejsze )\n▪\uFE0Fdzielić się swoją pracą i postępami\n▪\uFE0Fprosić o feedback lub wyjaśnienie niejasności\n▪\uFE0Finspirować się nawzajem i wspólnie przechodzić przez każdy etap tej drogi\n\nNie bój się pytać, nie ma głupich pytań – jesteśmy tu po to, żeby się wspierać!\nTo miejsce jest dla Ciebie, więc czuj się swobodnie i korzystaj w pełni z jego możliwości\nMiłego startu i trzymam za Ciebie mocno kciuki ✨",
+      "delay": 5000,
+      "buttons": [
+        [
+          {
+            "text": "Przejdź do grupy",
+            "url": "https://t.me/+Ttyupy4c-HVkMTMy"
+          }
+        ]
+      ]
+    },
+    {
+      "day": 3,
+      "title": "About me",
+      "type": "video",
+      "media": {
+        "url": "BAACAgIAAxkBAAMLaOl_1JN9Vp5-LyDQA4CHrph3x44AAgZ2AAKiSIlJadpFWvbB36k2BA"
+      },
+      "content": "<b>Moja droga</b>\n\nJeszcze 5 lat temu byłam w zupełnie innym miejscu – zawodowo i życiowo. Przeszłam przez momenty zwątpienia, szukania sensu i zmiany kierunku. Ale to właśnie te doświadczenia nauczyły mnie najwięcej. Dzięki nim zbudowałam życie i pracę, które są dziś spójne z moimi wartościami.\n\n<b>Co dla mnie ważne</b>\n\nW pracy i w życiu stawiam na autentyczność, rozwój i uważność. Wierzę, że sukces to nie tylko osiągnięcia „na papierze”, ale też poczucie spełnienia i zgodności ze sobą.\n\nNie wierzę w szybkie triki – wierzę w proces. W zmianę, która rodzi się z wewnętrznej decyzji i pracy nad sobą. I właśnie do takiego podejścia chcę Cię zaprosić.\n\n<b>Moje osiągnięcia</b>\n",
+      "delay": 0
+    },
+    {
+      "day": 4,
+      "title": "About me next",
+      "type": "text",
+      "content": "Od pracy w Dara Kebab do stylistki brwi… Zaczynałam w małym pokoju. Potem przeprowadziłam się do kawalerki, a po dwóch latach pracy otworzyłam swoje studio w centrum Rzeszowa. Od 0 klientek do 100 miesięcznie. Od 0 kursantek do 80–90 rocznie. Od niepewnej kobiety do osoby, która zna swoją wartość i śmiało idzie po swoje.\n\nAle najbardziej cenię to, jak zmieniłam się wewnętrznie – stałam się bardziej świadoma, spokojna i odważna.\n\n<b>Dlaczego to szkolenie?</b>\n\nBo wiem, że zmiana jest możliwa. Niezależnie od tego, gdzie jesteś teraz – masz w sobie wszystko, czego potrzebujesz, by zrobić krok dalej.\n\nChcę podzielić się z Tobą nie tylko wiedzą, ale też wsparciem i doświadczeniem.\n\nCieszę się, że mogę Ci towarzyszyć w tej drodze. Przed nami piękny proces ✨\n\n<b>Najpiękniejsza droga to ta, którą tworzysz sama – krok po kroku, z wiarą w siebie.</b>\n\n\n<b>P.S. Polecam zaobserwować mój Instagram — często wrzucam tam fajne insighty i nowości związane z naszą tematyką ⬇\uFE0F</b>",
+      "delay": 10000,
+      "buttons": [
+        [
+          {
+            "text": "\uD83D\uDD17 Kliknij Instagram",
+            "url": "https://www.instagram.com/vladkaishchenko/"
+          }
+        ]
+      ]
+    },
+    {
+      "day": 5,
+      "title": "Presentation",
+      "type": "video",
+      "media": {
+        "url": "BAACAgIAAxkBAAMNaOl_7Jl-KH1tVg3SwPfmaLTjXuQAAm52AAKiSIlJfgGrcro4jWA2BA"
+      },
+      "content": "<b>Jak będzie wyglądać nauka?</b>\n\n• Zarejestrowałaś już bota na Telegramie – to właśnie tutaj będzie odbywać się całe szkolenie.  \nKurs został stworzony tak, abyś mogła wynieść z niego maksymalnie dużo wartości.  \n• <b>Dostęp do kursu masz przez 1 rok</b>  \nZawsze możesz wrócić do materiałów i przerobić je ponownie.\n\n<i>Jaką wiedzę zdobędziesz w trakcie kursu – znajdziesz poniżej.</i>\n",
+      "delay": 5000
+    },
+    {
+      "day": 6,
+      "title": "About Course",
+      "type": "text",
+      "content": "<b>CZEGO SIĘ NAUCZYSZ?</b>\n\n<b>Charakterystyka skóry</b>  \nRozpoznawać typ skóry klientki i świadomie dobierać odpowiednich produktów przed farbowaniem.  \nZrozumiesz, jakie czynniki wpływają na efekt końcowy i jak unikać błędów, które mogą wpływać na trwałość i równomierność koloru.  \nBędziesz pracować pewnie i profesjonalnie – niezależnie od rodzaju skóry.\n\n<b>Charakterystyka włosa</b>  \n<b>będziesz umiała</b> ocenić stan i porowatość włosa oraz dostosować technikę pracy do jego struktury.  \nDowiesz się, jak pracować z różnymi typami włosów, by unikać niepożądanych efektów – np. zaciemnienia.  \nNauczysz się rozróżniać rodzaje barwników i świadomie je stosować w praktyce.\n\n<b>Farba oko</b>  \n<b>będziesz umiała</b> dopasowywać odcień farby do typu urody klientki i świadomie tworzyć pożądany efekt kolory\u00ADstyczny.  \nBez problemu dobierasz odpowiednią mieszankę jak dla blondynki oraz dla brunetki.  \nBędziesz wiedzieć jak zrobić chłodny lub ciepły odcień.\n\n<b>Rysunek wstępny</b>  \n<b>będziesz potrafić</b> w szybki i precyzyjny sposób narysować idealny, symetryczny kształt brwi dopasowany do twarzy klientki.\n\n<b>Rozjaśnianie brwi (Bonus)</b>  \nJak bezpiecznie przeprowadzić zabieg – od przygotowania skóry, przez rozjaśnianie i tonowanie, aż po farbowanie brwi.\n\n<b>Zdjęcia (Bonus)</b>  \nJakich aplikacji i narzędzi używać do szybkiej, ale profesjonalnej obróbki zdjęć\n\n<b>3 pokazy na modelkach</b>",
+      "delay": 2000
+    },
+    {
+      "day": 7,
+      "title": "About Course Bonus",
+      "type": "text",
+      "content": "<b>Inne bonusy:</b>  \n• Certyfikat po ukończeniu kursu  \n• Wspólny czat z moim wsparciem dla uczestników kursu  \n• PDF z teorią do każdej lekcji  \n• E-book z materiałami do pracy, listą sprawdzonych sklepów oraz kodem rabatowym na 10%\n\n<b>────────────</b>\n\n<b>Prezent \uD83C\uDF81</b>\n\n<b>Również przygotowałam dla Ciebie e-book, w którym znajdziesz:</b>  \n▪\uFE0F wszystkie niezbędne materiały do pracy  \n▪\uFE0F sprawdzone sklepy  \n▪\uFE0F oraz rabat -10 %",
+      "delay": 0
+    },
+    {
+      "day": 8,
+      "title": "Attach bonus",
+      "type": "document",
+      "media": {
+        "url": "BQACAgIAAxkBAAO1aOp8jkUGVfRTNa3fs_2G40eyF80AAteCAAK-nFhLSBez5X0cM1E2BA"
+      },
+      "delay": 0
+    },
+    {
+      "day": 9,
+      "title": "Ready",
+      "type": "text",
+      "content": "Jesteś już po materiałach bonusowych? Super! \uD83D\uDC9B Kliknij <b>„Jestem Gotowa”</b> i przechodzimy dalej – krok po kroku do celu ✨",
+      "delay": 0,
+      "buttons": [
+        [
+          {
+            "text": "Jestem Gotowa \uD83D\uDCAA",
+            "callback_data": "next"
+          }
+        ]
+      ]
+    },
+    {
+      "day": 10,
+      "title": "Farba oko",
+      "type": "video",
+      "media": {
+        "url": "BAACAgIAAxkBAAMRaOmAJjTgF7UoYR4QMjMZsNC9BqUAAkNtAAImqKBJCacBOgt9y2E2BA"
+      },
+      "content": "<b>W pierwszym wideo krótko porozmawiamy o farbie Oko i jej właściwościach.</b>\n\n <b>‼\uFE0FUwaga</b> Ważne jest, abyś przeczytała konspekt znajdujący się poniżej — dzięki temu poznasz podstawowe informacje dotyczące charakterystyki skóry oraz charakterystyki włosa. To jest absolutna podstawa w każdej stylizacji brwi.\n\n‼\uFE0F <b>Moja osobista wskazówka</b> ‼\uFE0F\n\nWeź sobie <b>notes</b> i zapisuj najważniejsze rzeczy albo te, które szczególnie Ci się przydadzą.\n\nW razie potrzeby zawsze możesz wrócić do tych lekcji.",
+      "delay": 100
+    },
+    {
+      "day": 11,
+      "title": "Skora i Wlos",
+      "type": "documents",
+      "medias": [
+        {
+          "url": "BQACAgIAAxkBAAMiaOp7HPaBtLgERBxzKDDknrmpbW8AAuaQAAKCByFLpJnxRTzfX9g2BA"
+        },
+        {
+          "url": "BQACAgIAAxkBAAMjaOp7HD6HpaRVAyaceQRk9dpPj6wAAueQAAKCByFLzea9Rvhwpsg2BA"
+        }
+      ],
+      "delay": 1000
+    },
+    {
+      "day": 12,
+      "title": "Initial Test",
+      "type": "text",
+      "content": "‼\uFE0F Dlatego, aby utrwalić swoją wiedzę, mam dla Ciebie krótki test.\n\n    <b>Po jego ukończeniu będziesz mogła przejść dalej.</b>",
+      "delay": 100,
+      "buttons": [
+        [
+          {
+            "text": "Rozpocznij test ⬇\uFE0F",
+            "callback_data": "next"
+          }
+        ]
+      ]
+    },
+    {
+      "day": 13,
+      "title": "Test wiedzy - Podstawy skóry",
+      "type": "quiz",
+      "content": "🧠 <b>Test podstawowej wiedzy</b>\n\nSprawdzian: Charakterystyka skóry i wpływ na farbowanie brwi",
+      "quiz": {
+        "title": "Podstawy charakterystyki skóry",
+        "passScore": 70,
+        "questions": [
+          {
+            "question": "Z jaką warstwą skóry pracujemy podczas farbowania brwi?",
+            "options": [
+              "Z dermis",
+              "Z hypodermis",
+              "Z naskórkiem"
+            ],
+            "correct": 2,
+            "explanation": ""
+          },
+          {
+            "question": "Który typ skóry ma zwiększoną produkcję sebum i często się błyszczy?",
+            "options": [
+              "Normalna",
+              "Sucha",
+              "Tłusta"
+            ],
+            "correct": 2,
+            "explanation": ""
+          },
+          {
+            "question": "Co charakteryzuje skórę suchą?",
+            "options": [
+              "Widoczne pory i tendencja do błyszczenia",
+              "Zmniejszona produkcja sebum i matowe wykończenie",
+              "Umiarkowane wydzielanie sebum i elastyczność"
+            ],
+            "correct": 1,
+            "explanation": ""
+          },
+          {
+            "question": "Która warstwa skóry zawiera zakończenia nerwowe i naczynia krwionośne?",
+            "options": [
+              "Naskórek",
+              "Skóra właściwa",
+              "Tkanka podskórna"
+            ],
+            "correct": 1,
+            "explanation": ""
+          },
+          {
+            "question": "Jaki wpływ ma skóra tłusta na efekt farbowania brwi?",
+            "options": [
+              "Kolor będzie intensywniejszy",
+              "Kolor może być mniej intensywny i mniej trwały",
+              "Kolor nie będzie się utrzymywał wcale"
+            ],
+            "correct": 1,
+            "explanation": ""
+          },
+          {
+            "question": "Jak przygotowujemy normalną skórę do farbowania?",
+            "options": [
+              "Pianka, peeling enzymatyczny, odtłuszczanie",
+              "Pianka, mokry wacik, suchy wacik",
+              "Peeling enzymatyczny, mleczko nawilżające"
+            ],
+            "correct": 1,
+            "explanation": ""
+          },
+          {
+            "question": "Co robimy przy skórze suchej, jeśli występuje łuszczenie?",
+            "options": [
+              "Tylko pianka oczyszczająca",
+              "Pianka, odtłuszczanie",
+              "Pianka, peeling enzymatyczny, nawilżenie"
+            ],
+            "correct": 2,
+            "explanation": ""
+          },
+          {
+            "question": "W której warstwie włosa znajduje się melanina?",
+            "options": [
+              "W kutikuli",
+              "W korze",
+              "W cebulce włosa"
+            ],
+            "correct": 1,
+            "explanation": ""
+          },
+          {
+            "question": "Co charakteryzuje włosy wysokoporowate?",
+            "options": [
+              "Trudno chłoną produkty i długo je trzymają",
+              "Szybko wchłaniają i szybko oddają produkty",
+              "Są grube, błyszczące i bardzo elastyczne"
+            ],
+            "correct": 1,
+            "explanation": ""
+          },
+          {
+            "question": "Jaka część włosa znajduje się pod skórą i odpowiada za jego wzrost?",
+            "options": [
+              "Łodyga włosa",
+              "Osłonka",
+              "Korzeń włosa"
+            ],
+            "correct": 2,
+            "explanation": ""
+          },
+          {
+            "question": "Co oznacza wysoka zawartość eumelaniny we włosie?",
+            "options": [
+              "Ciepły, rudy kolor",
+              "Chłodny, ciemny odcień",
+              "Szary lub biały kolor"
+            ],
+            "correct": 1,
+            "explanation": ""
+          },
+          {
+            "question": "Dlaczego naturalny odcień włosa wpływa na efekt farbowania farbą Oko?",
+            "options": [
+              "Bo farba zastępuje naturalną melaninę",
+              "Bo pigment z farby łączy się z naturalną melaniną",
+              "Bo pigment wnika do cebulki włosa"
+            ],
+            "correct": 1,
+            "explanation": ""
+          },
+          {
+            "question": "W jakiej fazie wzrostu włos intensywnie rośnie?",
+            "options": [
+              "Telogen",
+              "Anagen",
+              "Katagen"
+            ],
+            "correct": 1,
+            "explanation": ""
+          }
+        ]
+      },
+      "delay": 0
+    },
+    {
+      "day": 14,
+      "title": "Ile można zarobić jako stylistka brwi?",
+      "type": "text",
+      "content": "Kochana \uD83D\uDC9B\nNie wiem, czy już pracujesz jako stylistka brwi, czy dopiero zaczynasz swoją drogę...\nAle jedno wiem na pewno — jeśli będziesz się starać i rozwijać w tym kierunku, to naprawdę Ci się uda. ✨\n\nDla motywacji – policzmy razem, ile może zarabiać stylistka brwi w Polsce \uD83D\uDC47\n\n<b>START (pierwsze 2-3 miesiące):</b>\n• ok. 12–20 klientek miesięcznie = ok. 1200–2000 zł\n• Zaczynasz od znajomych, budujesz portfolio, uczysz się pracy z klientkami\n\n<b>PO 6 MIESIĄCACH:</b>\n• ok. 40–70 klientek miesięcznie = ok. 4000–7000 zł\n• Masz już swoje stałe klientki, profil na Instagramie zaczyna działać\n\n<b>PO ROKU:</b>\n• ok. 70–100 klientek miesięcznie = nawet 9000–12000 zł\n• Własne miejsce pracy, lista zapisów i pewność siebie, którą widać w każdej stylizacji \uD83E\uDD0D\n\nWszystko zależy od Ciebie – Twojego zaangażowania, podejścia i tego, jak budujesz swoją markę.\nAle wiem jedno – możesz dojść bardzo, bardzo daleko \uD83D\uDCAA",
+      "delay": 100,
+      "buttons": [
+        [
+          {
+            "text": "Jaki problem ? 🤔",
+            "callback_data": "next"
+          }
+        ]
+      ]
+    },
+    {
+      "day": 15,
+      "title": "Dlaczego same brwi to za mało?",
+      "type": "text",
+      "content": "<b>☀\uFE0F Kochana, jeszcze chwilka i lecimy dalej z nauką!</b>\nChcę tylko podzielić się czymś, o czym nikt głośno nie mówi…\n\nSama znajomość farbowania brwi to tylko <b>30% sukcesu.</b>\nReszta to Twoje zaangażowanie, codzienna nauka i rozwój.\n\nMusisz <b>starać się i dawać z siebie 100%</b> – bo tylko tak dojdziesz do miejsca, w którym naprawdę chcesz być.\nZa rok możesz się nie poznać – możesz:\n✨ sprzedawać własne kursy,\n✨ pracować w najlepszym salonie,\n✨ albo mieć swój własny, tak jak wiele moich kursantek.\n\nAle wiesz co?\nNic nie przychodzi łatwo.\nTrzeba uwierzyć w siebie, iść przez góry – nawet wtedy, gdy nikt nie widzi Twojej pracy. \uD83D\uDCAA\n\n<b>Ja w Ciebie wierzę. \uD83E\uDD0D Lecimy dalej z nauką?</b>",
+      "delay": 3000
+    },
+    {
+      "day": 16,
+      "title": "Nice",
+      "type": "text",
+      "content": "<b>Super, udało Ci się – brawo! ❤\uFE0F</b>\nTeraz masz już solidne podstawy, więc jesteś gotowa, aby przejść do kolejnych lekcji.\n\n<b>W tym bloku porozmawiamy na następujące tematy:</b>\n• Rysunek wstępny / kształt brwi\n• Produkty do rysunku wstępnego\n• Rysunek pastą do brwi\n• Rysunek kredką pudrową\n• Praca z facechartami, ustawienie ręki\n\nPoznasz różne rodzaje past i kredek oraz dowiesz się, które produkty najlepiej sprawdzają się w codziennej pracy.\n\n<b>Opanujesz technikę</b>\ncienkiej i równej linii oraz nauczysz się kontrolować nacisk.\n\nDzięki temu będziesz pracować szybciej i bardziej estetycznie.\n+\nPo lekcji otrzymasz materiały do praktyki rysunku.",
+      "delay": 100,
+      "buttons": [
+        [
+          {
+            "text": "Dalej",
+            "callback_data": "next"
+          }
+        ]
+      ]
+    },
+    {
+      "day": 17,
+      "title": "Rysunek",
+      "type": "video",
+      "media": {
+        "url": "BAACAgIAAxkBAAMXaOmAnFHdM8R9mZ4IbZwyCckoc0QAAnxzAAJPfLFJTcynsfX3ZDs2BA"
+      },
+      "content": "<b>Rysunek wstępny/ kształt brwi</b>",
+      "delay": 3000,
+      "buttons": [
+        [
+          {
+            "text": "\uD83C\uDFA5 Link do filmu",
+            "url": "https://drive.google.com/file/d/1H-HXKKLwVSC4bnUrTx9VCOwF_Yo9HB1N/view?usp=sharing"
+          }
+        ]
+      ]
+    },
+    {
+      "day": 18,
+      "title": "Product Rysunek",
+      "type": "video",
+      "media": {
+        "url": "BAACAgIAAxkBAAMYaOmAnDuuxMKUyckqRTXL3JLy0V4AApJ6AAIF1LBJLVsPYIMoW_82BA"
+      },
+      "content": "<b>Produkty do rysunku wstępnego</b>",
+      "delay": 3000,
+      "buttons": [
+        [
+          {
+            "text": "\uD83C\uDFA5 Link do filmu",
+            "url": "https://drive.google.com/file/d/1gb1AW9Zc-1DmuwrNZRg1tc2r_7JU9Oct/view?usp=drive_link"
+          }
+        ]
+      ]
+    },
+    {
+      "day": 19,
+      "title": "Product Rysunek Pasta",
+      "type": "video",
+      "media": {
+        "url": "BAACAgIAAxkBAAMZaOmAnNWv9Xs5VOFr0B7mS6usqUkAAqV6AAIF1LBJbDkE6EYZcQM2BA"
+      },
+      "content": "<b>Rysunek pastą do brwi</b>",
+      "delay": 3000,
+      "buttons": [
+        [
+          {
+            "text": "\uD83C\uDFA5 Link do filmu",
+            "url": "https://drive.google.com/file/d/1JYp-pOJbhitiH3AlRyhvifye5Qe4mACr/view?usp=drive_link"
+          }
+        ]
+      ]
+    },
+    {
+      "day": 20,
+      "title": "Product Rysunek Kred",
+      "type": "video",
+      "media": {
+        "url": "BAACAgIAAxkBAAMaaOmAnD3hS_h3jJ-ItPMQqXwMjroAAud6AAIF1LBJTuH6eXVZ19w2BA"
+      },
+      "content": "<b>Rysunek kredką pudrową</b>",
+      "delay": 3000,
+      "buttons": [
+        [
+          {
+            "text": "\uD83C\uDFA5 Link do filmu",
+            "url": "https://drive.google.com/file/d/1s6Xtz31ZU9rJvNnf0o3O042afsi7tLUX/view?usp=drive_link"
+          }
+        ]
+      ]
+    },
+    {
+      "day": 21,
+      "title": "Notification",
+      "type": "text",
+      "content": "<b>ĆWICZENIE NA POPRAWĘ RYSUNKU WSTĘPNEGO BRWI</b>\nStabilność ręki – jak przy pracy na klientce\n\n<b>Cel:</b>\nWzmocnienie ręki, kontrola ruchów i wyeliminowanie drżenia – jak przy prawdziwym rysunku wstępnym.\n\n<b>‼\uFE0FCzego potrzebujesz:‼\uFE0F</b>\n• Kartka A4 lub facechart przyklejony na ścianie (na wysokości twoich rąk), ołówek, linijka (można od razu pomagać sobie linijką, a następnie bez)\n\n<b>‼\uFE0FPliki z kartkami będą poniżej ⏬</b>\n\n<b>Krok po kroku:</b>\n1. <b>Pozycja ciała:</b>\nStań dokładnie tak, jak przy pracy z klientką – stopy stabilnie, plecy prosto, tylko prawa ręka jest oparta na kartkę.\n\n2. <b>Rysowanie cienkich linii:</b>\nRysuj cienkie łukowate linie (imitujące brwi)\n• Zacznij od jednej brwi – rysuj kontur wolno, kontrolując każdy ruch\n• Następnie wykonaj to samo symetrycznie po drugiej stronie\n\nTakie facecharty z różnymi przykładami <b>znajdziesz niżej</b>\n\nPowtarzaj codziennie – zobaczysz efekty!\nTe ćwiczenia są jak trening mięśni – im częściej je wykonujesz, tym lepsza kontrola, pewniejsza ręka i piękniejszy rysunek.\nCodzienna praktyka, nawet 10–20 minut, potrafi zrobić ogromną różnicę!\nPewność przychodzi z czasem i regularnością.",
+      "delay": 5000
+    },
+    {
+      "day": 22,
+      "title": "Documents A4",
+      "type": "documents",
+      "medias": [
+        {
+          "url": "BQACAgIAAxkBAAMbaOmAnN3UrkRfOQnUqRQfn8R3QVsAAu-QAAKCByFLncswf21aflg2BA"
+        },
+        {
+          "url": "BQACAgIAAxkBAAMcaOmAnJdK4Sy5Sv-tgYJSoTm8NmMAAvWQAAKCByFLeZzCzQwz1cM2BA"
+        },
+        {
+          "url": "BQACAgIAAxkBAAMdaOmAnIEgOL5ZQef1opCldF32WrEAAvCQAAKCByFLg72AryZJHOU2BA"
+        },
+        {
+          "url": "BQACAgIAAxkBAAMeaOmAnLh74vRrL_zhCYSBglFYKeYAAvSQAAKCByFLykX2DXwHHD82BA"
+        },
+        {
+          "url": "BQACAgIAAxkBAAMfaOmAnGdVLk_0uDJQOSFGs9V6ibQAAvaQAAKCByFLF1TtwbgmeQ02BA"
+        },
+        {
+          "url": "BQACAgIAAxkBAAMgaOmAnDvYbnntCk4gAjy8FibJvcYAAveQAAKCByFL9uUlArJu-WE2BA"
+        },
+        {
+          "url": "BQACAgIAAxkBAAMhaOmAnOIRupF4ZvJ1pEalYgknyhkAAviQAAKCByFL5GxuVLwlhI42BA"
+        },
+        {
+          "url": "BQACAgIAAxkBAAMiaOmAnP0HY6-REJ6JlIHTEjMr2wMAAvKQAAKCByFLCrMd1V_laRc2BA"
+        },
+        {
+          "url": "BQACAgIAAxkBAAMjaOmAnPHZxlkyi7BEMAHZg9fp44EAAvOQAAKCByFL1OqeA49Xujk2BA"
+        },
+        {
+          "url": "BQACAgIAAxkBAAMkaOmAnDWL_o5yOEdm6ZfQgAeRv6UAAvGQAAKCByFLiGyXgz54pL82BA"
+        }
+      ],
+      "delay": 2000
+    },
+    {
+      "day": 23,
+      "title": "Wsparcie indywidualne",
+      "type": "media_group",
+      "media": {
+        "items": [
+          {
+            "type": "video",
+            "url": "BAACAgIAAxkBAAMlaOmAnIhkyoxvoHu5lLKY7FRIJGIAAtyBAAL2j-FJI_6jln03LpU2BA"
+          },
+          {
+            "type": "video",
+            "url": "BAACAgIAAxkBAAMmaOmAnE5hVz6z15OAfTRUaQx_ja0AAm9-AAKSg-lJfckEwlEoh1A2BA"
+          }
+        ]
+      },
+      "content": "<b>Oto opinia jednej z moich kursantek – ona też zaczynała od zera!</b>\nW tych filmikach dzieli się swoim doświadczeniem i opowiada, jak wygląda jej praca z klientami.\n\n<b>Jestem dumna ze wszystkich moich studentek! \uD83D\uDC96</b>\n",
+      "buttons": [
+        [
+          {
+            "text": "Dalej",
+            "callback_data": "next"
+          }
+        ]
+      ],
+      "delay": 100
+    },
+    {
+      "day": 24,
+      "type": "photo",
+      "media": {
+        "url": "AgACAgIAAxkBAAIBOWjqv9mVY69gLLbjVLPcFgR2Ou2xAAJ5-zEbvpxYS9bWTXeRScsEAQADAgADeQADNgQ"
+      },
+      "content": "\uD83C\uDF93 WEBINAR\n\nPodczas tego spotkania:\n✅ Dowiesz się, dlaczego farba po laminacji trudniej odbija się na skórze\n✅ Poznasz mój sposób na mocny i trwały efekt – bez czarnego włosa\n✅ Będziesz mogła zadać swoje pytania i od razu dostać odpowiedź\n\nA na koniec... wielka prezentacja mojego nowego kursu \uD83C\uDF89\nOtwieramy nabór do pierwszego oficjalnego POTOKU – jeśli chcesz rozwinąć swoje umiejętności, wejść na wyższy poziom w pracy stylistki brwi i nauczyć się profesjonalnych technik krok po kroku – to miejsce jest właśnie dla Ciebie \uD83D\uDCAA\n\n\n\uD83D\uDC49https://youtu.be/6P9l336N2KA",
+      "delay": 1000
+    },
+    {
+      "day": 25,
+      "title": "See you tomorrow",
+      "type": "text",
+      "content": "<b>Swietna robota! \uD83D\uDC4F</b>\n\nMożesz jeszcze raz przejrzeć dzisiejsze materiały i lepiej przyswoić wiedzę. A za chwile wracamy do nauki i przechodzimy do nowych tematów i praktyk. Będzie naprawdę ciekawie! \uD83D\uDE0D\n\n<b>Co czeka Cię w 2 etapie ?</b>\n\uD83D\uDCCC Poznasz farbę OKO – jej właściwości, kolorystykę oraz zasady mieszania z oksydantem\n\uD83D\uDCCC Zobaczysz, jak każdy odcień wygląda na włoskach – dzięki zdjęciom i omówieniu\n\uD83D\uDCCC Pokażę Ci cały proces rysunku brwi od zera ✍\uFE0F\n\uD83D\uDCCC Dowiesz się, jak dobrać odpowiedni kolor farby do typu urody klientki\n\uD83D\uDCCC Zobaczysz dwie pełne koloryzacje brwi na modelkach w formie wideo \uD83C\uDFA5\n\nDo zobaczenia! \uD83D\uDC96",
+      "delay": 0,
+      "buttons": [
+        [
+          {
+            "text": "✅ Lecimy dalej! \uD83D\uDE80",
+            "callback_data": "next"
+          }
+        ]
+      ]
+    },
+    {
+      "day": 26,
+      "title": "Welcome day 2",
+      "type": "text",
+      "content": "<b>Teraz porozmawiamy o farbie OKO – jej właściwościach i kolorystyce.</b>\n\nA także krok po kroku pokażę Ci cały proces, jak rysować brwi od zera.\n\nPowodzenia! \uD83D\uDCAA",
+      "delay": 500
+    },
+    {
+      "day": 27,
+      "title": "Presentation block 5",
+      "type": "text",
+      "content": "Na tych zdjęciach pokazuję, jak każdy kolor wygląda na włoskach po zmieszaniu farby z oksydantem w proporcji 1:1.\n\n<b>! Nałożyłam grubą warstwę produktu i pozostawiłam ją na 15 minut.</b>\n\n<b>Dzięki temu możesz dokładnie przeanalizować:</b>\n▪\uFE0FNa jakim poziomie UGT farbuje się włos\n▪\uFE0FJak intensywny jest kolor\n▪\uFE0FW jakich tonach i odcieniach pracuje dana farba\n\nTo bardzo przydatna obserwacja w pracy stylistki – szczególnie przy dobieraniu koloru do naturalnego pigmentu włosa.",
+      "delay": 500
+    },
+    {
+      "day": 28,
+      "title": "Light brown",
+      "type": "photo",
+      "media": {
+        "url": "https://firebasestorage.googleapis.com/v0/b/chok-brows.firebasestorage.app/o/day2%2Fblock5%2F1.png?alt=media&token=205bee52-973f-4e7a-9d4a-c47803300a25"
+      },
+      "content": "<b>LIGHT BROWN 8.36</b>\n\nJasny brąz z ciepłymi, złotymi i miedzianymi refleksami.\n\nPodstawa - żółty kolor \uD83D\uDFE1\n\nIdealny dla osób o jasnych\nwłosach i ciepłym typie urody. W czystej postaci (bez mieszania z innymi kolorami) radzę używać go tylko bardzo jasnym blondynkom, rudowłosym i tym, którzy chcą mieć ciepłe brwi.\nNadaje się również dla jasnych brązów, które chcą ciepłego odcienia. Daje bardzo delikatne odbicie na skórze.",
+      "delay": 2000
+    },
+    {
+      "day": 29,
+      "title": "Brown brown",
+      "type": "photo",
+      "media": {
+        "url": "https://firebasestorage.googleapis.com/v0/b/chok-brows.firebasestorage.app/o/day2%2Fblock5%2F2.png?alt=media&token=9d6b21fa-9e57-4fce-968f-3272ae265468"
+      },
+      "content": "<b>BROWN 7.62</b>\n\nŚredni brąz z chłodnym, neutralnym odcieniem, z domieszką czerwieni i fioletu.\n\nPodstawa - żółty i czerwony \uD83D\uDFE1\uD83D\uDD34\n\nNa ciepłych klientach będzie cieplejszy , na chłodnych - da chłodny odcień. Daje mocne odbicie na skórze.\n\nIdealny dla włosów jasnobrązowych, ciepłych i rudych.\nBlondynki mogą jej używać do\nbardziej trwałej ciepłej koloryzacji lub poprzez zmniejszenie liczby warstw i zwiększenie ilości oksydantu w celu uzyskania bardziej neutralnego jasnego koloru.",
+      "delay": 2000
+    },
+    {
+      "day": 30,
+      "title": "Dark brown",
+      "type": "photo",
+      "media": {
+        "url": "https://firebasestorage.googleapis.com/v0/b/chok-brows.firebasestorage.app/o/day2%2Fblock5%2F3.png?alt=media&token=70ec66ad-98ad-4fb5-90e0-40d67878ffe0"
+      },
+      "content": "<b>DARK BROWN 5.7</b>\n\nGteboki, bogaty brąz z ciepłym, czerwonym odcieniem. Doskonaty dla osób o ciemnych włosach, które chcą, uzyskać mocniejszy efekt\n\nPodstawa - czerwony i niebieski \uD83D\uDD34\uD83D\uDD35\n\nOdpowiedni dla kobiet o brązowych włosach, ciemnobrązowych, brunetek. Daje mocne odbicie na skórze",
+      "delay": 2000
+    },
+    {
+      "day": 31,
+      "title": "Red brown",
+      "type": "photo",
+      "media": {
+        "url": "https://firebasestorage.googleapis.com/v0/b/chok-brows.firebasestorage.app/o/day2%2Fblock5%2F4.png?alt=media&token=60e55737-1b17-4bca-a4d2-d6a68bce9734"
+      },
+      "content": "<b>RED 7.54</b>\n\nJasny, ciepły, miedziany czerwony kolor. Polecany da klientow o kasztanowych lub rudych włosach. Sam red można wykorzystywać dla tych klientek , które chcą rude brwi.",
+      "delay": 2000
+    },
+    {
+      "day": 32,
+      "title": "Black brown",
+      "type": "photo",
+      "media": {
+        "url": "https://firebasestorage.googleapis.com/v0/b/chok-brows.firebasestorage.app/o/day2%2Fblock5%2F5.png?alt=media&token=a237dec4-4ce6-4e32-ac16-6ac3ee7ecc88"
+      },
+      "content": "<b>BLACK 4.0</b>\n\nBogaty czarny kolor. Polecany do uzytku jako korektor w mieszankach z innymi kolorami, aby wzmocnić lub ochłodzić kolor.\n\nPodstawa - niebieski kolor \uD83D\uDD35\n\nUżywam około 10-15% całej mieszanki, aby zneutralizować ciepło, i 20/30/40% całej mieszanki, aby uzyskać zimny odcień i zwiększyć nasycenie.",
+      "delay": 2000
+    },
+    {
+      "day": 33,
+      "title": "Farba Oko",
+      "type": "video",
+      "media": {
+        "url": "BAACAgIAAxkBAAMRaOmAJjTgF7UoYR4QMjMZsNC9BqUAAkNtAAImqKBJCacBOgt9y2E2BA"
+      },
+      "content": "<b>W pierwszym wideo krótko porozmawiamy o farbie Oko i jej właściwościach.</b>\n\n<b>‼\uFE0FUwaga</b>  \nWażne jest, abyś przeczytała konspekt znajdujący się poniżej — dzięki temu poznasz podstawowe informacje dotyczące charakterystyki skóry oraz charakterystyki włosa. To jest absolutna podstawa w każdej stylizacji brwi.",
+      "delay": 2000
+    },
+    {
+      "day": 34,
+      "title": "Documents Block 5",
+      "type": "text",
+      "content": "<b>Tutaj znajdziesz konspekt dotyczący użycia farby, a dokładnie:</b>\n\n- Poziom głębokości tonu\n- Paleta kolorów\n- Wyjaśnienie numeracji\n- Mieszanki\n- Jak dobrać odpowiedni odcień farby do typu brwi",
+      "delay": 0
+    },
+    {
+      "day": 35,
+      "title": "Attach files farba oko",
+      "type": "documents",
+      "medias": [
+        {
+          "url": "BQACAgIAAxkBAAM5aOmBZJ4c4GSBiaABWO7R9ovRQcIAAvuQAAKCByFLx6PH_sY96542BA"
+        },
+        {
+          "url": "BQACAgIAAxkBAAM6aOmBZF7JuPL5t8sFj9qnHNiGj9YAAvqQAAKCByFLBJqsXWFZkPI2BA"
+        }
+      ],
+      "delay": 100
+    },
+    {
+      "day": 36,
+      "title": "Opinii",
+      "type": "media_group",
+      "media": {
+        "items": [
+          {
+            "type": "photo",
+            "url": "https://firebasestorage.googleapis.com/v0/b/chok-brows.firebasestorage.app/o/work_1.PNG?alt=media&token=87f67bd3-4e4c-455a-966b-686b9b775840"
+          },
+          {
+            "type": "photo",
+            "url": "https://firebasestorage.googleapis.com/v0/b/chok-brows.firebasestorage.app/o/work_3.jpg?alt=media&token=2d876a55-a82f-49bb-b17f-c6941d3e7664"
+          },
+          {
+            "type": "photo",
+            "url": "https://firebasestorage.googleapis.com/v0/b/chok-brows.firebasestorage.app/o/work_4.PNG?alt=media&token=971f5a56-b40c-4f3e-9ad8-93f8c180a2b2"
+          },
+          {
+            "type": "photo",
+            "url": "https://firebasestorage.googleapis.com/v0/b/chok-brows.firebasestorage.app/o/work_2-min.PNG?alt=media&token=8ce067b8-17a3-4a55-a2a4-88dd6c1e9173"
+          }
+        ]
+      },
+      "content": "<b>Zobacz efekty pracy moich kursantek, które zaczynały od zera! \uD83D\uDE0D</b>\nTak – od zera do takich efektów! \n\nJuż niedługo rusza mój duży kurs, w którym:\n▪\uFE0FPodzielę się z Tobą całą swoją wiedzą o laminacji brwi\n▪\uFE0FNauczę Cię jak budować silny profil na Instagramie\n▪\uFE0FI pokażę, jak pracować z energią i motywacją \n…by Twoje efekty zachwycały, a klientki same do Ciebie wracały!",
+      "delay": 500
+    },
+    {
+      "day": 37,
+      "title": "Od 0 do 15 000 zł/mies - real story",
+      "type": "photo",
+      "media": {
+        "url": "AgACAgIAAxkBAANfaOmKp59UfYO39hJ_QrMFmd4zB6cAArr8MRuuOFFLHs0PYOVRmB0BAAMCAAN5AAM2BA"
+      },
+      "content": "<b>Dziewczyny</b> \uD83D\uDC9B\nChcę się z Wami podzielić historią mojej kursantki, która bardzo mnie inspiruje.\nZawsze powtarzam — zacznijcie prowadzić swoje Instagramy, pokazujcie swoją pracę, swój styl, swoją pasję. Bo właśnie tam zaczyna się rozpoznawalność i prawdziwy rozwój ✨\n\nWiem, że wiele z Was się waha albo boi się zrobić ten pierwszy krok. Ale proszę – nie odkładajcie tego.\nZacznijcie teraz, małymi krokami. Naprawdę wierzę, że każda z Was da radę ❤\uFE0F",
+      "delay": 1000
+    },
+    {
+      "day": 38,
+      "title": "Od 0 do 15 000 zł/mies - real story",
+      "type": "text",
+      "content": "<b>\uD83D\uDCC8 REAL STORY - Ola (Instagram: @olabunnybrow), 28 lat</b>\n\n<b>Rok temu:</b>\nPraca jako spedytor.\nPrzyszła do Vlady na kurs stylizacji brwi zupełnie od zera – bez żadnego doświadczenia, umiejętności ani wiedzy w tym zakresie. Miała jedynie marzenie, by kiedyś pracować w branży beauty i być - 'na swoim miejscu'.\n\n<b>ZROBIŁA:</b>\n• W 100% praca w beauty\n• Prowadzi własne, przepiękne studio stylizacji brwi\n• Ma stałe klientki, które wracają z uśmiechem\n• Wypracowała swój styl, pewność siebie i spełnia marzenia, które rok temu wydawały się nieosiągalne\n• Zarabia więcej, przy tym ma pasję, która towarzyszy jej każdego dnia\n\n<b>❓ Co było kluczem?</b>\nNie tylko technika (to ma każda stylistka).\nAle BIZNES: Instagram, reklamy, mindset, pewność siebie.",
+      "delay": 100,
+      "buttons": [
+        [
+          {
+            "text": "Obiecuję \uD83D\uDE43",
+            "callback_data": "next"
+          }
+        ]
+      ]
+    },
+    {
+      "day": 39,
+      "title": "Mam nadzeje",
+      "type": "text",
+      "content": "\uD83C\uDFC6 Mam nadzieję, że mówisz prawdę i że już teraz zaczniesz prowadzić swój Instagram i pracować nad rozwojem swojej marki!\n\nBardzo w Ciebie wierzę \uD83E\uDD0D",
+      "delay": 1000
+    },
+    {
+      "day": 40,
+      "title": "Ready to go",
+      "type": "text",
+      "content": "<b>Dobrze, przechodzimy bardziej do praktyki! \uD83D\uDCAA\uD83D\uDCDA</b>",
+      "delay": 0,
+      "buttons": [
+        [
+          {
+            "text": "Jestem Gotowa \uD83D\uDCAA",
+            "callback_data": "next"
+          }
+        ]
+      ]
+    },
+    {
+      "day": 41,
+      "title": "Welcome day 3",
+      "type": "text",
+      "content": "<b>W tym bloku pokażę Ci cały proces farbowania od początku do końca na dwóch modelkach.</b>\n\nW  wideo szczegółowo opisuję wszystkie swoje kroki ",
+      "delay": 1500
+    },
+    {
+      "day": 42,
+      "title": "Model 1",
+      "type": "video",
+      "media": {
+        "url": "BAACAgIAAxkBAAM_aOmBiThHjlNHbw7gy_Vjgr-iMRQAAjtsAAJbSLhJpauqJJlQFSQ2BA"
+      },
+      "content": "<b>1 modelka</b>\n\nSkóra normalna : oczyszczenie pianką - Zola\nPiankę zmywany wodą\nKredka pudrowa - Zola dark Brown\nPędzel do nakładania farby- Zola szerszy nr 2\nFarbka - Brown <b>80 %</b> + Dark Brown <b>20 %</b>\n\n\nJak tylko skończysz – kliknij <b>Dalej</b> i przejdziemy do następnej lekcji. \uD83D\uDC47",
+      "delay": 1000,
+      "buttons": [
+        [
+          {
+            "text": "Link do filmiku",
+            "url": "https://drive.google.com/file/d/1eSbr1z3NboouA0l_BoiyShmJnF91HHzU/view?usp=drive_link"
+          }
+        ]
+      ]
+    },
+    {
+      "day": 43,
+      "title": "Model 2",
+      "type": "video",
+      "media": {
+        "url": "BAACAgIAAxkBAANBaOmBmGEzHC7uhLB6lEB9hVuy-z8AAiV7AAIF1LBJmTHQqid3WaU2BA"
+      },
+      "content": "<b>2 modelka</b>\n\nOczyszczenie skóry za pomocą pianki Zola\nNic - Zola\nPasta - Oko\nFarbka - Brown <b>95%</b> + Black <b>5%</b>",
+      "delay": 2000,
+      "buttons": [
+        [
+          {
+            "text": "Link do filmiku",
+            "url": "https://drive.google.com/file/d/1o2BbrSblhsy-jsWIPD_fbOc74OlczjNh/view?usp=drive_link"
+          },
+          {
+            "text": "Dalej",
+            "callback_data": "next"
+          }
+        ]
+      ]
+    },
+    {
+      "day": 44,
+      "title": "Nowy kurs — Brow & Balance",
+      "type": "video",
+      "media": {
+        "url": "BAACAgIAAxkBAANDaOmBshh-MBuJU1UGNdT0ib3QHrkAAg6RAAKCByFL3Mb7QOlvTvA2BA"
+      },
+      "content": "<b>🔥 UWAGA! 🔥</b>\n\nOtworzyłam nabór do <b>Brow & Balance</b> - programu, który:\n\n💰 Nauczy Cię zarabiać jako stylistka\n📱 Pokaże, jak budować Instagram, który SPRZEDAJE (ekspert w programie!)\n🧠 Nauczy pracować bez wypalenia (psycholog w programie!)\n💫 Da Ci biznes, nie tylko technikę\n\n<b>⚡ DLA CIEBIE SPECJALNIE -15% przez 24h!</b>\n\nTo nie jest kolejny kurs o brwiach.\nTo kompletny BIZNES w pudełku.\n\nWięcej w następnej lekcji - przygotuj się! 👇",
+      "delay": 0,
+      "buttons": [[{ "text": "Zobacz program", "callback_data": "next" }]]
+    },
+    {
+      "day": 45,
+      "title": "Attach Photo",
+      "type": "photo",
+      "media": {
+        "url": "AgACAgIAAxkBAANFaOmBxZIP7mVA9YYtGEt6JOvuH_YAArH8MRuCByFLvM4bAQVN2G0BAAMCAAN5AAM2BA"
+      },
+      "delay": 4000
+    },
+    {
+      "day": 46,
+      "title": "O kursie Brow & Balance",
+      "type": "photo",
+      "media": {
+        "url": "AgACAgIAAxkBAANHaOmB0_0rYVCecbeZvRatHL7Fr9sAArL8MRuCByFLNu735eRfKFQBAAMCAAN5AAM2BA"
+      },
+      "content": "<b>Brow & Balance</b> to nie jest zwykłe szkolenie.\nTo <b>kompletny program rozwoju stylistki brwi</b> — technicznie, biznesowo i mentalnie 💫\n\nW kursie znajdziesz wszystko:\n\n✨ <b>Laminacja krok po kroku</b> — dokładnie pokazane etapy, jak pracować z różnym włosem (twardy, siwy, cienki, porowaty).\n✨ <b>Farbowanie i geometria</b> — jak dobierać kolory, kształty i uzyskać naturalny efekt bez zaciemnienia.\n✨ <b>Trudne przypadki</b> — asymetria, dojrzała skóra, włos oporny na farbkę.\n✨ <b>Błędy stylistek</b> — jak ich unikać i co robić, gdy coś nie wyjdzie.\n✨ <b>Jak przyciągać klientki i budować markę osobistą</b> — krok po kroku.\n✨ <b>Jak pracować z energią i nie wypalić się</b>.\n\nTo kurs, który łączy <b>piękno, biznes i balans</b> 💛",
+      "delay": 1500,
+      "buttons": [[{ "text": "Zobacz bonusy \uD83C\uDF81", "callback_data": "next" }]]
+    },
+    {
+      "day": 47,
+      "title": "Bonusy i społeczność",
+      "type": "media_group",
+      "media": {
+        "items": [
+          {
+            "type": "photo",
+            "url": "AgACAgIAAxkBAANJaOmB7dloDhH8RyCGtU5gO2_0IUcAArP8MRuCByFLEZdFA1rvm_cBAAMCAAN5AAM2BA"
+          },
+          {
+            "type": "photo",
+            "url": "AgACAgIAAxkBAANKaOmB7akHp43s3ajNWrPBoHapU4AAArT8MRuCByFLJJB4l7-C8IkBAAMCAAN5AAM2BA"
+          }
+        ]
+      },
+      "content": "W Brow & Balance dostajesz więcej niż tylko wiedzę 👇\n\n🎯 <b>Challenge z nagrodami</b> — wyzwania, które motywują i wciągają.\n🎁 <b>Prezenty dla uczestniczek</b> — zestawy beauty wysyłane pocztą.\n💬 <b>Sesje Q&A na żywo</b> — odpowiadam na Twoje pytania.\n📝 <b>Checklisty, PDF-y, zeszyty ćwiczeń</b> — wszystko uporządkowane.\n💫 <b>Grupa wsparcia</b> — kobiety z pasją, które wspierają się nawzajem.\n\nA na koniec coś wyjątkowego...\n\n💎 <b>Uczestniczki pakietów Progress i Elite</b> zostaną zaproszone na <b>prywatny wieczór kończący</b> — spotkanie na żywo, gdzie będziemy <b>świętować, pić szampana, tańczyć, śmiać się i poznawać się osobiście</b> 🥂✨\n\nTo będzie <b>wydarzenie, które zapamiętasz na długo!</b>",
+      "delay": 1500,
+      "buttons": [[{ "text": "Zobacz co jeszcze", "callback_data": "next" }]]
+    },
+    {
+      "day": 48,
+      "title": "Eksperci i bonusy",
+      "type": "media_group",
+      "media": {
+        "items": [
+          {
+            "type": "photo",
+            "url": "AgACAgIAAxkBAANNaOmCA_vmglk7-4GjQRUGcEzjCRoAArX8MRuCByFL1BmJBKTFwiABAAMCAAN5AAM2BA"
+          },
+          {
+            "type": "photo",
+            "url": "AgACAgIAAxkBAANOaOmCA8qEnF10w4McLiSjI_aq1MEAArb8MRuCByFLDuuIt85VvG4BAAMCAAN5AAM2BA"
+          },
+          {
+            "type": "photo",
+            "url": "AgACAgIAAxkBAANPaOmCA744Rp5OrPCRXMHnv26z4ZAAArf8MRuCByFL3cmPsaQWmWQBAAMCAAN5AAM2BA"
+          }
+        ]
+      },
+      "content": "Ten kurs tworzyłam nie sama 💪\n\nDołączyło do mnie <b>dwóch wyjątkowych ekspertów</b>:\n\n📱 <b>Ekspert od Instagrama i reklam</b> — pokaże Ci, jak:\n• ustawiać skuteczne reklamy na FB i IG (bez przepalania budżetu),\n• zwiększać obserwujących i budować społeczność,\n• tworzyć profil, który przyciąga klientki.\n\n🧠 <b>Psycholog</b> — nauczy Cię, jak:\n• nie wypalić się w pracy,\n• radzić sobie ze stresem i presją,\n• mieć spokój i energię każdego dnia.\n\nTo dwa obszary, które pozwolą Ci <b>zarabiać więcej i czuć się dobrze w tym, co robisz</b> ❤️",
+      "delay": 1500,
+      "buttons": [[{ "text": "Zobacz pakiety i ceny", "callback_data": "next" }]]
+    },
+    {
+      "day": 49,
+      "title": "Pakiety i płatność",
+      "type": "media_group",
+      "media": {
+        "items": [
+          {
+            "type": "photo",
+            "url": "AgACAgIAAxkBAANTaOmCK5t2KTnBKAXTo2n8nT95q-IAArj8MRuCByFLnGWDITeaut0BAAMCAAN5AAM2BA"
+          },
+          {
+            "type": "photo",
+            "url": "AgACAgIAAxkBAANUaOmCKwtxBfNdKAyqz15fLRokJ-sAArn8MRuCByFLqmLARA1ZUc8BAAMCAAN5AAM2BA"
+          },
+          {
+            "type": "photo",
+            "url": "AgACAgIAAxkBAANVaOmCK1OsAAHTF4DcVymdAmntnALnAAK6_DEbggchSxl81ZzovU8XAQADAgADeQADNgQ"
+          }
+        ]
+      },
+      "content": "<b>Wybierz swój poziom wejścia:</b>\n\n🌿 <b>START</b> — moduły video, certyfikat, grupa wsparcia, PDF-y.\n\n🌸 <b>PROGRES</b> — wszystko z START + Q&A na żywo, workbooki, challenge z nagrodami, dostęp do ekspertów (Instagram + Psycholog), prezenty dla uczestniczek, <b>zaproszenie na prywatny wieczór końcowy</b> 🥂\n\n💎 <b>ELITE</b> — wszystko z PROGRESS + indywidualna sesja 1:1 z Vladą, praktyka na żywo w Rzeszowie, praca na modelce, certyfikat premium, wspólne tworzenie contentu + <b>wydarzenie VIP z szampanem i networkingiem</b> 🍾\n\n💳 <b>Raty 0% na 5 miesięcy</b> — płacimy prowizję za Ciebie.\n\n",
+      "delay": 5000
+    },
+    {
+      "day": 50,
+      "title": "Ostatni moment na decyzję",
+      "type": "text",
+      "content": "<b>⏰ STOP - przemyśl to przez chwilę</b>\n\nWłaśnie przeszłaś cały mini kurs.\nNauczyłaś się podstaw farbowania.\n\nAle pytanie brzmi:\n<b>CO ZROBISZ Z TĄ WIEDZĄ?</b>\n\n<b>SCENARIUSZ 1: Nic 😔</b>\n• Kurs przejdzie w zapomnienie\n• Za rok będziesz w tym samym miejscu\n• \"Szkoda, że nie spróbowałam...\"\n\n<b>SCENARIUSZ 2: Próbujesz sama 😰</b>\n• Uczysz się metodą prób i błędów\n• Przepalasz budżet na złe reklamy\n• Frustracja: \"Czemu innym wychodzi, a mnie nie?\"\n• 12 miesięcy do pierwszych dobrych zarobków\n\n<b>SCENARIUSZ 3: Idziesz ze mną 💫</b>\n• Dostajesz gotowy plan działania\n• Unikasz błędów (bo ja je już zrobiłam za Ciebie)\n• Uczysz się nie tylko techniki, ale biznesu\n• Masz wsparcie 24/7 w grupie\n• Pierwsze zarobki już podczas kursu\n• Za 6 miesięcy - stabilny biznes\n\n<b>🎁 DODATKOWO w pakiecie PROGRESS i ELITE:</b>\n• Prywatny wieczór z szampanem 🥂\n• Challenge z nagrodami\n• Prezenty wysyłane pocztą\n• Dostęp do eksperta IG i psychologa\n\n<b>Która przyszłość wybierasz?</b>\n\n 💛",
+      "delay": 100,
+      "buttons": [
+        [
+          {
+            "text": "Wybieram sukces! 🚀",
+            "url": "https://chokbrows.pl/brows?mini=true"
+          }
+        ]
+      ]
+    },
+    {
+      "day": 51,
+      "title": "See you later",
+      "type": "text",
+      "content": "<b>Na ten block to wszystko – świetna robota! \uD83D\uDC4F</b>\n\nMożesz jeszcze raz przejrzeć dzisiejsze materiały i lepiej przyswoić wiedzę. A <b>po Twoim powtórzeniu</b> wracamy do nauki i przechodzimy do nowych tematów i praktyk !\uD83D\uDE0D\n\nDo zobaczenia! \uD83D\uDC96\n",
+      "delay": 100,
+      "buttons": [
+        [
+          {
+            "text": "Dalej",
+            "callback_data": "next"
+          }
+        ]
+      ]
+    },
+    {
+      "day": 52,
+      "title": "Welcome 3",
+      "type": "text",
+      "content": "<b>Lekcje bonusowe \uD83C\uDF89</b>\n\nW tym bloku porozmawiamy o rozjaśnianiu brwi. \n\nDodatkowo pokażę, jak obrabiać zdjęcia swoich prac, aby zdjęcia wyglądały estetycznie i przyciągały klientów.",
+      "delay": 500
+    },
+    {
+      "day": 53,
+      "title": "Bonus 1",
+      "type": "video",
+      "media": {
+        "url": "BAACAgIAAxkBAANZaOmCUFyyk9ldg16kt6B9sbRQPDkAAkB7AAIF1LBJGf6ARAtEa_Q2BA"
+      },
+      "content": "<b>1. Rozjaśnianie brwi </b>\n\nPokaze ci Jak bezpiecznie przeprowadzić zabieg – od przygotowania skóry, przez rozjaśnianie i tonowanie, aż po farbowanie brwi.\n",
+      "delay": 2000
+    },
+    {
+      "day": 54,
+      "title": "Bonus Attach files 6",
+      "type": "document",
+      "media": {
+        "url": "BQACAgIAAxkBAANbaOmCYt71mTJKBrtO2DVOcrGroEUAAgGRAAKCByFLeoyZuZNtkbc2BA"
+      },
+      "content": "Jak tylko skończysz – kliknij <b>Dalej</b> i przejdziemy do następnej lekcji. \uD83D\uDC47",
+      "delay": 100,
+      "buttons": [
+        [
+          {
+            "text": "Dalej",
+            "callback_data": "next"
+          }
+        ]
+      ]
+    },
+    {
+      "day": 55,
+      "title": "Bonus 2",
+      "type": "video",
+      "media": {
+        "url": "BAACAgIAAxkBAANdaOmCfXJ6OFgNIVfZfEzwQoyMBxgAAup2AAIF1LhJhqZCNbEN51k2BA"
+      },
+      "content": "<b>O obróbce zdjęć. Jakich aplikacji używam , jak subtelnie wyretuszować skórę, nie tracąc naturalności</b>\n\nLubię to świetne porównanie! Profil na Instagramie to wirtualna witryna Twojego sklepu. Jeśli chcesz, aby przyciągał wzrok i zapraszał do środka, musi wyglądać jak wystawa w ekskluzywnym butiku, a nie jak w zwyczajnym, przeciętnym sklepie.\n\nOmowimy jakich aplikacji i narzędzi używać do szybkiej, ale profesjonalnej obróbki zdjęć.",
+      "delay": 2000
+    },
+    {
+      "day": 56,
+      "title": "Bonus 3",
+      "type": "video",
+      "media": {
+        "url": "BAACAgIAAxkBAAIB1GjpmtKtFS5-QZ46DIk4XYMeZ36bAAI7dgACxhPJSVSQaRNHXPxmNgQ"
+      },
+      "delay": 2000
+    },
+    {
+      "day": 57,
+      "title": "Finish",
+      "type": "text",
+      "content": "<b>Gratulacje \uD83D\uDC96</b>\nWłaśnie ukończyłaś wszystkie lekcje kursu o farbowaniu brwi — od budowy skóry i włosa, przez teorię koloru farbki Oko, po praktyczne przygotowanie i stylizację. Masz w rękach wiedzę i narzędzia, które mogą realnie zmienić Twoją pracę… i Twoją pewność siebie.\n\nAle teraz — <b>wszystko zależy od Ciebie</b>.\n\nNie odkładaj praktyki „na później”. Wiedza bez działania traci swoją moc.\n\nIm szybciej zaczniesz <b>odpracowywać</b>, testować i powtarzać – tym szybciej zobaczysz efekty. Każda modelka, każde brwi – to krok bliżej do perfekcji.\n\nPamiętaj:\n\n<b>Nie musisz być perfekcyjna, żeby zacząć.</b>\n\nAle musisz zacząć, żeby zbliżyć się do perfekcji.\n\nUwierz w siebie, bądź cierpliwa i… działaj!\n\nA ja jestem z Tobą – trzymam kciuki i wierzę w Twój rozwój.\n\nZ miłością,\n\n<b>Vladlena Ishchenko</b>",
+      "delay": 100
+    },
+    {
+      "day": 58,
+      "title": "Certificate",
+      "type": "text",
+      "content": "<b>Aby otrzymać certyfikat, napisz do mnie na Instagramie w wiadomości prywatnej. \uD83D\uDCAC\uD83D\uDCF2</b>",
+      "delay": 1000,
+      "buttons": [
+        [
+          {
+            "text": "\uD83D\uDD17 Kliknij Instagram",
+            "callback_data": "/generate"
+          }
+        ]
+      ]
+    },
+    {
+      "day": 59,
+      "title": "Finish",
+      "type": "text",
+      "content": "Jeśli czujesz, że chcesz <b>pójść głębiej w świat beauty</b> – zapraszam Cię serdecznie na <b>mój 1. większy program</b>! 💫\n\nNowy nabór trwa <b>do 5 listopada 2025 roku</b> — i będzie mi ogromnie miło zobaczyć Cię tam.\n\nTo szansa, by rozwinąć skrzydła, zrozumieć branżę od środka i zrobić prawdziwy krok w stronę kariery beauty.\n\nWszystkie szczegóły znajdziesz na stronie 🌸",
+      "delay": 100,
+      "buttons": [
+        [
+          {
+            "text": "🌐 Zobacz szczegóły",
+            "url": "https://chokbrows.pl/brows?mini=true"
+          }
+        ]
+      ]
+    }
+  ]
+}
