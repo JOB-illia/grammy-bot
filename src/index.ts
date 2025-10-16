@@ -376,7 +376,6 @@ async function start() {
   try {
     await initializeServices();
 
-    // Запускаємо планувальник
     taskScheduler.start();
 
     const botInfo = await bot.api.getMe();

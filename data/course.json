@@ -298,7 +298,7 @@
       "buttons": [
         [
           {
-            "text": "Jaki problem ? 🤔",
+            "text": "Dalej 🤔",
             "callback_data": "next"
           }
         ]
