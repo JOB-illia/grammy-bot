@@ -100,7 +100,7 @@ export async function initializeFirebase() {
 
 export async function saveUser(user: User) {
   try {
-    const docRef = db.collection("theoko_telegram_users_dev").doc(user.userId);
+    const docRef = db.collection("theoko_telegram_users").doc(user.userId);
     const doc = await docRef.get();
 
     if (!doc.exists) {
@@ -126,7 +126,7 @@ export async function saveUser(user: User) {
 export async function getUser(userId: string): Promise<User | null> {
   try {
     const doc = await db
-      .collection("theoko_telegram_users_dev")
+      .collection("theoko_telegram_users")
       .doc(userId)
       .get();
     if (!doc.exists) {
@@ -141,7 +141,7 @@ export async function getUser(userId: string): Promise<User | null> {
 
 export async function getUsers(): Promise<User[]> {
   try {
-    const snapshot = await db.collection("theoko_telegram_users_dev").get();
+    const snapshot = await db.collection("theoko_telegram_users").get();
     return snapshot.docs.map((doc) => doc.data() as User);
   } catch (error) {
     console.error("Error getting users:", error);
@@ -151,7 +151,7 @@ export async function getUsers(): Promise<User[]> {
 
 export async function resetWebinarForAllUsers(): Promise<{ updated: number; failed: number }> {
   const db = getFirestore();
-  const col = db.collection("theoko_telegram_users_dev");
+  const col = db.collection("theoko_telegram_users");
   const snap = await col.get();
 
   let updated = 0;
@@ -189,7 +189,7 @@ export async function resetWebinarForAllUsers(): Promise<{ updated: number; fail
 export async function getActiveUsers(): Promise<User[]> {
   try {
     const snapshot = await db
-      .collection("theoko_telegram_users_dev")
+      .collection("theoko_telegram_users")
       .where("isActive", "==", true)
       .get();
 
@@ -223,7 +223,7 @@ export async function getActivePotentialOrders(): Promise<User[]> {
 export async function updateUserProgress(userId: string, lessonNumber: number) {
   try {
     await db
-      .collection("theoko_telegram_users_dev")
+      .collection("theoko_telegram_users")
       .doc(userId)
       .update({
         currentDay: lessonNumber,
@@ -238,7 +238,7 @@ export async function updateUserProgress(userId: string, lessonNumber: number) {
 export async function updateUserWebinar(userId: string, status: 'yes' | 'no') {
   try {
     await db
-      .collection("theoko_telegram_users_dev")
+      .collection("theoko_telegram_users")
       .doc(userId)
       .update({
         webinar: status,
@@ -251,7 +251,7 @@ export async function updateUserWebinar(userId: string, status: 'yes' | 'no') {
 
 export async function deactivateUser(userId: string) {
   try {
-    await db.collection("theoko_telegram_users_dev").doc(userId).update({
+    await db.collection("theoko_telegram_users").doc(userId).update({
       isActive: false,
       deactivatedAt: FieldValue.serverTimestamp(),
     });

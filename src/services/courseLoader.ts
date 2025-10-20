@@ -62,9 +62,7 @@ export async function loadCourse(): Promise<CourseLesson[]> {
     const coursePath = path.join(
       process.cwd(),
       "data",
-      process.env.NODE_ENV === "development"
-        ? "course-dev.json"
-        : "course.json",
+      "course.json"
     );
 
     const courseData = await fs.readFile(coursePath, "utf-8");

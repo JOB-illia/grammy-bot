@@ -55,7 +55,7 @@ async function migrateUserProgress() {
   const migrationMap = await createMigrationMap();
 
   // Оновлюємо користувачів
-  const usersSnapshot = await db.collection("theoko_telegram_users_dev").get();
+  const usersSnapshot = await db.collection("theoko_telegram_users").get();
 
   let migratedCount = 0;
   const batch = db.batch();
@@ -141,7 +141,7 @@ async function rollbackMigration(backupDate: string) {
 
   for (const doc of backupSnapshot.docs) {
     const backupData = doc.data();
-    const userRef = db.collection("theoko_telegram_users_dev").doc(doc.id);
+    const userRef = db.collection("theoko_telegram_users").doc(doc.id);
     batch.set(userRef, backupData);
   }
 
