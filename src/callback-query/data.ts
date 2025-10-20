@@ -6,6 +6,8 @@ import {
 } from "../features/assessment";
 import { handleQuizAnswer, sendQuizQuestion } from "../features/quiz";
 import { scheduleUserProgress } from "../features/course";
+import { sendAdminNotification } from "../features/admin";
+import { updateUserWebinar } from "../services/firebase";
 
 export const callbackQueryData = async (ctx: MyContext) => {
   try {
@@ -70,10 +72,43 @@ export const callbackQueryData = async (ctx: MyContext) => {
       return;
     }
 
+    console.log('DATA BUTTONS', data);
+
+    if (data === 'next:webinar-yes') {
+      console.log('TAK TAK TAK');
+      const message = `<b>Проголосував за вебінар</b>
+👤 ID: ${ctx.from?.id}
+🔧 Akcja: <b>Буде на вебінарі</b>
+🕐 Czas: ${new Date().toLocaleString('pl-PL')}
+            `
+
+      await sendAdminNotification(message)
+
+      if (ctx.from?.id) {
+        await updateUserWebinar(ctx.from.id.toString(), 'yes')
+      }
+    }
+
+    if (data === 'next:webinar-no') {
+      console.log('NO NO NO');
+      const message = `<b>Проголосувала за вебінар</b>
+👤 ID: ${ctx.from?.id}
+🔧 Akcja: <b>Не буде</b>
+🕐 Czas: ${new Date().toLocaleString('pl-PL')}
+            `
+
+      await sendAdminNotification(message)
+
+      if (ctx.from?.id) {
+        await updateUserWebinar(ctx.from.id.toString(), 'no')
+      }
+    }
+
+
     if (data.includes("next") || data.includes("dalej")) {
       if (ctx.session.isWaitingForNext) {
         ctx.session.isWaitingForNext = false;
-        // замість прямого виклику — плануємо
+
         scheduleUserProgress(ctx);
       }
     }

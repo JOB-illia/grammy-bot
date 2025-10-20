@@ -61,11 +61,12 @@ export async function startCommand(ctx: MyContext) {
         isActive: true,
         currentDay: existingUser.currentDay,
         createdAt: existingUser.startDate,
+        webinar: existingUser?.webinar ?? null,
       });
 
       if (process.env.COURSE_MODE === "instant") {
         await sleep(2000);
-        scheduleUserProgress(ctx);
+        scheduleUserProgress(ctx)
       }
 
       return;
@@ -81,6 +82,7 @@ export async function startCommand(ctx: MyContext) {
       isActive: true,
       currentDay: 0,
       createdAt: new Date().toISOString(),
+      webinar: null,
     });
 
     // Скидаємо всю сесію для нового користувача

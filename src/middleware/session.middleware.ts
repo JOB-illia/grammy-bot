@@ -4,6 +4,7 @@ import { FirestoreSessionStorage } from "../services/firebase";
 
 export const sessionMiddleware = session<ExtendedSessionData, MyContext>({
   initial: (): ExtendedSessionData => ({
+    mode: null,
     currentDay: 0,
     currentLessonIndex: 0,
     isAdmin: false,

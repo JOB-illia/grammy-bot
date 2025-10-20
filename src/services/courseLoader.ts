@@ -67,8 +67,6 @@ export async function loadCourse(): Promise<CourseLesson[]> {
         : "course.json",
     );
 
-    console.log(`Loading course from ${coursePath}`);
-
     const courseData = await fs.readFile(coursePath, "utf-8");
     const course: Course = JSON.parse(courseData);
 

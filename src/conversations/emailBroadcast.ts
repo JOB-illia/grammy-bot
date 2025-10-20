@@ -17,6 +17,7 @@ export async function emailBroadcastConversation(
     "📦 Оберіть базу для розсилки:\n• Введіть `orders` або `potentialOrders`\nАбо /cancel для скасування.",
   );
   const baseMsg = await conversation.wait();
+
   if (baseMsg.message?.text === "/cancel")
     return void ctx.reply("❌ Розсилку скасовано");
 

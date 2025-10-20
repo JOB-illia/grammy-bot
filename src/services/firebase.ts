@@ -19,6 +19,7 @@ export interface User {
   lastActivity?: string;
   login?: string;
   createdAt: string;
+  webinar: null | 'yes' | 'no'
 }
 
 // =================== SESSION STORAGE ===================
@@ -99,7 +100,7 @@ export async function initializeFirebase() {
 
 export async function saveUser(user: User) {
   try {
-    const docRef = db.collection("theoko_telegram_users").doc(user.userId);
+    const docRef = db.collection("theoko_telegram_users_dev").doc(user.userId);
     const doc = await docRef.get();
 
     if (!doc.exists) {
@@ -124,7 +125,10 @@ export async function saveUser(user: User) {
 
 export async function getUser(userId: string): Promise<User | null> {
   try {
-    const doc = await db.collection("theoko_telegram_users").doc(userId).get();
+    const doc = await db
+      .collection("theoko_telegram_users_dev")
+      .doc(userId)
+      .get();
     if (!doc.exists) {
       return null;
     }
@@ -137,7 +141,7 @@ export async function getUser(userId: string): Promise<User | null> {
 
 export async function getUsers(): Promise<User[]> {
   try {
-    const snapshot = await db.collection("theoko_telegram_users").get();
+    const snapshot = await db.collection("theoko_telegram_users_dev").get();
     return snapshot.docs.map((doc) => doc.data() as User);
   } catch (error) {
     console.error("Error getting users:", error);
@@ -145,10 +149,47 @@ export async function getUsers(): Promise<User[]> {
   }
 }
 
+export async function resetWebinarForAllUsers(): Promise<{ updated: number; failed: number }> {
+  const db = getFirestore();
+  const col = db.collection("theoko_telegram_users_dev");
+  const snap = await col.get();
+
+  let updated = 0;
+  let failed = 0;
+
+  const BATCH_LIMIT = 500;
+  let batch = db.batch();
+  let ops = 0;
+
+  for (const doc of snap.docs) {
+    try {
+      batch.update(doc.ref, { webinar: null });
+      ops++;
+
+      if (ops === BATCH_LIMIT) {
+        await batch.commit();
+        updated += ops;
+        batch = db.batch();
+        ops = 0;
+      }
+    } catch (e) {
+      console.error("batch update error:", e);
+      failed++;
+    }
+  }
+
+  if (ops > 0) {
+    await batch.commit();
+    updated += ops;
+  }
+
+  return { updated, failed };
+}
+
 export async function getActiveUsers(): Promise<User[]> {
   try {
     const snapshot = await db
-      .collection("theoko_telegram_users")
+      .collection("theoko_telegram_users_dev")
       .where("isActive", "==", true)
       .get();
 
@@ -182,7 +223,7 @@ export async function getActivePotentialOrders(): Promise<User[]> {
 export async function updateUserProgress(userId: string, lessonNumber: number) {
   try {
     await db
-      .collection("theoko_telegram_users")
+      .collection("theoko_telegram_users_dev")
       .doc(userId)
       .update({
         currentDay: lessonNumber,
@@ -194,9 +235,23 @@ export async function updateUserProgress(userId: string, lessonNumber: number) {
   }
 }
 
+export async function updateUserWebinar(userId: string, status: 'yes' | 'no') {
+  try {
+    await db
+      .collection("theoko_telegram_users_dev")
+      .doc(userId)
+      .update({
+        webinar: status,
+        lastActivity: FieldValue.serverTimestamp(),
+      });
+  } catch (error) {
+    console.error("Error updating user progress:", error);
+  }
+}
+
 export async function deactivateUser(userId: string) {
   try {
-    await db.collection("theoko_telegram_users").doc(userId).update({
+    await db.collection("theoko_telegram_users_dev").doc(userId).update({
       isActive: false,
       deactivatedAt: FieldValue.serverTimestamp(),
     });

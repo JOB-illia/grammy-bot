@@ -11,7 +11,9 @@
     "clean": "rimraf dist",
     "typecheck": "tsc --noEmit",
     "lint": "eslint src/**/*.ts",
-    "format": "prettier --write \"src/**/*.ts\""
+    "format": "prettier --write \"src/**/*.ts\"",
+    "migrate": "ts-node src/scripts/migrate-course.ts",
+    "rollback": "ts-node src/scripts/migrate-course.ts rollback"
   },
   "keywords": [
     "telegram",

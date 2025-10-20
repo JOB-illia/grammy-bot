@@ -6,6 +6,7 @@ import type { Quiz, QuizResult } from "./quiz.types";
 import type { AssessmentQuiz, AssessmentResult } from "./assessment.types";
 
 export interface SessionData {
+  mode?: "admin" | null;
   currentDay: number;
   currentLessonIndex: number;
   isAdmin: boolean;

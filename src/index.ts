@@ -1,4 +1,3 @@
-// src/index.ts (оновлена частина обробки callback_query)
 import { bot } from "./bot";
 import { run, sequentialize } from "@grammyjs/runner";
 import dotenv from "dotenv";
@@ -6,36 +5,34 @@ import cron from "node-cron";
 
 import { hydrateMiddleware } from "./middleware/hydrate.middleware";
 import { sessionMiddleware } from "./middleware/session.middleware";
-import { adminMenu } from "./features/admin";
 import { registerCommands } from "./commands";
 import { setupErrorHandler } from "./handlers/error.handler";
 import { initializeServices, setupScheduler } from "./services";
-import { conversations, createConversation } from "@grammyjs/conversations";
-import { adminConversation } from "./conversations/admin";
-import { emailBroadcastConversation } from "./conversations/emailBroadcast";
+import { conversations } from "@grammyjs/conversations";
 import { ensureSession } from "./middleware/ensure-session";
 import { TaskScheduler } from "./services/task-scheduler";
 import { messageHandler } from "./commands/generate-sertificate";
+import { ADMIN_IDS, adminState } from "./conversations/admin/admin";
+import { registerAdmin } from "./admin/admin-register";
+import { registerAdminGuard } from "./admin/admin-guard";
+import { adminMenu, sendAdminNotification } from "./features/admin";
+import { updateUserWebinar } from "./services/firebase";
 
 dotenv.config();
 
-// Глобальний планувальник завдань
 export const taskScheduler = new TaskScheduler();
 
-// Middleware
 bot.use(hydrateMiddleware);
 bot.use(sessionMiddleware);
 bot.use(ensureSession);
 
-// Conversations ПЕРЕД sequentialize
-bot.use(conversations());
-bot.use(createConversation(adminConversation));
-bot.use(createConversation(emailBroadcastConversation));
-
-// Admin menu
 bot.use(adminMenu);
 
-// Sequentialize ТІЛЬКИ для команд і повідомлень, НЕ для callback_query
+registerAdmin(bot);
+registerAdminGuard(bot);
+
+bot.use(conversations());
+
 bot.on(
   "message",
   sequentialize((ctx) => String(ctx.from?.id ?? "")),
@@ -43,6 +40,14 @@ bot.on(
 
 // Реєстрація команд
 registerCommands(bot);
+
+bot.command(["exit", "cancel"], async (ctx: any) => {
+  if (!ADMIN_IDS.has(ctx.from!.id)) return;
+
+  adminState.delete(ctx.from!.id);
+  ctx.session.mode = null;
+  await ctx.reply("✅ Вийшов з admin mode. Повертаю стандартну роботу.");
+});
 
 // ГОЛОВНИЙ ОБРОБНИК callback_query - ОДИН для всіх кнопок
 bot.on("callback_query:data", async (ctx) => {
@@ -100,6 +105,36 @@ bot.on("callback_query:data", async (ctx) => {
           } as any;
           console.log(`[CALLBACK] Session restored from DB for user ${userId}`);
         }
+      }
+    }
+
+    if (data === 'next:webinar-yes') {
+      console.log('TAK TAK TAK');
+      const message = `<b>Проголосував за вебінар</b>
+👤 ID: ${ctx.from?.id}
+🔧 Akcja: <b>Буде на вебінарі</b>
+🕐 Czas: ${new Date().toLocaleString('pl-PL')}
+            `
+
+      await sendAdminNotification(message)
+
+      if (ctx.from?.id) {
+        await updateUserWebinar(ctx.from.id.toString(), 'yes')
+      }
+    }
+
+    if (data === 'next:webinar-no') {
+      console.log('NO NO NO');
+      const message = `<b>Проголосувала за вебінар</b>
+👤 ID: ${ctx.from?.id}
+🔧 Akcja: <b>Не буде</b>
+🕐 Czas: ${new Date().toLocaleString('pl-PL')}
+            `
+
+      await sendAdminNotification(message)
+
+      if (ctx.from?.id) {
+        await updateUserWebinar(ctx.from.id.toString(), 'no')
       }
     }
 
@@ -312,6 +347,31 @@ bot.on("callback_query:data", async (ctx) => {
       return;
     }
 
+    if (data === "/cert" || data === "generate_cert") {
+      console.log(
+        `[CALLBACK] Certificate generation requested by user ${userId}`,
+      );
+
+      // Встановлюємо прапор очікування імені
+      ctx.session.waitingForName = [
+        ...ctx.session.waitingForName,
+        ctx.from!.id,
+      ];
+
+      // Зберігаємо сесію
+      const { FirestoreSessionStorage } = await import("./services/firebase");
+      const storage = new FirestoreSessionStorage();
+      await storage.write(userId, ctx.session);
+
+      await ctx.reply(
+        "🎓 *Gratulacje! Ukończyłaś kurs!*\n\n" +
+          "Aby otrzymać certyfikat, napisz swoje imię i nazwisko\n" +
+          "(na przykład: Anna Kowalska)",
+        { parse_mode: "Markdown" },
+      );
+
+      return;
+    }
     console.log(
       `[CALLBACK] Unknown callback data: "${data}" from user ${userId}`,
     );
@@ -341,7 +401,15 @@ bot.on("message:photo", async (ctx) => {
   await ctx.reply(`file_id:\n${fileId}`);
 });
 
-bot.on("message:text", messageHandler);
+bot
+  .filter((ctx) => {
+    const uid = ctx.from?.id;
+
+    if (!uid) return false;
+
+    return !!ctx.session.waitingForName?.includes(uid);
+  })
+  .on("message:text", messageHandler);
 
 // Error handler
 setupErrorHandler(bot);

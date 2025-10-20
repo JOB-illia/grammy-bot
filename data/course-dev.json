@@ -904,6 +904,21 @@
           }
         ]
       ]
+    },
+    {
+      "day": 60,
+      "title": "Certificate",
+      "type": "text",
+      "content": "<b>🎓 Gratulacje!</b>\n\nUkończyłaś wszystkie lekcje kursu!\n\n<b>Kliknij poniżej, aby wygenerować swój certyfikat:</b>",
+      "delay": 1000,
+      "buttons": [
+        [
+          {
+            "text": "🎓 Generuj Certyfikat",
+            "callback_data": "/cert"
+          }
+        ]
+      ]
     }
   ]
 }

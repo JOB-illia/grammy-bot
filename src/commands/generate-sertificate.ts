@@ -18,16 +18,26 @@ export const generateCertificateCommand = async (ctx: MyContext) => {
   );
 };
 
+const namePattern =
+  /^[A-Za-zĄĆĘŁŃÓŚŹŻа-яА-ЯёЁіІїЇєЄ]+(?: [A-Za-zĄĆĘŁŃÓŚŹŻа-яА-ЯёЁіІїЇєЄ]+)?$/;
+
 export const messageHandler = async (ctx: MyContext, next: NextFunction) => {
   const uid = ctx.from!.id;
   const find = ctx.session.waitingForName.find((item) => item === uid);
+
+  if (ctx.session?.mode === "admin") return;
 
   if (!find) return ctx.reply("Probuje jescsze raz");
 
   const fullName = (ctx.message!.text ?? "").trim().replace(/\s+/g, " ");
 
-  if (fullName.length < 3 || fullName.length > 64) {
-    return ctx.reply("Схоже, це не ім’я. Спробуйте ще раз (3–64 символи).");
+  if (
+    fullName.length < 3 ||
+    (fullName.length > 64 && !namePattern.test(fullName))
+  ) {
+    return ctx.reply(
+      "Wygląda na to, że to nie jest imię. Spróbuj ponownie (3–64 znaki).",
+    );
   }
 
   waitingForName.delete(uid);
@@ -71,6 +81,9 @@ export const messageHandler = async (ctx: MyContext, next: NextFunction) => {
 
     await ctx.replyWithDocument(file);
     await ctx.replyWithDocument(file_eg);
+
+    ctx.session.waitingForName = [];
+
     return next();
   } catch (err) {
     console.error(err);

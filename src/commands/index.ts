@@ -16,6 +16,7 @@ import { getPhones } from "./get-phones.command";
 import { restoreCommand } from "./restore.command";
 import { waBroadcastCommand } from "./waBroadcast.command";
 import { generateCertificateCommand } from "./generate-sertificate";
+import { webinarReport, webinarReset } from "./webinar.command";
 
 export function registerCommands(bot: Bot<MyContext>) {
   bot.command("start", startCommand);
@@ -33,4 +34,6 @@ export function registerCommands(bot: Bot<MyContext>) {
   bot.command("support", supportCommand);
   bot.command("wa", waBroadcastCommand);
   bot.command("cert", generateCertificateCommand);
+  bot.command("webinar", webinarReport);
+  bot.command("resetWebinar", webinarReset);
 }
